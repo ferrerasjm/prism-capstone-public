@@ -5,12 +5,14 @@ Last reviewed against the work tree: **2026-09-09**.
 This folder explains how to operate PRISM and how its core rules work. It is for
 maintainers, deployment operators, and project reviewers. These files are not
 runtime dependencies, but should be maintained alongside the implementation.
-Start with the [project README](../README.md) for installation and project scope.
+Start with the [project README](../README.md) for project scope and quick setup,
+or the [setup and operations guide](SETUP_AND_OPERATIONS.md) for full instructions.
 
 ## Choose a guide
 
 | Task | Guide |
 | --- | --- |
+| Install PRISM, provision the administrator, and review operational commands | [Setup and operations](SETUP_AND_OPERATIONS.md) |
 | Deploy updates, run scheduled tasks, investigate missing reminders | [Scheduler and queue deployment](SCHEDULER_QUEUE_DEPLOYMENT.md) |
 | Configure notifications and investigate email failures | [Email configuration](EMAIL_CONFIGURATION.md) |
 | Review access, uploads, retention, and backups | [Security and privacy controls](SECURITY_PRIVACY_CONTROLS.md) |
