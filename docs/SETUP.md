@@ -39,6 +39,7 @@ DB_PASSWORD=your_private_database_password
 SESSION_DRIVER=database
 CACHE_STORE=database
 QUEUE_CONNECTION=database
+DB_QUEUE_RETRY_AFTER=180
 MAIL_MAILER=log
 LOGIN_OTP_CONSOLE=true
 LOGIN_OTP_MAIL_ENABLED=true
@@ -76,6 +77,8 @@ php artisan schedule:work
 Visit `http://localhost:8000` and sign in with the administrator account. Create staff and student accounts through User Management. Account activation links expire after 72 hours by default (`AUTH_ACCOUNT_SETUP_EXPIRE`); with log mail, read the activation message from the local Laravel log. Database-queued messages require the worker above.
 
 Bulk student imports require institutional `@students.nu-clark.edu.ph` addresses. Use disposable test data for local evaluation. Student-status CSV examples are explained [here](test-data/student-statuses/README.md).
+
+The worker uses a 120-second timeout; set `DB_QUEUE_RETRY_AFTER=180` so a job is not retried while its first attempt can still run. Native Windows does not provide PCNTL timeout enforcement; monitor and recover worker processes. See [operations](OPERATIONS.md#queue-settings-and-supervision).
 
 ## 6. Configure optional services
 
@@ -129,3 +132,15 @@ Use a process manager for `php artisan queue:work --sleep=3 --tries=3 --timeout=
 - Check `storage/logs/laravel.log`, database connectivity, worker status, and storage permissions when setup fails.
 
 Back up the database and persistent storage before updates. Preserve application keys and private configuration; see [security and privacy](SECURITY_PRIVACY_CONTROLS.md).
+
+## Email and activation troubleshooting
+
+SMTP delivery needs an authorized sender, matching sender address, and the provider's correct port, transport, and credentials. For Gmail SMTP, use an account-approved app password where supported, rather than placing the account's regular password in configuration. Match `MAIL_SCHEME` to your provider's requirements. The public example mailbox is a placeholder.
+
+Creating/importing an account queues an encrypted activation-email job. The single-use setup token is stored as a hash, expires after `AUTH_ACCOUNT_SETUP_EXPIRE` minutes, and is invalidated when replaced or consumed. Restart workers after mail configuration changes because they retain loaded configuration.
+
+If activation email is missing, check the configured mailer first: log mail writes to `storage/logs/laravel.log`, array mail retains messages only in memory, and SMTP attempts actual delivery. Then check the database queue, running worker, failed jobs, sender authorization, spam folder, and SMTP/network errors. Never share logs containing activation links or OTP codes.
+
+## Updates and recovery
+
+Follow [operations](OPERATIONS.md) for scheduler registration, supervised workers, policy maintenance, student-status imports, and update verification. Back up database/files/keys together. Reverting application code may require compatible database and artifact versions; do not blindly roll back migrations against live data.

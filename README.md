@@ -25,6 +25,7 @@ Follow the [setup guide](docs/SETUP.md) for prerequisites, database configuratio
 | Guide | Covers |
 | --- | --- |
 | [Setup](docs/SETUP.md) | Installation and daily operations |
+| [Operations and policy](docs/OPERATIONS.md) | Policy administration, student statuses, scheduler, workers, and updates |
 | [Security and privacy](docs/SECURITY_PRIVACY_CONTROLS.md) | Access, private storage, backups, and retention |
 | [Risk scoring](docs/RISK_SCORING_METHODOLOGY.md) | Factors, weights, and score bands |
 | [Support actions](docs/RISK_INTERVENTION_WORKFLOW.md) | Staff review and follow-up workflow |
