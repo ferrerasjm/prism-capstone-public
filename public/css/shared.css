@@ -1,0 +1,2672 @@
+.sdo-page-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.3px;
+}
+
+/* Shared staff-list pagination */
+.prism-pagination nav,
+.prism-pagination .pagination {
+    margin: 0;
+}
+
+.prism-pagination .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+}
+
+.prism-pagination .page-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 8px;
+    border: 1px solid transparent;
+    border-radius: 999px !important;
+    background: transparent;
+    color: #64748b;
+    font-size: 0.8rem;
+    line-height: 1;
+    box-shadow: none;
+}
+
+.prism-pagination .page-link:hover,
+.prism-pagination .page-link:focus {
+    border-color: transparent;
+    background: #f1f5f9;
+    color: #1e293b;
+    box-shadow: none;
+}
+
+/* The current page reads as a soft filled disc rather than a hard block of colour. */
+.prism-pagination .page-item.active .page-link {
+    border-color: #b9c6f5;
+    background: #e3e9ff;
+    color: #2743a8;
+    font-weight: 600;
+}
+
+.prism-pagination .page-item.disabled .page-link {
+    border-color: transparent;
+    background: transparent;
+    color: #cbd5e1;
+}
+
+.prism-pagination .page-item.disabled .page-link:hover {
+    background: transparent;
+}
+
+@media (max-width: 575.98px) {
+    .prism-pagination .pagination {
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+.sdo-page-subtitle {
+    font-size: 0.83rem;
+    color: rgba(255,255,255,0.45);
+    margin-top: 2px;
+}
+
+.sdo-back-link {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.sdo-back-link:hover { color: rgba(255,255,255,0.8); }
+
+.sdo-stat-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+}
+
+.sdo-stat-label {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.45);
+    margin-top: 3px;
+}
+
+.sdo-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.sdo-card-header {
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #E2E8F0;
+}
+
+.sdo-card-body {
+    padding: 18px;
+}
+
+.sdo-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sdo-table th {
+    padding: 10px 16px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255,255,255,0.35);
+    background: rgba(255,255,255,0.03);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    white-space: nowrap;
+}
+
+.sdo-table td {
+    padding: 11px 16px;
+    font-size: 0.875rem;
+    color: #E2E8F0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    vertical-align: middle;
+}
+
+.sdo-table tbody tr:hover { background: rgba(255,255,255,0.03); }
+.sdo-table tbody tr:last-child td { border-bottom: none; }
+
+.sdo-badge-success {
+    display: inline-block;
+    background: rgba(34,197,94,0.15);
+    color: #4ADE80;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 20px;
+}
+
+.sdo-badge-warning {
+    display: inline-block;
+    background: rgba(234,179,8,0.15);
+    color: #FDE047;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 20px;
+}
+
+.sdo-badge-danger {
+    display: inline-block;
+    background: rgba(239,68,68,0.15);
+    color: #F87171;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 20px;
+}
+
+.sdo-badge-neutral {
+    display: inline-block;
+    background: rgba(255,255,255,0.08);
+    color: rgba(255,255,255,0.55);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 20px;
+}
+
+.sdo-badge-role {
+    display: inline-block;
+    background: rgba(99,102,241,0.15);
+    color: #A5B4FC;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+.sdo-avatar-sm {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: rgba(201,168,76,0.2);
+    color: #C9A84C;
+    font-weight: 700;
+    font-size: 0.72rem;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+}
+
+.sdo-avatar-lg {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: rgba(201,168,76,0.2);
+    color: #C9A84C;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+}
+
+.sdo-form-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #E2E8F0;
+    margin-bottom: 5px;
+}
+
+.sdo-label-optional {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.3);
+}
+
+.sdo-form-control, .sdo-form-select {
+    width: 100%;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    color: #fff;
+    padding: 9px 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    transition: border-color 0.15s;
+    outline: none;
+}
+
+.sdo-form-control::placeholder { color: rgba(255,255,255,0.25); }
+.sdo-form-control:focus,
+.sdo-form-select:focus {
+    border-color: rgba(99,102,241,0.6);
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
+}
+
+.sdo-form-select option { background: #1B2A6B; color: #fff; }
+
+.sdo-field-error {
+    font-size: 0.78rem;
+    color: #F87171;
+    margin-top: 4px;
+}
+
+.sdo-btn-primary {
+    background: #2563EB;
+    border: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 9px 18px;
+    font-size: 0.875rem;
+    transition: background 0.15s;
+    cursor: pointer;
+}
+
+.sdo-btn-primary:hover, .sdo-btn-primary:focus { background: #1D4ED8; color: #fff; }
+
+.sdo-btn-outline {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: #E2E8F0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 9px 18px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.sdo-btn-outline:hover { background: rgba(255,255,255,0.12); color: #fff; }
+
+.sdo-btn-danger {
+    background: rgba(239,68,68,0.8);
+    border: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 9px 18px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.sdo-btn-danger:hover { background: #EF4444; color: #fff; }
+
+.sdo-icon-btn {
+    width: 30px; height: 30px;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05);
+    color: rgba(255,255,255,0.55);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-decoration: none;
+}
+
+.sdo-icon-btn:hover { background: rgba(255,255,255,0.12); color: #fff; }
+.sdo-icon-btn.text-danger:hover { background: rgba(239,68,68,0.15); color: #F87171; border-color: rgba(239,68,68,0.3); }
+.sdo-icon-btn.text-success:hover { background: rgba(34,197,94,0.15); color: #4ADE80; border-color: rgba(34,197,94,0.3); }
+
+.sdo-link-sm {
+    font-size: 0.8rem;
+    color: #2563EB;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sdo-link-sm:hover { color: #1D4ED8; text-decoration: underline; }
+
+.sdo-sort-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: inherit;
+    text-decoration: none;
+}
+.sdo-sort-link:hover { color: #2957d6; }
+.sdo-sort-link:focus-visible {
+    outline: 2px solid #2957d6;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+.sdo-sort-link > i {
+    font-size: .72rem;
+    opacity: .35;
+    transition: opacity .12s ease;
+}
+.sdo-sort-link:hover > i { opacity: .7; }
+.sdo-sort-link.is-active { color: #2957d6; }
+.sdo-sort-link.is-active > i { opacity: 1; }
+
+.sdo-modal {
+    background: #1B2A6B;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+}
+
+.sdo-modal-header {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    color: #fff;
+}
+
+.sdo-modal-footer {
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.modal-body { color: #E2E8F0; }
+
+.sdo-alert {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.sdo-alert-danger {
+    background: rgba(239,68,68,0.12);
+    border: 1px solid rgba(239,68,68,0.25);
+    color: #F87171;
+}
+
+.sdo-info-box {
+    background: rgba(59,130,246,0.1);
+    border: 1px solid rgba(59,130,246,0.2);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 0.83rem;
+    color: #93C5FD;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.sdo-hint-text { font-size: 0.78rem; color: rgba(255,255,255,0.3); }
+
+.sdo-dropzone {
+    border: 2px dashed rgba(255,255,255,0.15);
+    border-radius: 10px;
+    padding: 36px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.sdo-dropzone:hover,
+.sdo-dropzone.drag-over {
+    border-color: rgba(99,102,241,0.5);
+    background: rgba(99,102,241,0.05);
+}
+
+.sdo-dropzone.has-file {
+    border-color: rgba(34,197,94,0.4);
+    background: rgba(34,197,94,0.05);
+}
+
+.sdo-dropzone-icon { font-size: 2.5rem; color: rgba(255,255,255,0.25); display: block; margin-bottom: 10px; }
+.sdo-dropzone-label { font-size: 0.9rem; font-weight: 600; color: rgba(255,255,255,0.7); margin: 0; }
+.sdo-dropzone-hint { font-size: 0.78rem; color: rgba(255,255,255,0.3); margin: 4px 0 0; }
+.sdo-dropzone-filename { font-size: 0.83rem; color: #4ADE80; font-weight: 600; margin-top: 8px; }
+
+.sdo-tab-bar { display: flex; gap: 4px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 0; }
+
+.sdo-tab {
+    background: transparent;
+    border: none;
+    color: rgba(255,255,255,0.4);
+    font-size: 0.83rem;
+    font-weight: 600;
+    padding: 8px 14px 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.15s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sdo-tab:hover { color: rgba(255,255,255,0.7); }
+.sdo-tab.active { color: #93C5FD; border-bottom-color: #93C5FD; }
+.sdo-tab-count { font-size: 0.72rem; opacity: 0.8; margin-left: 4px; }
+
+:root {
+    --blue: #2563eb;
+    --blue-700: #1d4ed8;
+    --blue-soft: #eff6ff;
+    --orange: #f59e0b;
+    --orange-soft: #fff7ed;
+    --green: #16a34a;
+    --red: #dc2626;
+    --red-soft: #fef2f2;
+    --violet: #7c3aed;
+    --navy: #1e3a8a;
+    --danger: #dc2626;
+    --text: #0f172a;
+    --text-primary: #0f172a;
+    --text-soft: #334155;
+    --text-sub: #475569;
+    --text-muted: #64748b;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --border-light: #f1f5f9;
+    --radius-sm: 8px;
+    --radius: 10px;
+    --radius-md: 12px;
+    --radius-lg: 14px;
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --prism-content-max: 1680px;
+    --prism-content-gutter: clamp(20px, 2.4vw, 42px);
+    --prism-section-gap: clamp(16px, 1.4vw, 24px);
+}
+
+.prism-content {
+    width: min(100%, var(--prism-content-max));
+    margin-inline: auto;
+    padding: var(--prism-content-gutter);
+    padding-top: calc(var(--prism-content-gutter) + 24px);
+    overflow-x: hidden;
+}
+
+.sdo-content > .p-4,
+.gso-content > .p-4 {
+    width: min(100%, var(--prism-content-max));
+    margin-inline: auto;
+    padding: var(--prism-content-gutter) !important;
+    padding-top: calc(var(--prism-content-gutter) + 24px) !important;
+}
+
+.sdo-page-wrap {
+    width: min(100%, var(--prism-content-max));
+    margin-inline: auto;
+    padding: var(--prism-content-gutter) !important;
+    padding-top: calc(var(--prism-content-gutter) + 24px) !important;
+    overflow-x: hidden;
+}
+
+.sdo-page-wrap > .p-4:only-child {
+    padding: 0 !important;
+}
+
+.sdo-page-wrap > .prism-content {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+}
+
+.sdo-page-wrap > * + * {
+    margin-top: var(--prism-section-gap);
+}
+
+.sdo-page-wrap > .mb-4,
+.sdo-page-wrap > .row.mb-4,
+.sdo-page-wrap > .sdo-card.mb-4 {
+    margin-bottom: 0 !important;
+}
+
+.sdo-page-wrap > .row {
+    --bs-gutter-x: clamp(16px, 1.5vw, 24px);
+    --bs-gutter-y: clamp(16px, 1.5vw, 24px);
+}
+
+.sdo-content,
+.gso-content {
+    scroll-padding: var(--prism-content-gutter);
+}
+
+.prism-content > * + * {
+    margin-top: var(--prism-section-gap);
+}
+
+.prism-content > .mb-4,
+.prism-content > .row.mb-4,
+.prism-content > .prism-card.mb-4,
+.prism-content > .prism-filter-bar {
+    margin-bottom: 0 !important;
+}
+
+.prism-content > .row {
+    --bs-gutter-x: clamp(16px, 1.5vw, 24px);
+    --bs-gutter-y: clamp(16px, 1.5vw, 24px);
+}
+
+.prism-page-header {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+nav[aria-label="Breadcrumb"] {
+    margin-bottom: 14px;
+}
+
+.prism-page-header.d-flex {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.prism-page-header > div:first-child {
+    min-width: 0;
+}
+
+.prism-page-header .prism-page-sub {
+    max-width: 780px;
+}
+
+.prism-page-header .prism-btn,
+.prism-page-header form,
+.prism-page-header > .d-flex {
+    flex-shrink: 0;
+}
+
+.prism-page-title {
+    margin: 0;
+    font-size: clamp(1.65rem, 1.25rem + 1.25vw, 2.15rem);
+    line-height: 1.15;
+    font-weight: 700;
+    color: #1e293b;
+    letter-spacing: -0.03em;
+}
+
+.prism-page-sub {
+    margin: 6px 0 0;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--text-soft);
+}
+
+.prism-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    color: #475569;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.prism-back-link:hover {
+    color: #1e293b;
+}
+
+.prism-btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 9px 15px;
+    font-size: 0.86rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    line-height: 1;
+    transition: all 0.15s ease;
+    cursor: pointer;
+}
+
+.prism-btn-primary {
+    background: #2f4fbf;
+    color: #ffffff;
+    border-color: #2f4fbf;
+    box-shadow: 0 8px 18px rgba(47, 79, 191, 0.18);
+}
+
+.prism-btn-primary:hover,
+.prism-btn-primary:focus {
+    background: #2846ad;
+    color: #ffffff;
+    border-color: #2846ad;
+    box-shadow: 0 10px 22px rgba(47, 79, 191, 0.22);
+}
+
+.prism-btn-primary:active {
+    background: #233f9c;
+    border-color: #233f9c;
+}
+
+.prism-btn-secondary {
+    background: #ffffff;
+    color: #dc2626;
+    border-color: #dc2626;
+    box-shadow: none;
+}
+
+.prism-btn-secondary:hover,
+.prism-btn-secondary:focus {
+    background: #fef2f2;
+    color: #b91c1c;
+    border-color: #b91c1c;
+}
+
+.prism-btn-secondary:active {
+    background: #fee2e2;
+    border-color: #b91c1c;
+}
+
+.prism-btn:disabled,
+.prism-btn.disabled {
+    opacity: 0.58;
+    pointer-events: none;
+    box-shadow: none;
+}
+
+.prism-btn-outline {
+    background: #ffffff;
+    color: #334155;
+    border-color: #cbd5e1;
+}
+
+.prism-btn-outline:hover,
+.prism-btn-outline:focus {
+    background: #f8fafc;
+    border-color: #94a3b8;
+    color: #0f172a;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.1);
+}
+
+.prism-btn-outline:active {
+    background: #eef2f7;
+    border-color: #64748b;
+    box-shadow: none;
+}
+
+/* Blue outline: a low-emphasis action that still needs to read as "this does
+   something" against a wall of neutral outline buttons (e.g. "View Notice"). */
+.prism-btn-outline-primary {
+    background: #ffffff;
+    color: var(--blue-700);
+    border-color: var(--blue);
+}
+
+.prism-btn-outline-primary:hover,
+.prism-btn-outline-primary:focus {
+    background: var(--blue-soft);
+    border-color: var(--blue-700);
+    color: var(--blue-700);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.15);
+}
+
+.prism-btn-outline-primary:active {
+    background: #e0ecff;
+    border-color: var(--blue-700);
+    box-shadow: none;
+}
+
+.prism-btn-blue-outline {
+    border-color: #3156c7;
+    background: #ffffff;
+    color: #3156c7;
+    box-shadow: none;
+}
+
+.prism-btn-blue-outline:hover,
+.prism-btn-blue-outline:focus {
+    border-color: #294ab3;
+    background: #eff4ff;
+    color: #294ab3;
+    box-shadow: none;
+}
+
+.prism-btn-blue-outline:focus-visible {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(49, 86, 199, 0.18);
+}
+
+.prism-btn-danger {
+    background: #dc2626;
+    color: #ffffff;
+    border-color: #dc2626;
+}
+
+.prism-btn-danger:hover,
+.prism-btn-danger:focus {
+    background: #b91c1c;
+    color: #ffffff;
+    border-color: #b91c1c;
+}
+
+.prism-stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 14px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px 10px;
+    box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+}
+
+.prism-stat-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+}
+
+.prism-stat-icon.orange { background: #fff7ed; color: #f97316; }
+.prism-stat-icon.blue { background: #eff6ff; color: #2563eb; }
+.prism-stat-icon.green { background: #ecfdf3; color: #16a34a; }
+
+.prism-stat-value {
+    font-size: 1.45rem;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.prism-stat-desc {
+    grid-column: 1 / -1;
+    margin-top: 2px;
+    font-size: 0.86rem;
+    color: #334155;
+}
+
+.prism-stat-label {
+    grid-column: 1 / -1;
+    display: inline-block;
+    width: fit-content;
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    border-radius: 999px;
+    padding: 3px 8px;
+}
+
+.prism-stat-label.orange { color: #9a3412; background: #ffedd5; }
+.prism-stat-label.blue { color: #1e40af; background: #dbeafe; }
+.prism-stat-label.green { color: #166534; background: #dcfce7; }
+.prism-stat-label.muted { color: #475569; background: #e2e8f0; }
+
+.prism-filter-bar {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: clamp(14px, 1.2vw, 20px);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+}
+
+.prism-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #334155;
+}
+
+.prism-label-opt {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.prism-input,
+.prism-select {
+    width: 100%;
+    min-height: 38px;
+    border: 1px solid #cbd5e1;
+    border-radius: var(--radius-sm);
+    background: #ffffff;
+    color: #0f172a;
+    padding: 8px 10px;
+    font-size: 0.88rem;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.prism-input.is-length-maxed,
+.prism-input.is-length-maxed:focus,
+.sdo-content .prism-input.is-length-maxed:focus {
+    border-color: var(--red);
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.14);
+}
+
+.prism-select {
+    -webkit-appearance: none;
+    appearance: none;
+    padding-right: 40px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%2364748B' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.8' d='M3.5 6l4.5 4 4.5-4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 12px 12px;
+}
+
+.prism-input:focus,
+.prism-select:focus {
+    border-color: #93c5fd;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+    outline: none;
+}
+
+.prism-input:disabled,
+.prism-select:disabled {
+    background: #f1f5f9;
+    border-color: #e2e8f0;
+    color: #94a3b8;
+    cursor: not-allowed;
+}
+
+/* Desktop Chrome draws type=date/type=time as its own platform widget with an
+   inherited line-height that can misalign the value; normalise that without
+   forcing extra height, so these fields stay the same thickness as an adjacent
+   text field or <select>. The taller touch target that iOS needs lives in the
+   iOS-only @supports block below, not here. */
+input.prism-input[type="date"],
+input.prism-input[type="time"] {
+    line-height: normal;
+}
+
+input[type="date"]:not(:disabled):not([readonly]) {
+    cursor: pointer;
+}
+
+/* iOS-Safari-only corrections for native date/time fields. Scoped via
+   -webkit-touch-callout, which no desktop browser (Chrome, Firefox, desktop
+   Safari) reports, so nothing below reaches the desktop stylesheet. On iOS the
+   value lives in a shadow pseudo-element that, left alone, sits off-centre,
+   right-aligns, and drifts between fields; an empty field also collapses
+   shorter than a filled one. The JS open/toggle behaviour in live-ux.js is
+   untouched - these rules only change how the field is painted. */
+@supports (-webkit-touch-callout: none) {
+    input.prism-input[type="date"],
+    input.prism-input[type="time"],
+    input.prism-input[type="datetime-local"],
+    input.prism-input[type="month"],
+    input.prism-input[type="week"] {
+        display: flex;
+        align-items: center;
+        /* 16px keeps Safari from zooming the page in on focus */
+        font-size: 16px;
+        line-height: 1.2;
+        /* comfortable touch target on iOS only - desktop keeps the shared 38px */
+        min-height: 44px;
+        /* iOS adds its own asymmetric inner padding on top of ours */
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    input.prism-input[type="date"]::-webkit-date-and-time-value,
+    input.prism-input[type="time"]::-webkit-date-and-time-value,
+    input.prism-input[type="datetime-local"]::-webkit-date-and-time-value,
+    input.prism-input[type="month"]::-webkit-date-and-time-value,
+    input.prism-input[type="week"]::-webkit-date-and-time-value {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        /* holds the height when the field has no value yet */
+        min-height: 1.2em;
+    }
+
+    input.prism-input[type="date"]::-webkit-datetime-edit,
+    input.prism-input[type="time"]::-webkit-datetime-edit,
+    input.prism-input[type="datetime-local"]::-webkit-datetime-edit,
+    input.prism-input[type="month"]::-webkit-datetime-edit,
+    input.prism-input[type="week"]::-webkit-datetime-edit {
+        padding: 0;
+        line-height: 1.2;
+    }
+
+    /* iOS doesn't draw the calendar glyph desktop Chrome does; make sure it
+       reserves no width either, so the value uses the whole field. */
+    input.prism-input::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+
+    /* Any control below 16px makes iOS Safari zoom the whole page in on focus
+       and never fully zoom back out, so the layout looks broken for the rest of
+       the session. Desktop is untouched - this block is iOS-Safari-only. */
+    .prism-input,
+    .prism-select,
+    textarea.prism-input,
+    select.prism-select {
+        font-size: 16px;
+    }
+}
+
+.prism-hint {
+    margin: 6px 0 0;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+.prism-length-wrap {
+    position: relative;
+    display: block;
+}
+
+/* The counter now sits inside the field's bottom-right corner rather than in a
+   reserved strip below it, so the field needs padding there to keep typed text
+   clear of the badge. */
+.prism-length-wrap > textarea,
+.prism-length-wrap > input {
+    padding-right: 58px;
+}
+
+.prism-length-wrap > textarea {
+    padding-bottom: 60px;
+}
+
+.prism-length-circle {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+    cursor: default;
+    /* The badge is inset from the corner (right/bottom above), so the native
+       resize grip at the very corner stays clear — the badge can take hover
+       (for its tooltip) without blocking a drag-resize. */
+}
+
+.prism-length-circle svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.prism-length-circle circle {
+    fill: var(--card, #ffffff);
+    stroke-width: 2.5;
+}
+
+.prism-length-circle .track {
+    fill: var(--card, #ffffff);
+    stroke: var(--border, #e2e8f0);
+}
+
+.prism-length-circle .progress {
+    fill: none;
+    stroke: var(--red);
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.15s ease, stroke 0.15s ease;
+}
+
+.prism-length-circle.is-near .progress {
+    stroke: #d97706;
+}
+
+.prism-length-circle.is-met .progress {
+    stroke: var(--green);
+}
+
+.prism-length-circle-label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.prism-length-circle.is-met .prism-length-circle-label {
+    color: var(--green);
+}
+
+.prism-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+}
+
+.case-stepper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* overflow-x forces overflow-y to compute as auto, which clips the current
+       step's focus ring — the vertical padding gives that ring room to render. */
+    padding: 4px 2px;
+    margin: 0 0 6px;
+    overflow-x: auto;
+}
+
+.case-stepper-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 auto;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: #f8fafc;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.case-stepper-step:not(.is-closed):hover,
+.case-stepper-step:not(.is-closed):focus-visible {
+    border-color: #2563eb;
+    background: #eff6ff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
+    outline: none;
+}
+
+.case-stepper-step.is-current {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+.case-stepper-step.is-closed {
+    cursor: default;
+    border-color: var(--red);
+    background: #fef2f2;
+}
+
+.case-stepper-node {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: #ffffff;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.case-stepper-node i {
+    font-size: 0.8rem;
+}
+
+.case-stepper-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.case-stepper-step.is-done {
+    border-color: rgba(22, 163, 74, 0.35);
+    background: #f0fdf4;
+}
+
+.case-stepper-step.is-done .case-stepper-node {
+    background: var(--green);
+    border-color: var(--green);
+    color: #ffffff;
+}
+
+.case-stepper-step.is-current .case-stepper-node {
+    border-color: #2563eb;
+    color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+}
+
+.case-stepper-step.is-done .case-stepper-label,
+.case-stepper-step.is-current .case-stepper-label {
+    color: var(--text-primary, #0f172a);
+}
+
+/* The step currently being reviewed — keeps its done/upcoming colouring but gains
+   a ring, so "this is finished" and "you are looking at it" read at the same time. */
+.case-stepper-step.is-reviewing .case-stepper-node {
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35);
+}
+
+.case-stepper-step.is-reviewing .case-stepper-label {
+    color: var(--text-primary, #0f172a);
+    font-weight: 700;
+}
+
+.case-stepper-step.is-closed .case-stepper-node {
+    background: var(--red);
+    border-color: var(--red);
+    color: #ffffff;
+}
+
+.case-stepper-step.is-closed .case-stepper-label {
+    color: var(--red);
+    font-weight: 700;
+}
+
+.case-stepper-connector {
+    flex: 1 1 auto;
+    min-width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    margin: 0 8px;
+    background: var(--border);
+}
+
+/* A stepper with only two steps (a minor case's Classify/Resolved, or a case
+   closed after just one step) has a single connector that would otherwise
+   absorb the entire row width via flex-1 - centered with a capped width
+   instead, rather than stretching corner to corner. Steppers with more steps
+   are untouched: several connectors sharing that same flex-1 never stretch
+   this far to begin with. */
+.case-stepper.is-two-step {
+    justify-content: center;
+}
+
+.case-stepper.is-two-step .case-stepper-connector {
+    flex: 0 1 320px;
+}
+
+.case-stepper-connector.is-done {
+    background: var(--green);
+}
+
+.case-stepper-connector.is-closed {
+    background: var(--red);
+}
+
+/* On narrow screens, flex-wrap would break a connector onto a different line
+   than the step it leads to (a dangling "—" at the end of a row). Scroll
+   horizontally as one line instead — the container's overflow-x is already
+   set up for this, wrapping was just claiming the space first. */
+@media (max-width: 575.98px) {
+    .case-stepper {
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* The scroller only exists to anchor the edge fades, which are the signal that
+   the row continues past the viewport. JS toggles the classes as it scrolls. */
+.case-stepper-scroller {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+}
+
+.case-stepper-scroller::before,
+.case-stepper-scroller::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 12px;
+    width: 28px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .15s ease;
+    z-index: 1;
+}
+
+.case-stepper-scroller::before {
+    left: 0;
+    background: linear-gradient(90deg, #ffffff 15%, rgba(255, 255, 255, 0) 100%);
+}
+
+.case-stepper-scroller::after {
+    right: 0;
+    background: linear-gradient(270deg, #ffffff 15%, rgba(255, 255, 255, 0) 100%);
+}
+
+.case-stepper-scroller.has-overflow-start::before,
+.case-stepper-scroller.has-overflow-end::after {
+    opacity: 1;
+}
+
+/* Draws the eye to a section the stepper just scrolled to, then fades — an
+   outline (not border/box-shadow) so it works on any target regardless of the
+   element's own styling. */
+.prism-flash-highlight {
+    animation: prismFlashHighlight 1.6s ease;
+}
+
+@keyframes prismFlashHighlight {
+    0% {
+        outline: 3px solid rgba(37, 99, 235, 0.5);
+        outline-offset: 3px;
+    }
+
+    100% {
+        outline: 3px solid rgba(37, 99, 235, 0);
+        outline-offset: 3px;
+    }
+}
+
+.prism-card-header {
+    padding: 14px clamp(16px, 1.4vw, 22px);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+}
+
+.prism-card > .prism-card-header:first-child {
+    border-radius: calc(var(--radius-md) - 1px) calc(var(--radius-md) - 1px) 0 0;
+}
+
+.prism-card > .prism-card-header.prism-card-header--blue:first-child,
+.sdo-content .sdo-card-header.sdo-card-header--blue {
+    background: #3156C7;
+    border-bottom-color: #3156C7;
+    color: #FFFFFF;
+}
+
+.prism-card > .prism-card-header.prism-card-header--blue .prism-card-title {
+    color: #FFFFFF;
+}
+
+.prism-card-title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.case-incident-summary {
+    margin-bottom: 20px;
+    padding: 16px 18px;
+    border: 1px solid #3156c7;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.case-incident-summary--flush {
+    margin-bottom: 0;
+}
+
+.case-incident-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin-bottom: 11px;
+    color: #64748b;
+    font-size: .76rem;
+}
+
+.case-incident-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.case-incident-summary .prism-label {
+    margin-bottom: 5px !important;
+    color: #475569;
+    font-size: .72rem;
+    letter-spacing: .035em;
+    text-transform: uppercase;
+}
+
+.case-incident-description {
+    color: #334155;
+    font-size: .875rem;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+    white-space: pre-line;
+}
+
+.case-incident-empty {
+    margin: 0;
+    color: #64748b;
+    font-size: .84rem;
+}
+
+.prism-card-body {
+    padding: clamp(16px, 1.4vw, 24px);
+}
+
+.prism-card-footer {
+    padding: 14px clamp(16px, 1.4vw, 22px);
+    border-top: 1px solid var(--border);
+    background: #fbfdff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.prism-card-footer.justify-content-end {
+    justify-content: flex-end;
+}
+
+.student-lookup-card {
+    overflow: visible;
+    position: relative;
+    z-index: 20;
+}
+
+.student-lookup-card .prism-card-body {
+    overflow: visible;
+}
+
+.case-classification-card {
+    overflow: visible;
+    position: relative;
+    z-index: 20;
+}
+
+.case-classification-card .prism-card-body {
+    overflow: visible;
+}
+
+.student-lookup-wrap {
+    z-index: 30;
+}
+
+.prism-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* Keep wide tables inside their own scroll boundary even if Bootstrap is unavailable. */
+.table-responsive {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.prism-table thead th {
+    background: #f8fafc;
+    color: #475569;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+}
+
+.prism-table thead th:first-child {
+    border-top-left-radius: var(--radius-sm);
+}
+
+.prism-table thead th:last-child {
+    border-top-right-radius: var(--radius-sm);
+}
+
+.prism-table tbody td {
+    padding: 14px;
+    border-bottom: 1px solid #edf2f7;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #1e293b;
+    vertical-align: middle;
+}
+
+.prism-table tbody tr:hover {
+    background: #fbfdff;
+}
+
+.prism-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Give the first column a consistent inset across every role layout. */
+.prism-table th:first-child,
+.prism-table td:first-child,
+.sdo-table th:first-child,
+.sdo-table td:first-child,
+.dashboard-table th:first-child,
+.dashboard-table td:first-child,
+.guidance-table th:first-child,
+.guidance-table td:first-child {
+    padding-left: 24px !important;
+}
+
+.prism-table-empty {
+    padding: 22px 16px;
+    text-align: center;
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.prism-select-optional:has(option[value=""]:checked),
+.prism-select-optional option[value=""] {
+    color: #64748b;
+}
+
+.prism-select-optional option:not([value=""]) {
+    color: #1e293b;
+}
+
+.prism-select-wrap {
+    position: relative;
+}
+
+.prism-select-wrap .prism-select-native {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.prism-select-trigger {
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+    color: #1e293b;
+}
+
+.prism-select-trigger.prism-select-placeholder-active {
+    color: #64748b;
+}
+
+.prism-select-panel {
+    position: fixed;
+    z-index: 1050;
+    max-height: 260px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, .12);
+    display: none;
+    padding: 4px;
+}
+
+.prism-select-panel.open {
+    display: block;
+}
+
+.prism-select-group-label {
+    padding: 8px 10px 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    color: #64748b;
+}
+
+.prism-select-option {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 9px 10px;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 6px;
+    font-size: .85rem;
+    color: #111827;
+}
+
+.prism-select-option:hover,
+.prism-select-option.active {
+    background: #EFF4FF;
+    color: #1B2A6B;
+}
+
+.prism-select-option[aria-selected="true"] {
+    background: #EFF4FF;
+    color: #1B2A6B;
+    font-weight: 600;
+}
+
+.prism-select-option-disabled,
+.prism-select-option-disabled:hover {
+    background: #FFFFFF;
+    color: #CBD5E1;
+    cursor: not-allowed;
+}
+
+.prism-audit-list {
+    display: grid;
+    gap: 12px;
+    padding: clamp(14px, 1.2vw, 18px);
+}
+
+.prism-audit-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(210px, 260px);
+    gap: 18px;
+    padding: 14px;
+    border: 1px solid #edf2f7;
+    border-radius: var(--radius-sm);
+    background: #ffffff;
+}
+
+.prism-audit-main,
+.prism-audit-actor {
+    min-width: 0;
+}
+
+.prism-audit-topline {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    min-width: 0;
+}
+
+.prism-audit-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.35;
+}
+
+.prism-audit-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    margin-top: 3px;
+    font-size: 0.76rem;
+    color: #64748b;
+}
+
+.prism-audit-reason {
+    margin-top: 10px;
+    padding: 9px 11px;
+    border-radius: var(--radius-sm);
+    background: #f8fafc;
+    color: #334155;
+    font-size: 0.82rem;
+    line-height: 1.55;
+}
+
+.prism-audit-details {
+    margin-top: 10px;
+}
+
+.prism-audit-details summary {
+    width: fit-content;
+    cursor: pointer;
+    user-select: none;
+}
+
+.prism-audit-snapshot {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.prism-audit-snapshot-title {
+    margin-bottom: 5px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.prism-audit-snapshot pre {
+    margin: 0;
+    max-height: 220px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border: 1px solid #e2e8f0;
+    border-radius: var(--radius-sm);
+    background: #f8fafc;
+    color: #1e293b;
+    padding: 10px;
+    font-size: 0.75rem;
+    line-height: 1.55;
+}
+
+.prism-audit-empty {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+.prism-audit-actor {
+    border-left: 1px solid #edf2f7;
+    padding-left: 16px;
+}
+
+.prism-audit-actor-name {
+    font-size: 0.86rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+@media (max-width: 992px) {
+    .prism-audit-item {
+        grid-template-columns: 1fr;
+    }
+
+    .prism-audit-actor {
+        border-left: 0;
+        border-top: 1px solid #edf2f7;
+        padding-left: 0;
+        padding-top: 12px;
+    }
+
+    .prism-audit-snapshot {
+        grid-template-columns: 1fr;
+    }
+}
+
+.prism-cell-primary {
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.prism-ref-number {
+    font-family: 'Poppins', sans-serif;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1, "lnum" 1;
+    letter-spacing: 0;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.prism-cell-sub {
+    margin-top: 2px;
+    font-size: 0.76rem;
+    color: #64748b;
+}
+
+.text-muted-cell {
+    color: #64748b;
+}
+
+td.text-muted-cell {
+    white-space: nowrap;
+}
+
+.prism-badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.prism-badge-orange { background: #ffedd5; color: #9a3412; }
+.prism-badge-blue { background: #dbeafe; color: #1e3a8a; }
+.prism-badge-green { background: #dcfce7; color: #166534; }
+.prism-badge-gray { background: #e2e8f0; color: #334155; }
+.prism-badge-violet { background: #ede9fe; color: #5b21b6; }
+.prism-badge-navy { background: #c7d2fe; color: #3730a3; }
+.prism-badge-amber { background: #fef9c3; color: #854d0e; }
+
+.prism-action-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.prism-action-link:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+/* Assigned-department scope shown in a card header (see x-department-scope).
+   Each department is its own chip so multi-department scopes cannot read as
+   one long name. Sits on the dark header bar. */
+.prism-dept-scope {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.prism-dept-scope-label {
+    flex: 0 0 auto;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.prism-dept-scope-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    min-width: 0;
+}
+
+.prism-dept-chip {
+    /* No fixed cap: the header has room for the full name, and these names are
+       long enough that an ellipsis hides the part that distinguishes them. */
+    max-width: 100%;
+    overflow: hidden;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.35;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.prism-dept-chip-empty {
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.75);
+    font-style: italic;
+}
+
+.prism-dept-chip-more {
+    background: rgba(255, 255, 255, 0.28);
+    cursor: help;
+}
+
+.prism-dept-chip-abbr {
+    display: none;
+}
+
+/* Tablet and below: the full names no longer fit beside the card title, so the
+   chips fall back to the same abbreviations the officer dashboard uses. */
+@media (max-width: 991.98px) {
+    .prism-dept-chip-full {
+        display: none;
+    }
+
+    .prism-dept-chip-abbr {
+        display: inline;
+    }
+}
+
+/* Light-surface variant: the Reports pages carry the scope pill inside the white
+   filter bar rather than the blue card header the list pages use, so the white-
+   on-white chips need a legible palette. Also pushes the pill to the right edge
+   of a flex row. */
+.prism-dept-scope--light {
+    margin-left: auto;
+}
+
+/* Sits at the right edge of whatever header row hosts it. */
+.report-department-scope {
+    margin-left: auto;
+}
+
+/* The Reports index, Risk Dashboard and Student Case picker carry the pill in a
+   blue section-head banner, exactly like the Cases and Sanctions queues: keep
+   the default white chips, just add the divider the queue pages use. */
+.report-department-scope--onblue {
+    padding-left: 14px;
+    border-left: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.prism-dept-scope--light .prism-dept-scope-label {
+    color: #64748b;
+}
+
+.prism-dept-scope--light .prism-dept-chip {
+    background: #eef2ff;
+    color: #3730a3;
+}
+
+.prism-dept-scope--light .prism-dept-chip-more {
+    background: #c7d2fe;
+    color: #312e81;
+}
+
+.prism-dept-scope--light .prism-dept-chip-empty {
+    background: #f1f5f9;
+    color: #64748b;
+}
+
+/* Reference numbers that link to their record: deeper navy than the generic
+   action link, matching the sidebar, so they read as identifiers not actions. */
+.prism-ref-link {
+    color: #1E3276;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.prism-ref-link:hover,
+.prism-ref-link:focus-visible {
+    color: #0F1D54;
+    text-decoration: underline;
+}
+
+.prism-alert {
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid;
+    font-size: 0.85rem;
+    line-height: 1.55;
+}
+
+.prism-alert-success {
+    background: #ecfdf3;
+    border-color: #bbf7d0;
+    color: #166534;
+}
+
+.prism-alert-danger {
+    background: #fef2f2;
+    border-color: #fecaca;
+    color: #991b1b;
+}
+
+.prism-alert-warning {
+    background: #fffbeb;
+    border-color: #fde68a;
+    color: #92400e;
+}
+
+/* Outline-free variant for confirmation-modal warning banners (e.g. void/dismiss). */
+.prism-alert-no-border {
+    border: none;
+}
+
+.prism-note {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--radius-sm);
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    color: #1e3a8a;
+    padding: 10px 12px;
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+.prism-note i {
+    flex-shrink: 0;
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.prism-field-error {
+    margin-top: 4px;
+    font-size: 0.78rem;
+    color: #dc2626;
+}
+
+.prism-divider {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 12px 0;
+}
+
+.prism-attachment { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 11px 14px; border: 1px solid #e2e8f0; border-radius: 9px; background: #f8fafc; }
+.prism-attachment + .prism-attachment { margin-top: 8px; }
+.prism-attachment-name { color: #1e293b; font-size: .82rem; font-weight: 600; overflow-wrap: anywhere; }
+.prism-attachment-meta { margin-top: 2px; color: #64748b; font-size: .72rem; }
+.prism-attachment-view { min-height: 34px !important; padding: 6px 11px !important; font-size: .74rem !important; }
+@media(max-width:575.98px){.prism-attachment{align-items:flex-start;flex-direction:column}.prism-attachment-view{justify-content:center;width:100%}}
+
+.prism-detail-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.prism-detail-table th,
+.prism-detail-table td {
+    padding: 8px 0;
+    vertical-align: top;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.prism-detail-table th {
+    color: #64748b;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.prism-detail-table td {
+    color: #0f172a;
+    font-size: 0.9rem;
+}
+
+.prism-detail-table tr:last-child th,
+.prism-detail-table tr:last-child td {
+    border-bottom: none;
+}
+
+.prism-avatar {
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #142a68;
+    background: #f4d35e;
+}
+
+/* NU gold identity avatars across student and staff role layouts. */
+.sdo-hdr-avatar,
+.gso-hdr-avatar,
+.sdo-profile-dropdown-avatar,
+.gso-profile-dropdown-avatar {
+    background: #f4d35e !important;
+    color: #142a68 !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.sdo-hdr-avatar > img,
+.gso-hdr-avatar > img,
+.sdo-profile-dropdown-avatar > img,
+.gso-profile-dropdown-avatar > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+}
+
+.prism-avatar-sm {
+    width: 32px;
+    height: 32px;
+    font-size: 0.74rem;
+}
+
+.prism-avatar-md {
+    width: 42px;
+    height: 42px;
+    font-size: 0.86rem;
+}
+
+/*
+ * This layout never has a real scrollbar on <html>/<body> (all scrolling
+ * happens inside inner containers like .sdo-content), so Bootstrap's modal
+ * scrollbar-width compensation has nothing real to compensate for. Left
+ * alone, it still measures a non-zero "scrollbar width" on some
+ * browsers/zoom levels and pads .modal/body accordingly, which shifts the
+ * modal dialog off-center and makes the page feel horizontally scrollable
+ * while a modal is open. Force that compensation off everywhere.
+ */
+body.modal-open,
+.modal {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+@media (max-width: 767.98px) {
+    .modal-backdrop,
+    .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+    }
+}
+
+/* Keep reusable dialogs out of the page flow if Bootstrap's CSS fails to load.
+   Bootstrap's modal JavaScript adds .show and sets display when opening them. */
+.prism-modal:not(.show) {
+    display: none !important;
+}
+
+.prism-modal .modal-content {
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.18);
+}
+
+.prism-modal .modal-header {
+    padding: 16px 18px;
+    background: #ffffff;
+    border-bottom: 1px solid var(--border);
+}
+
+.prism-modal .modal-title {
+    color: #0f172a;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.prism-modal .modal-body {
+    padding: 18px;
+    color: #475569;
+    background: #ffffff;
+}
+
+.prism-modal .modal-footer {
+    gap: 8px;
+    padding: 12px 18px 18px;
+    background: #f8fafc;
+    border-top: 1px solid var(--border);
+}
+
+.session-timeout-modal .modal-dialog {
+    max-width: 500px;
+}
+
+.session-timeout-modal .modal-header {
+    padding-right: 18px;
+}
+
+.session-timeout-error {
+    color: #b42318;
+    font-size: .78rem;
+    font-weight: 500;
+}
+
+@media (max-width: 992px) {
+    :root {
+        --prism-content-gutter: clamp(16px, 4vw, 28px);
+    }
+
+    .prism-page-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    :root {
+        --prism-content-gutter: 16px;
+        --prism-section-gap: 14px;
+    }
+
+    nav[aria-label="Breadcrumb"] {
+        margin-top: 12px;
+    }
+
+    .prism-page-header.d-flex {
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+
+    .prism-page-header > .d-flex {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .prism-page-header .prism-btn {
+        flex: 1 1 160px;
+    }
+
+    .prism-card-header,
+    .prism-card-body,
+    .prism-filter-bar {
+        padding: 14px;
+    }
+
+}
+
+:root {
+    --text-secondary: #475569;
+    --text-tertiary: #9ca3af;
+    --card-bg: #ffffff;
+    --red: #dc2626;
+    --red-soft: #fef2f2;
+    --teal: #0f766e;
+    --teal-soft: #f0fdfa;
+}
+
+.prism-badge-red { background: #fee2e2; color: #991b1b; }
+
+.prism-badge-teal { background: #ccfbf1; color: #0f766e; }
+
+.prism-stat-icon.violet { background: #ede9fe; color: #7c3aed; }
+.prism-stat-icon.red    { background: #fee2e2; color: #b91c1c; }
+.prism-stat-icon.teal   { background: #ccfbf1; color: #0f766e; }
+
+.prism-stat-label.violet { color: #5b21b6; background: #ede9fe; }
+.prism-stat-label.red    { color: #991b1b; background: #fee2e2; }
+.prism-stat-label.teal   { color: #0f766e; background: #ccfbf1; }
+
+.prism-stat.accent-blue   { border-left: 3px solid #2563eb; }
+.prism-stat.accent-orange { border-left: 3px solid #f59e0b; }
+.prism-stat.accent-green  { border-left: 3px solid #16a34a; }
+.prism-stat.accent-violet { border-left: 3px solid #7c3aed; }
+.prism-stat.accent-red    { border-left: 3px solid #dc2626; }
+.prism-stat.accent-teal   { border-left: 3px solid #0f766e; }
+
+.prism-metric-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.prism-metric-card {
+    position: relative;
+    min-width: 0;
+    min-height: 104px;
+    padding: 17px 58px 17px 18px;
+    border: 1px solid #e1e7f0;
+    border-radius: 13px;
+    background: #ffffff;
+    box-shadow: 0 3px 12px rgba(15, 23, 42, 0.035);
+}
+
+.prism-metric-value {
+    color: #0f172a;
+    font-size: 1.55rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.prism-metric-label {
+    margin-top: 9px;
+    color: #64748b;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.prism-metric-icon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    background: var(--metric-soft, #f1f5f9);
+    color: var(--metric-color, #64748b);
+    font-size: 0.9rem;
+}
+
+.prism-metric-note {
+    margin-top: 3px;
+    color: #6b7280;
+    font-size: 0.68rem;
+    line-height: 1.35;
+}
+
+.prism-metric-red { --metric-color: #b91c1c; --metric-soft: #fef2f2; }
+.prism-metric-orange { --metric-color: #9a3412; --metric-soft: #fff1e8; }
+.prism-metric-yellow { --metric-color: #d97706; --metric-soft: #fffbeb; }
+.prism-metric-blue { --metric-color: #3156c7; --metric-soft: #edf3ff; }
+.prism-metric-green { --metric-color: #15803d; --metric-soft: #ecfdf5; }
+.prism-metric-gray { --metric-color: #64748b; --metric-soft: #f1f5f9; }
+
+@media (max-width: 992px) {
+    .prism-metric-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 576px) {
+    .prism-metric-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.prism-btn-sm { padding: 5px 10px; font-size: 0.8rem; }
+
+.prism-alert-info {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1e40af;
+}
+
+.prism-toast-region {
+    position: fixed;
+    top: 74px;
+    right: clamp(14px, 1.5vw, 24px);
+    z-index: 2140;
+    display: grid;
+    gap: 8px;
+    width: min(360px, calc(100vw - 28px));
+    pointer-events: none;
+}
+
+.prism-toast-region .prism-toast {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid #dbe3ef;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.13);
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition: opacity 0.4s cubic-bezier(.22, 1, .36, 1),
+                transform 0.4s cubic-bezier(.22, 1, .36, 1) !important;
+    will-change: opacity, transform;
+}
+
+.prism-toast-region .prism-toast.prism-toast-entering,
+.prism-toast-region .prism-toast.showing,
+.prism-toast-region .prism-toast.prism-toast-hiding {
+    display: flex !important;
+    opacity: 0;
+    transform: translateY(-6px) scale(.985);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .prism-toast-region .prism-toast {
+        transition: none !important;
+    }
+
+    .prism-toast-region .prism-toast.prism-toast-entering,
+    .prism-toast-region .prism-toast.showing,
+    .prism-toast-region .prism-toast.prism-toast-hiding {
+        transform: none;
+    }
+}
+
+.prism-toast-region .prism-toast-success { border-color: #bbf7d0; background: #fbfffc; }
+.prism-toast-region .prism-toast-danger { border-color: #fecaca; background: #fef2f2; }
+.prism-toast-region .prism-toast-warning { border-color: #fde68a; background: #fffefa; }
+.prism-toast-region .prism-toast-info { border-color: #bfdbfe; background: #fbfdff; }
+
+.prism-toast-region .toast-body {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 1px 0 0;
+    color: #1f2937;
+    font-size: 0.82rem;
+    font-weight: 500;
+    line-height: 1.45;
+}
+
+.prism-toast-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 0.72rem;
+    flex: 0 0 auto;
+}
+
+.prism-toast-success .prism-toast-icon {
+    background: #ecfdf3;
+    color: #16a34a;
+}
+
+.prism-toast-danger .prism-toast-icon {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.prism-toast-warning .prism-toast-icon {
+    background: #fffbeb;
+    color: #d97706;
+}
+
+.prism-toast-close {
+    flex: 0 0 auto;
+    width: 12px;
+    height: 12px;
+    margin: 3px 0 0 2px;
+    padding: 0;
+    opacity: .48;
+}
+
+.prism-toast-close:hover,
+.prism-toast-close:focus {
+    opacity: .8;
+}
+
+.profile-signout-action {
+    color: #b42318 !important;
+}
+
+.profile-signout-action i {
+    color: #d92d20 !important;
+}
+
+.profile-signout-action:hover,
+.profile-signout-action:focus-visible {
+    background: #fff1f0 !important;
+    color: #912018 !important;
+}
+
+@media (max-width: 576px) {
+    .prism-toast-region {
+        top: 64px;
+        right: 10px;
+        width: calc(100vw - 20px);
+    }
+}
+
+textarea.prism-input {
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.sanction-guidance-panel {
+    margin-top: 12px;
+    padding: 14px 16px;
+    overflow: hidden;
+    border: 1px solid #cbd9f5;
+    border-radius: 8px;
+    background: #f5f8ff;
+}
+
+.sanction-guidance-eyebrow {
+    margin-bottom: 4px;
+    color: #3156c7;
+    font-size: .67rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.sanction-guidance-heading {
+    color: #1e3a8a;
+    font-size: .88rem;
+    font-weight: 700;
+}
+
+.sanction-guidance-intro {
+    margin-top: 6px;
+    color: #47588c;
+    font-size: .78rem;
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   Global page-navigation loader (top progress bar)
+   Shown by public/js/live-ux.js on link clicks / form submits so full
+   Blade page loads get a "something is happening" cue instead of a blank
+   pause. Purely visual — does not intercept or cancel the navigation.
+   ========================================================================== */
+.prism-page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 9999;
+    background: transparent;
+    pointer-events: none;
+}
+.prism-page-loader::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #2f4fbf 0%, #6b8afd 45%, #b8c8ff 55%, #3156c7 100%);
+    background-size: 220% 100%;
+    box-shadow: 0 0 8px rgba(47, 79, 191, .6);
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform .25s ease-out, opacity .12s ease;
+}
+.prism-page-loader.is-active::before {
+    opacity: 1;
+    /* Eases toward, but never reaches, full width — the bar only completes
+       once stop() actually fires, so it can't look "done" before the page is. */
+    animation: prism-page-loader-shimmer 1.15s linear infinite,
+        prism-page-loader-trickle 8s cubic-bezier(.1, .7, .1, 1) forwards;
+}
+.prism-page-loader.is-done::before {
+    animation: none;
+    opacity: 0;
+    transform: scaleX(1);
+    transition: transform .18s ease-out, opacity .2s ease .18s;
+}
+
+@keyframes prism-page-loader-shimmer {
+    from { background-position: 100% 0; }
+    to { background-position: -120% 0; }
+}
+
+@keyframes prism-page-loader-trickle {
+    0% { transform: scaleX(0); }
+    15% { transform: scaleX(.3); }
+    40% { transform: scaleX(.55); }
+    70% { transform: scaleX(.72); }
+    100% { transform: scaleX(.85); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .prism-page-loader::before { transition-duration: .01ms; }
+    .prism-page-loader.is-active::before { animation: none; }
+}
+
+/* ==========================================================================
+   Submit-once state
+   Applied by public/js/live-ux.js while a POST is in flight so a second
+   click can't file a duplicate record. The button keeps its label and gains
+   a trailing spinner, so the press reads as "working", not as "nothing
+   happened".
+   ========================================================================== */
+.prism-btn.is-submitting,
+button.is-submitting,
+input.is-submitting {
+    position: relative;
+    cursor: progress;
+    opacity: .72;
+    pointer-events: none;
+}
+.prism-btn.is-submitting::after {
+    content: "";
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    margin-left: .55em;
+    vertical-align: -.08em;
+    border-radius: 50%;
+    background:
+        conic-gradient(from 0deg, rgba(255, 255, 255, 0) 0deg, currentColor 300deg);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px));
+    animation: prism-submitting-spin .7s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+    .prism-btn.is-submitting::after { animation-duration: 2s; }
+}
+
+@keyframes prism-submitting-spin {
+    to { transform: rotate(1turn); }
+}
+
+/* ==========================================================================
+   Skeleton loading placeholders
+   Generic shimmer blocks for content that loads asynchronously (polled
+   badges/lists, ajax-refreshed tables). Apply .prism-skeleton to any block
+   sized by inline width/height or a modifier class below.
+   ========================================================================== */
+@keyframes prism-skeleton-shimmer {
+    0% { background-position: -200px 0; }
+    100% { background-position: calc(200px + 100%) 0; }
+}
+.prism-skeleton {
+    display: block;
+    border-radius: 6px;
+    background: #edf1f7;
+    background-image: linear-gradient(90deg, #edf1f7 0px, #f6f8fb 40px, #edf1f7 80px);
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    animation: prism-skeleton-shimmer 1.2s ease-in-out infinite;
+}
+.prism-skeleton-text { height: 12px; margin: 6px 0; width: 100%; }
+.prism-skeleton-text.w-60 { width: 60%; }
+.prism-skeleton-text.w-40 { width: 40%; }
+.prism-skeleton-badge { width: 22px; height: 16px; border-radius: 999px; display: inline-block; }
+.prism-skeleton-row { display: flex; align-items: center; gap: 12px; padding: 12px 14px; }
+.prism-skeleton-row .prism-skeleton { flex: 1; }
+[data-skeleton-target].is-loading > *:not(.prism-skeleton-wrap) { display: none !important; }
+.prism-skeleton-wrap { display: none; }
+[data-skeleton-target].is-loading .prism-skeleton-wrap { display: block; }
+
+
+/* Pagination bar: results summary on the left, page strip + size picker on the right. */
+.prism-pagination-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.prism-pagination-summary {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #64748b;
+}
+
+.prism-pagination-summary strong {
+    font-weight: 600;
+    color: #334155;
+}
+
+.prism-pagination-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.prism-pagination .prism-page-gap .page-link {
+    min-width: 24px;
+    padding: 0 2px;
+    border-color: transparent;
+    background: transparent;
+    color: #cbd5e1;
+    letter-spacing: 1px;
+}
+
+.prism-pagination .prism-page-gap .page-link:hover {
+    background: transparent;
+}
+
+.prism-per-page-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 32px;
+    padding: 0 14px;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #475569;
+    font-size: 0.78rem;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.prism-per-page-toggle:hover,
+.prism-per-page-toggle:focus {
+    border-color: #3156c7;
+    background: #eef3ff;
+    color: #3156c7;
+}
+
+.prism-per-page-toggle > i {
+    font-size: 0.65rem;
+    opacity: 0.6;
+}
+
+.prism-per-page-menu {
+    min-width: 132px;
+    padding: 4px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.prism-per-page-menu .dropdown-item {
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-size: 0.78rem;
+    color: #475569;
+}
+
+.prism-per-page-menu .dropdown-item:hover,
+.prism-per-page-menu .dropdown-item:focus {
+    background: #eef3ff;
+    color: #3156c7;
+}
+
+.prism-per-page-menu .dropdown-item.active {
+    background: #3156c7;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+@media (max-width: 575.98px) {
+    .prism-pagination-bar {
+        justify-content: center;
+    }
+
+    .prism-pagination-controls {
+        width: 100%;
+    }
+}
+
+/* Fields rejected by toast-reported validation (see form[data-toast-validation]);
+   the toast names the problem, this marks where it is. */
+.prism-input.is-invalid,
+.prism-select.is-invalid {
+    border-color: #dc2626;
+    background: #fef7f7;
+}
+
+/* A checkbox group has no single control to outline, so the group carries the invalid state. */
+.sdo-check-group.is-invalid-group {
+    margin: 0;
+    padding: 8px;
+    border: 1px solid #f1a9a9;
+    border-radius: 8px;
+    background: #fef7f7;
+}
+
+/* Shared fast-appearing tooltip bubble, driven by public/js/prism-tooltip.js. */
+.prism-tooltip {
+    position: fixed;
+    z-index: 1100;
+    max-width: 260px;
+    padding: 5px 9px;
+    border-radius: 6px;
+    background: #0f172a;
+    color: #fff;
+    font-size: .76rem;
+    line-height: 1.4;
+    white-space: pre-line;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, .25);
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 100ms ease, transform 100ms ease;
+}
+
+.prism-tooltip[hidden] {
+    display: none;
+}
+
+.prism-tooltip.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .prism-tooltip {
+        transition: none;
+    }
+}

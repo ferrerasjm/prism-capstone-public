@@ -1,0 +1,102 @@
+[
+  {
+    "id": "blind-weapon-fanknife",
+    "text": "A fan knife fell from the student's waistband while climbing the stairs to the fourth floor.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "blind-weapon-slingshot-pellets",
+    "text": "Guards took a slingshot and a pouch of steel pellets from the student at the entrance.",
+    "forbidden_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-drugs-tablets-no-script",
+    "text": "An unlabelled strip of tablets a classmate identified as ecstasy was taken from the student's pocket.",
+    "expected_label": "MAJOR-38"
+  },
+  {
+    "id": "blind-liquor-beer-cans",
+    "text": "Three empty beer cans and a warm six-pack were found under the seat the student had been using.",
+    "expected_label": "MAJOR-23"
+  },
+  {
+    "id": "blind-vape-pod-refill",
+    "text": "The student was refilling a vape pod with flavoured liquid at the back stairwell.",
+    "expected_label": "MAJOR-26"
+  },
+  {
+    "id": "blind-theft-kept-phone",
+    "text": "The student pocketed a phone left charging in the study area and did not turn it in after the owner asked around.",
+    "expected_label": "MAJOR-02"
+  },
+  {
+    "id": "blind-theft-tagalog",
+    "text": "Itinago ng estudyante ang laptop ng kaklase sa sarili niyang bag at hindi ito isinauli kahit hinahanap na ito.",
+    "expected_label": "MAJOR-02"
+  },
+  {
+    "id": "blind-nm-id-scanned",
+    "text": "The student tapped the ID on the reader at the gate and walked through when the light turned green.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-returned-found-phone",
+    "text": "The student handed a phone found in the study area to the guard, who logged it in the turnover record.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-permitted-lab-after-hours",
+    "text": "The student stayed in the laboratory after hours under a written extension approved by the dean and countersigned by the technician.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-medication-declared",
+    "text": "The student declared prescribed antibiotics at the clinic and was issued a slip to carry them on campus.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-tray-returned",
+    "text": "After eating, the student wiped the table and placed the tray and utensils in the bussing area.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-recitation-noise",
+    "text": "The room was loud because the instructor had the class do a graded recitation drill that period.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-hair-natural",
+    "text": "The student's hair was uncoloured and tied back neatly for the laboratory session.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-vague-entry",
+    "text": "Log entry: student went past the second floor landing at around noon.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-nm-borrowed-signed-out",
+    "text": "The student signed out a reference book at the counter and read it at the table until closing time.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-smoking-tobacco-not-drugs",
+    "text": "The student lit an ordinary cigarette at the parking area and was seen exhaling smoke.",
+    "expected_label": "MAJOR-26"
+  },
+  {
+    "id": "blind-prop-weapon-theater",
+    "text": "A cardboard sword built for the theater production was carried through the lobby to the auditorium.",
+    "forbidden_label": "MAJOR-25"
+  },
+  {
+    "id": "blind-accidental-contact",
+    "text": "The two students knocked into each other rounding a blind corner and each said sorry before moving on.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "blind-refusal-to-show-id",
+    "text": "Told twice to present identification, the student said no and kept walking toward the elevators.",
+    "expected_label": "MAJOR-20"
+  }
+]

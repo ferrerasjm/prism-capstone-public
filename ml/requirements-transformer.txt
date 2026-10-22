@@ -1,0 +1,8 @@
+-r requirements-baseline.txt
+
+# Optional Hugging Face fine-tuning stack. Install in an isolated virtual
+# environment; PyTorch wheels vary by CPU/GPU and CUDA version.
+accelerate>=1,<2
+safetensors>=0.4,<1
+torch>=2.2,<3
+transformers>=4.46,<6

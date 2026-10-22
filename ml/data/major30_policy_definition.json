@@ -1,0 +1,19 @@
+{
+  "offense_code": "MAJOR-30",
+  "offense_title": "Acts of subversion",
+  "policy_version": "NU Clark Student Handbook 2025 Edition with project operational definition dated 2026-08-01",
+  "status": "approved_for_advisory_modeling",
+  "positive_criteria": [
+    "Deliberately organizing or participating in coordinated activity intended to violently overthrow or forcibly replace lawful school or government authority.",
+    "Recruiting, encouraging, or directing rebellion, sedition, extremist activity, or serious illegal action against the school or state.",
+    "Deliberately sabotaging critical school operations as part of an effort to threaten institutional safety or security or make lawful governance inoperative."
+  ],
+  "required_boundary": "The narrative must contain evidence of deliberate intent plus coordinated, violent, seriously illegal, or security-threatening action aimed at lawful authority or institutional operations. Ordinary misconduct or violence alone is classified under its more specific handbook offense.",
+  "explicit_exclusions": [
+    "Peacefully expressing opinions or criticizing school or government policies.",
+    "Participating in lawful student organizations or peaceful demonstrations that follow school rules.",
+    "Filing complaints, petitions, grievances, or reports of misconduct through proper channels.",
+    "Threats, fights, assault, disruption, vandalism, weapons, or computer breaches without the required subversive purpose; use the more specific handbook offense instead."
+  ],
+  "decision_boundary": "The model only recommends MAJOR-30 for Discipline Office review and does not determine criminal liability, political affiliation, guilt, or sanctions."
+}

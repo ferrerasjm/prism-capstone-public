@@ -1,0 +1,249 @@
+.privacy-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+    z-index: 1080;
+}
+
+.privacy-overlay {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+    padding-top: max(32px, env(safe-area-inset-top));
+    padding-bottom: max(32px, env(safe-area-inset-bottom));
+}
+
+.privacy-modal {
+    width: 100%;
+    max-width: 720px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.28);
+    display: flex;
+    flex-direction: column;
+    max-height: 88vh;
+    overflow: hidden;
+}
+
+.privacy-modal-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 22px 28px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.privacy-modal-header-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f4fbf;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    flex-shrink: 0;
+}
+
+.privacy-modal-title {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.privacy-modal-subtitle {
+    margin: 2px 0 0;
+    font-size: 0.82rem;
+    color: #64748b;
+}
+
+.privacy-modal-body {
+    padding: 22px 28px;
+    overflow-y: auto;
+    color: #334155;
+    font-size: 0.88rem;
+    line-height: 1.65;
+}
+
+.privacy-modal-body h2 {
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 22px 0 8px;
+}
+
+.privacy-modal-body h2:first-child {
+    margin-top: 0;
+}
+
+.privacy-modal-body p {
+    margin: 0 0 10px;
+}
+
+.privacy-modal-body ul {
+    margin: 0 0 10px;
+    padding-left: 20px;
+}
+
+.privacy-modal-body li {
+    margin-bottom: 6px;
+}
+
+.privacy-modal-body li strong {
+    color: #1e293b;
+}
+
+.privacy-contact-card {
+    background: #ffffff;
+    border: 1px solid #eef1f6;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+    padding: 18px 20px;
+    margin: 0 0 10px;
+}
+
+.privacy-contact-title {
+    margin: 0 0 14px;
+    font-weight: 700;
+    color: #1e293b;
+    font-size: 0.94rem;
+}
+
+.privacy-contact-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0 0 14px;
+}
+
+.privacy-contact-row:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-contact-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #eaf0ff;
+    color: #2f4fbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.85rem;
+}
+
+.privacy-contact-row span:last-child {
+    padding-top: 4px;
+    line-height: 1.55;
+}
+
+.privacy-contact-card a {
+    color: #2f4fbf;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.privacy-contact-card a:hover {
+    text-decoration: underline;
+}
+
+.privacy-modal-footer {
+    padding: 18px 28px;
+    border-top: 1px solid #e2e8f0;
+    background: #f8fafc;
+}
+
+.privacy-check-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.privacy-check-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #2f4fbf;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.privacy-check-row label {
+    font-size: 0.85rem;
+    color: #334155;
+    cursor: pointer;
+}
+
+.privacy-modal-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.privacy-modal-actions .prism-btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 9px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.86rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.privacy-modal-actions .prism-btn-primary {
+    background: #2f4fbf;
+    border-color: #2f4fbf;
+    color: #ffffff;
+}
+
+.privacy-modal-actions .prism-btn-primary:hover,
+.privacy-modal-actions .prism-btn-primary:focus {
+    background: #2846ad;
+    border-color: #2846ad;
+    color: #ffffff;
+}
+
+.privacy-modal-actions .prism-btn:disabled {
+    opacity: 0.58;
+    pointer-events: none;
+}
+
+@media (max-width: 576px) {
+    .privacy-modal-header,
+    .privacy-modal-body,
+    .privacy-modal-footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .privacy-check-row label {
+        font-size: 0.72rem;
+        white-space: nowrap;
+    }
+
+    .privacy-modal-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .privacy-modal-actions #privacyAcceptBtn {
+        align-self: flex-end;
+    }
+}

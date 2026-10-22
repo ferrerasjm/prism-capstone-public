@@ -1,0 +1,212 @@
+[
+  {
+    "id": "keyboard-insufficient-evidence-en",
+    "text": "The student is seen rearranging the keyboard keys during rounds.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "keyboard-lab-policy-en",
+    "text": "During computer laboratory rounds, a student rearranged keycaps on an assigned workstation without permission, contrary to the posted equipment rules; no keys were damaged.",
+    "expected_label": "MAJOR-45"
+  },
+  {
+    "id": "keyboard-property-damage-en",
+    "text": "A student deliberately snapped keys off a University keyboard and left it unusable.",
+    "expected_label": "MAJOR-15"
+  },
+  {
+    "id": "keyboard-insufficient-evidence-taglish",
+    "text": "Nakita ang student na nagre-rearrange ng keyboard keys during rounds, pero walang details tungkol sa permission, damage, owner, o lab rule.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "keyboard-lab-policy-taglish",
+    "text": "During computer-lab rounds, ni-rearrange ng student without permission ang keycaps ng assigned workstation contrary sa posted lab rules; walang nasira.",
+    "expected_label": "MAJOR-45"
+  },
+  {
+    "id": "keyboard-property-damage-taglish",
+    "text": "Sadyang binali ng student ang keyboard keys hanggang hindi na gumana ang University keyboard.",
+    "expected_label": "MAJOR-15"
+  },
+  {
+    "id": "exam-phone-explicit-aid",
+    "text": "During the examination, the student used a phone beneath the desk to read notes containing answers to the test questions.",
+    "expected_label": "MAJOR-01"
+  },
+  {
+    "id": "exam-phone-no-access",
+    "text": "During the examination, the proctor saw a powered-off phone sealed inside the student's bag, and the student never accessed it.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "exam-phone-permitted-after",
+    "text": "After the examination ended, the proctor allowed the student to retrieve the phone stored at the front of the room.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "weapons-bare-gun-en",
+    "text": "the student is bringing a gun",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-bare-gun-taglish",
+    "text": "May dalang gun ang estudyante sa loob ng campus.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-knife-possession-en",
+    "text": "The student was found carrying a knife inside the University premises.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-firearm-displayed-en",
+    "text": "A student displayed a firearm to classmates while standing in a hallway inside the school area.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-graphic-on-clothing-not-escalated",
+    "text": "The student wore a shirt with a printed gun graphic inside the campus.",
+    "expected_label": "MINOR-04"
+  },
+  {
+    "id": "weapons-id-offense-not-escalated",
+    "text": "The student entered the campus without bringing the issued University ID.",
+    "expected_label": "MINOR-02"
+  },
+  {
+    "id": "weapons-glue-gun-not-a-weapon",
+    "text": "The student used a glue gun while preparing a project display in the classroom.",
+    "forbidden_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-inspection-found-none",
+    "text": "Security inspected the student's bag during rounds and found no weapon of any kind.",
+    "forbidden_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-benign-mention-alongside-a-real-weapon",
+    "text": "The student used a glue gun and also carried a knife in the same bag.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-gun-during-rounds",
+    "text": "The student was found holding a gun during regular rounds.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-ice-pick-at-gate",
+    "text": "An ice pick was pulled out of the student's back pocket during the gate inspection.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "weapons-baril-tagalog",
+    "text": "Nakita ng guwardiya na may nakasukbit na baril sa baywang ng estudyante sa loob ng gusali.",
+    "expected_label": "MAJOR-25"
+  },
+  {
+    "id": "drugs-lay-shabu",
+    "text": "Two small sachets believed to contain shabu fell from the student's pocket during a routine frisk.",
+    "expected_label": "MAJOR-38"
+  },
+  {
+    "id": "drugs-lay-pot",
+    "text": "The student admitted smoking pot at the back gate before the first class started.",
+    "expected_label": "MAJOR-38"
+  },
+  {
+    "id": "liquor-lay-gin",
+    "text": "A half-empty bottle of gin was taken from the student's locker inside the building.",
+    "expected_label": "MAJOR-23"
+  },
+  {
+    "id": "vape-lay-comfort-room",
+    "text": "The student was caught puffing a vape inside the third floor comfort room.",
+    "expected_label": "MAJOR-26"
+  },
+  {
+    "id": "ied-lay-pipe-bomb",
+    "text": "A pipe bomb wrapped in electrical tape was found taped under the student's classroom chair.",
+    "expected_label": "MAJOR-14"
+  },
+  {
+    "id": "hazing-lay-paddle",
+    "text": "Applicants to an unrecognized fraternity were beaten with a wooden paddle during their initiation.",
+    "expected_label": "MAJOR-32"
+  },
+  {
+    "id": "nomatch-id-shown-on-request",
+    "text": "Asked at the turnstile, the student pulled the ID out of a pocket and let the guard scan it.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-permit-for-stockroom",
+    "text": "The student went into the stockroom holding the written permit signed by the property custodian.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-open-notes-long-test",
+    "text": "The teacher told the class the long test was open-notes, and the student used the handouts as instructed.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-prescribed-inhaler",
+    "text": "The student puffed an inhaler prescribed for asthma while waiting outside the clinic.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-nonalcoholic-malt",
+    "text": "The bottle in the bag turned out to be a non-alcoholic malt drink and the label was checked at the gate.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-accidental-bump",
+    "text": "Two students bumped into each other on the stairs, said sorry, and went on to their classes.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-trash-in-bin",
+    "text": "The student dropped the empty juice box into the bin beside the guard house.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-own-account-login",
+    "text": "The student logged into the laboratory computer with a personal NU account to finish an assigned exercise.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-approved-banner",
+    "text": "The council hung a banner on the approved bulletin board after the activities office signed the request.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-clinic-cough-medicine",
+    "text": "The clinic examined the student and reported the smell came from cough medicine, not liquor.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-complete-uniform",
+    "text": "The student arrived in the complete uniform with black leather shoes and the ID on its lace.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-ordinary-library",
+    "text": "The student read a borrowed book at a library table during a vacant period.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "nomatch-terse-blotter-line",
+    "text": "Blotter entry: student observed near Room 210 at 9:15 in the morning.",
+    "expected_label": "NO_MATCH"
+  },
+  {
+    "id": "toy-water-pistol-not-a-weapon",
+    "text": "The student brought a toy water pistol for the intramurals game approved by the adviser.",
+    "forbidden_label": "MAJOR-25"
+  },
+  {
+    "id": "anatomy-atlas-not-pornography",
+    "text": "The nursing student opened an assigned anatomy atlas on the laboratory computer for a required worksheet.",
+    "forbidden_label": "MAJOR-41"
+  }
+]

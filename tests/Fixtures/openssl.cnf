@@ -1,0 +1,7 @@
+# Minimal configuration for ephemeral TEST signing keys only.
+[ req ]
+# PHP validates this generic setting even when the EC curve sets key size.
+default_bits = 2048
+distinguished_name = req_distinguished_name
+
+[ req_distinguished_name ]

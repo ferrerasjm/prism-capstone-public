@@ -1,0 +1,86 @@
+[
+  {
+    "id": "contact-punch-seatmate-jaw-en",
+    "text": "He punched his seatmate in the jaw when the teacher stepped out of the room.",
+    "expected_label": "MAJOR-11",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-punch-nose-library-tl",
+    "text": "Sinuntok ng first-year student ang kaklase sa ilong sa loob ng library.",
+    "expected_label": "MAJOR-11",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-slap-quadrangle-en",
+    "text": "The student slapped another student hard during the break in the quadrangle.",
+    "expected_label": "MAJOR-11",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-kick-cashier-line-taglish",
+    "text": "Sinipa ng student ang kaklase sa likod habang nakapila sa cashier.",
+    "expected_label": "MAJOR-11",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-reported-narrative-en",
+    "text": "During lunch break, he punched another student in the face following a verbal disagreement.",
+    "expected_label": "MAJOR-11",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-bare-punch-en",
+    "text": "The student punched another student in the face.",
+    "expected_label": "MAJOR-11",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-mutual-parking-tl",
+    "text": "Nagsuntukan ang dalawang estudyante sa parking area bago dumating ang guard.",
+    "expected_label": "MAJOR-10",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-mutual-gym-en",
+    "text": "Two classmates traded blows behind the gym until a teacher pulled them apart.",
+    "expected_label": "MAJOR-10",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-provocation-no-punch-en",
+    "text": "The student kept insulting a classmate's family until the two squared off and shouted at each other, though no punches were thrown.",
+    "expected_label": "MAJOR-13",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-provocation-challenge-taglish",
+    "text": "Hinamon ng estudyante ang kaklase na makipag-away at nauwi ito sa sigawan, pero walang nanakit.",
+    "expected_label": "MAJOR-13",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-arm-grab-not-lascivious-en",
+    "text": "The student grabbed a classmate's arm and pulled him out of the line during an argument.",
+    "expected_label": null,
+    "forbidden_label": "MAJOR-42"
+  },
+  {
+    "id": "contact-locker-push-not-lascivious-en",
+    "text": "The student pushed a classmate against the locker after a disagreement.",
+    "expected_label": null,
+    "forbidden_label": "MAJOR-42"
+  },
+  {
+    "id": "contact-control-lascivious-en",
+    "text": "The student touched a classmate's chest in a sexual manner without consent inside the elevator.",
+    "expected_label": "MAJOR-42",
+    "forbidden_label": null
+  },
+  {
+    "id": "contact-control-assault-guard-en",
+    "text": "The student punched the security guard who asked him to show his ID at the gate.",
+    "expected_label": "MAJOR-12",
+    "forbidden_label": null
+  }
+]

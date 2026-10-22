@@ -1,0 +1,1122 @@
+[
+  {
+    "offense_code": "MAJOR-01",
+    "offense_type": "major",
+    "offense_title": "Cheating or academic dishonesty",
+    "handbook_section": "VI.E",
+    "handbook_item": 1,
+    "handbook_page": 35,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-01-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "During a departmental midterm, a student repeatedly unfolded a handwritten formula sheet hidden beneath the answer booklet even though no reference materials were allowed.",
+          "tl": "Sa departmental midterm, paulit-ulit na tiningnan ng isang estudyante ang sulat-kamay na kodigo na nakatago sa ilalim ng answer booklet kahit bawal ang anumang reference material.",
+          "taglish": "During the departmental midterm, paulit-ulit na binubuksan ng isang student ang handwritten formula sheet na nakatago sa ilalim ng answer booklet kahit closed-notes ang exam."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-01-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A proctor observed a student leaning toward the next seat and reproducing several answers from a classmate's test paper before the papers were collected.",
+          "tl": "Napansin ng proctor na sumisilip ang isang estudyante sa katabing test paper at kinopya ang ilang sagot mula rito bago kolektahin ang mga papel.",
+          "taglish": "Napansin ng proctor na sumisilip ang student sa test paper ng katabi at kinokopya ang ilang answers bago matapos ang exam."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-01-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "online_class",
+        "texts": {
+          "en": "While an individually graded online quiz was open, a student used a private group chat to ask classmates for the answers and submitted the responses they sent.",
+          "tl": "Habang bukas ang indibidwal na online quiz, humingi ang isang estudyante ng mga sagot sa private group chat at isinumite ang mga sagot na ipinadala ng mga kaklase.",
+          "taglish": "Habang ongoing ang individually graded online quiz, nag-message ang student sa private group chat para humingi ng answers at iyon ang isinagot sa quiz."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-01-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A submitted case analysis contained several pages and conclusions copied verbatim from another student's earlier paper, with no quotation or attribution.",
+          "tl": "Ang isinumiteng case analysis ay may ilang pahina at kongklusyong kinopya nang buo mula sa naunang papel ng ibang estudyante, nang walang sipi o pagkilala sa pinagmulan.",
+          "taglish": "Sa submitted case analysis, ilang pages at pati conclusions ang verbatim na kinuha mula sa paper ng ibang student without citation or acknowledgment."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-01-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "online_class",
+        "texts": {
+          "en": "For an assessment that expressly prohibited generative tools, a student used generative AI to produce the entire reflection and submitted the output unchanged.",
+          "tl": "Sa assessment na malinaw na nagbabawal ng generative tools, gumamit ang isang estudyante ng generative AI upang buuin ang buong reflection at isinumite ang output nang walang pagbabago.",
+          "taglish": "Sa assessment na explicitly bawal ang generative tools, gumamit ang student ng Gen AI para buuin ang buong reflection at sinubmit ang output without changes."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-02",
+    "offense_type": "major",
+    "offense_title": "Unjust enrichment or stealing",
+    "handbook_section": "VI.E",
+    "handbook_item": 2,
+    "handbook_page": 35,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-02-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "classroom",
+        "texts": {
+          "en": "During a class break, a student opened an unattended bag, removed the wallet inside, and hid it in a jacket pocket before the owner returned.",
+          "tl": "Sa break ng klase, binuksan ng isang estudyante ang bag na walang bantay, kinuha ang wallet sa loob, at itinago ito sa bulsa ng jacket bago bumalik ang may-ari.",
+          "taglish": "During class break, binuksan ng student ang unattended bag, kinuha ang wallet sa loob, at itinago sa jacket pocket bago makabalik ang owner."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-02-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "laboratory",
+        "texts": {
+          "en": "A student placed a University-owned wireless mouse in a backpack and tried to leave the laboratory with it until the laboratory aide stopped the student at the door.",
+          "tl": "Inilagay ng isang estudyante sa backpack ang wireless mouse ng Unibersidad at sinubukang ilabas ito sa laboratoryo hanggang sa pigilan siya ng laboratory aide sa pinto.",
+          "taglish": "Nilagay ng student sa backpack ang University-owned wireless mouse at palabas na sana ng laboratory nang pigilan siya ng lab aide sa door."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-02-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "corridor",
+        "texts": {
+          "en": "After finding a phone in a campus corridor, a student removed its SIM card, concealed the device in a locker, and ignored an announcement directing found property to the SDO.",
+          "tl": "Matapos makakita ng cellphone sa corridor, inalis ng isang estudyante ang SIM, itinago ang device sa locker, at hindi pinansin ang anunsiyong dalhin sa SDO ang mga napulot na gamit.",
+          "taglish": "After finding a phone sa campus corridor, tinanggal ng student ang SIM, itinago ang device sa locker, at hindi pinansin ang announcement na i-turn over sa SDO ang found items."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-02-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "The Treasury Office accidentally released a cash refund larger than the amount due; after staff immediately explained the error, the student kept the excess and left campus with it.",
+          "tl": "Nagkamaling magbigay ang Treasury Office ng cash refund na mas malaki sa dapat. Kahit agad ipinaliwanag ng staff ang pagkakamali, itinago ng estudyante ang sobrang pera at umalis ng campus.",
+          "taglish": "Nag-release ang Treasury Office ng cash refund na sobra sa dapat; kahit agad sinabi ng staff ang error, kinimkim ng student ang excess at umalis ng campus."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-02-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "library",
+        "texts": {
+          "en": "Library footage showed a student taking another user's power bank from a charging station, placing it inside a tote bag, and later denying possession until it was recovered.",
+          "tl": "Makikita sa library footage na kinuha ng isang estudyante ang power bank ng ibang gumagamit mula sa charging station at inilagay sa tote bag; itinanggi niya ito hanggang sa mabawi ang gamit.",
+          "taglish": "Sa library footage, makikitang kinuha ng student ang power bank ng ibang user sa charging station at nilagay sa tote bag, then denied having it until it was recovered."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-03",
+    "offense_type": "major",
+    "offense_title": "Unauthorized collection or exaction of money",
+    "handbook_section": "VI.E",
+    "handbook_item": 3,
+    "handbook_page": 35,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-03-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A class representative required every classmate to pay a laboratory fee through a personal e-wallet even though the faculty member and college office had approved no such collection.",
+          "tl": "Inobliga ng class representative ang bawat kaklase na magbayad ng laboratory fee sa personal niyang e-wallet kahit walang inaprubahang ganoong koleksiyon ang guro o college office.",
+          "taglish": "Pinagbabayad ng class representative ang buong class ng laboratory fee through a personal e-wallet kahit walang approved collection mula sa faculty at college office."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-03-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "A student collected compulsory cash payments for seats at a University seminar, although registration was free and the organizing office had authorized no collector.",
+          "tl": "Nangolekta ang isang estudyante ng sapilitang bayad para sa mga upuan sa University seminar kahit libre ang registration at walang awtorisadong maningil ang organizing office.",
+          "taglish": "Nangolekta ang student ng mandatory cash para raw sa seats sa University seminar kahit free ang registration at walang authorized collector ang organizing office."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-03-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "office",
+        "texts": {
+          "en": "A student collected cash from graduating classmates for processing their University clearance even though no campus office had authorized the student to handle such a collection.",
+          "tl": "Nangolekta ang isang estudyante ng pera mula sa mga graduating na kaklase para sa pagproseso ng kanilang University clearance kahit walang opisina sa kampus na nag-awtorisa sa kaniya na maningil.",
+          "taglish": "Nangolekta ang student ng cash mula sa graduating classmates para sa processing ng University clearance kahit walang campus office na nag-authorize sa kaniya na humawak ng collection."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-03-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "classroom",
+        "texts": {
+          "en": "Without approval from the program chair, a student demanded a fixed amount from each practicum group as a supposed mandatory processing charge for their school requirements.",
+          "tl": "Nang walang pahintulot ng program chair, naningil ang isang estudyante ng takdang halaga sa bawat practicum group bilang umano'y mandatory processing charge sa kanilang school requirements.",
+          "taglish": "Without the program chair's approval, naningil ang student ng fixed amount sa bawat practicum group as a supposed mandatory processing charge for school requirements."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-03-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "classroom",
+        "texts": {
+          "en": "An organization officer ordered members to send an unapproved activity fee to a personal account and withheld their participation forms until they paid.",
+          "tl": "Inutusan ng organization officer ang mga miyembro na ipadala sa personal account ang hindi aprubadong activity fee at hindi ibinigay ang participation forms hangga't hindi sila nagbabayad.",
+          "taglish": "Pinagbabayad ng organization officer ang members ng unapproved activity fee sa personal account at hinold ang participation forms hanggang makapagbayad sila."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-04",
+    "offense_type": "major",
+    "offense_title": "Selling items or soliciting contributions without approval",
+    "handbook_section": "VI.E",
+    "handbook_item": 4,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-04-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "violation_slip",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A student took paid orders for homemade snacks during class and distributed the products on campus without securing permission for the business.",
+          "tl": "Tumanggap ang isang estudyante ng bayad na orders para sa homemade snacks habang may klase at ipinamahagi ang mga produkto sa campus nang walang pahintulot para sa negosyo.",
+          "taglish": "Tumanggap ang student ng paid orders para sa homemade snacks during class at dinistribute ang products on campus nang walang business approval."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-04-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "corridor",
+        "texts": {
+          "en": "Between classes, a student displayed phone cases on a corridor bench and accepted cash from buyers despite having no campus vending permit.",
+          "tl": "Sa pagitan ng mga klase, naglatag ang isang estudyante ng mga phone case sa bench sa corridor at tumanggap ng bayad kahit wala siyang permit na magtinda sa campus.",
+          "taglish": "Between classes, nag-display ang student ng phone cases sa corridor bench at tumanggap ng cash from buyers kahit walang campus vending permit."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-04-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A student went from room to room asking for voluntary cash donations for a self-organized relief drive that had not been approved by the University.",
+          "tl": "Nag-ikot ang isang estudyante sa mga silid upang humingi ng boluntaryong donasyong pera para sa sariling relief drive na hindi inaprubahan ng Unibersidad.",
+          "taglish": "Nag-room-to-room ang student asking for voluntary cash donations para sa sariling relief drive na wala namang University approval."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-04-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "canteen",
+        "texts": {
+          "en": "A student regularly met buyers in the canteen to deliver cosmetic products promoted through a class group chat, without prior authority to operate on campus.",
+          "tl": "Regular na nakikipagkita ang isang estudyante sa mga buyer sa canteen para i-deliver ang cosmetic products na ibinebenta sa class group chat, nang walang pahintulot na magnegosyo sa campus.",
+          "taglish": "Regular na nakikipag-meet ang student sa buyers sa canteen to deliver cosmetics advertised in the class group chat kahit walang authority to do business on campus."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-04-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "violation_slip",
+        "location_context": "library",
+        "texts": {
+          "en": "Near the library entrance, a student accepted advance payments for personally printed reviewers and handed out order slips without an approved selling activity.",
+          "tl": "Malapit sa pasukan ng library, tumanggap ang isang estudyante ng advance payment para sa sariling printed reviewers at namigay ng order slips kahit walang aprubadong selling activity.",
+          "taglish": "Near the library entrance, tumanggap ang student ng advance payments for personally printed reviewers and gave order slips kahit walang approved selling activity."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-05",
+    "offense_type": "major",
+    "offense_title": "Forging, falsifying, or tampering with official records or documents",
+    "handbook_section": "VI.E",
+    "handbook_item": 5,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-05-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "A student altered a downloaded grade report to replace a failing mark with a passing grade and submitted the edited record for a scholarship requirement.",
+          "tl": "Binago ng isang estudyante ang downloaded grade report upang palitan ng pasado ang bagsak na marka at isinumite ang edited record bilang scholarship requirement.",
+          "taglish": "In-edit ng student ang downloaded grade report, pinalitan ang failing mark ng passing grade, at sinubmit ang altered record for a scholarship requirement."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-05-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "To process a late enrollment request, a student copied the dean's signature onto the form even though the dean had never reviewed or signed it.",
+          "tl": "Para maiproseso ang late enrollment request, kinopya ng isang estudyante ang pirma ng dean sa form kahit hindi ito nirepaso o pinirmahan ng dean.",
+          "taglish": "Para ma-process ang late enrollment request, kinopya ng student ang dean's signature sa form kahit hindi ito ni-review o pinirmahan ng dean."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-05-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A student changed the consultation date on a medical certificate and submitted the modified copy to obtain an excused absence from a required class.",
+          "tl": "Pinalitan ng isang estudyante ang petsa ng konsultasyon sa medical certificate at isinumite ang binagong kopya upang ma-excuse sa required class.",
+          "taglish": "Binago ng student ang consultation date sa medical certificate at sinubmit ang modified copy para ma-excuse sa required class."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-05-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "A student digitally added an unregistered course and a false section assignment to a Certificate of Registration before presenting it to a campus office.",
+          "tl": "Digital na idinagdag ng isang estudyante ang hindi rehistradong subject at maling section sa Certificate of Registration bago ito ipakita sa isang campus office.",
+          "taglish": "Digitally dinagdagan ng student ang Certificate of Registration ng unregistered course at false section assignment bago ito i-present sa campus office."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-05-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "When asked for proof of payment, a student presented a University receipt image whose amount and reference number had been edited to show a transaction that did not occur.",
+          "tl": "Nang hingan ng proof of payment, nagpakita ang isang estudyante ng larawan ng University receipt na binago ang halaga at reference number upang magmukhang may transaksiyong hindi naman nangyari.",
+          "taglish": "When asked for proof of payment, nag-present ang student ng University receipt image na edited ang amount at reference number para magmukhang may transaction na hindi nangyari."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-06",
+    "offense_type": "major",
+    "offense_title": "Perjury",
+    "handbook_section": "VI.E",
+    "handbook_item": 6,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-06-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "In a sworn statement submitted to the SDO, a student knowingly claimed to have been off campus during an incident despite verified records showing the student was present.",
+          "tl": "Sa sinumpaang salaysay na isinumite sa SDO, sadyang sinabi ng isang estudyante na wala siya sa campus noong insidente kahit pinatutunayan ng records na naroon siya.",
+          "taglish": "Sa sworn statement submitted to the SDO, sinabi ng student na off campus siya kahit alam niyang false iyon at ipinakita ng verified records na present siya."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-06-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "While testifying under oath in an administrative proceeding, a student deliberately denied receiving a notice that the student had personally acknowledged in writing.",
+          "tl": "Habang nagbibigay ng testimonya sa ilalim ng panunumpa sa administrative proceeding, sadyang itinanggi ng isang estudyante ang notice na personal niyang kinilalang natanggap sa pamamagitan ng pirma.",
+          "taglish": "While testifying under oath sa administrative proceeding, deliberately itinanggi ng student na natanggap ang notice kahit may personal written acknowledgment siya."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-06-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "A student signed a required sworn declaration stating that no disciplinary case was pending, despite having personally received the current notice of proceedings.",
+          "tl": "Lumagda ang isang estudyante sa kinakailangang sinumpaang deklarasyon na wala siyang nakabinbing disciplinary case kahit personal niyang natanggap ang kasalukuyang notice of proceedings.",
+          "taglish": "The student signed a required sworn declaration na walang pending disciplinary case kahit personally received na niya ang current notice of proceedings."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-06-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "In a sworn and notarized response made under oath for a disciplinary inquiry, a student knowingly stated that no messages had been sent even though the student authored the preserved conversation.",
+          "tl": "Sa sinumpaan at notarized na tugon na ginawa sa ilalim ng panunumpa para sa disciplinary inquiry, sadyang sinabi ng isang estudyante na wala siyang ipinadalang mensahe kahit siya ang may-akda ng naka-preserve na usapan.",
+          "taglish": "Sa sworn and notarized response made under oath for the disciplinary inquiry, sinabi ng student na wala raw siyang ipinadalang messages kahit siya ang author ng preserved conversation."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-06-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "A student executed an affidavit claiming to have personally witnessed a laboratory incident, then admitted during questioning that the account was invented and the student was elsewhere.",
+          "tl": "Gumawa ang isang estudyante ng affidavit na nagsasabing personal niyang nasaksihan ang insidente sa laboratoryo, ngunit inamin niya habang tinatanong na gawa-gawa ang salaysay at nasa ibang lugar siya.",
+          "taglish": "Sa affidavit, sinabi ng student na personal niyang nasaksihan ang lab incident, pero inamin niya during questioning na gawa-gawa ang account at nasa ibang lugar siya."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-07",
+    "offense_type": "major",
+    "offense_title": "Lending or using someone else's University ID",
+    "handbook_section": "VI.E",
+    "handbook_item": 7,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-07-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "campus_gate",
+        "texts": {
+          "en": "A student handed a personal University ID to an unenrolled friend so the friend could present it to security and enter through the student gate.",
+          "tl": "Ibinigay ng isang estudyante ang sariling University ID sa kaibigang hindi enrolled upang maipakita ito sa security at makapasok sa student gate.",
+          "taglish": "Ipinahiram ng student ang personal University ID sa unenrolled friend para ma-present nito sa security at makapasok through the student gate."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-07-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "library",
+        "texts": {
+          "en": "At the library counter, a student presented a classmate's University ID to check out a general-circulation book under the classmate's name.",
+          "tl": "Sa library counter, ipinakita ng isang estudyante ang University ID ng kaklase upang makahiram ng aklat na maaaring ilabas gamit ang pangalan nito.",
+          "taglish": "Sa library counter, ginamit ng student ang University ID ng classmate para mag-check out ng general-circulation book under the classmate's name."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-07-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "campus_gate",
+        "texts": {
+          "en": "During entry verification, security found that the card a student had tapped and displayed carried another student's photograph and name.",
+          "tl": "Sa entry verification, napansin ng security na ang card na itinap at ipinakita ng estudyante ay may larawan at pangalan ng ibang estudyante.",
+          "taglish": "During entry verification, nakita ng security na ibang student's photo and name ang nasa card na tinap at ipinakita ng student."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-07-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "library",
+        "texts": {
+          "en": "A student lent a University ID to an enrolled classmate who had forgotten their own card so the classmate could present the borrowed ID at the library entrance.",
+          "tl": "Ipinahiram ng isang estudyante ang University ID sa enrolled na kaklaseng nakalimot ng sariling kard upang maipakita nito ang hiniram na ID sa pasukan ng library.",
+          "taglish": "Ipinahiram ng student ang University ID sa enrolled classmate na nakalimot ng sariling card para ma-present nito ang borrowed ID sa library entrance."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-07-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "A student used a roommate's University ID at a service desk to receive a document released only after the cardholder's identity was checked.",
+          "tl": "Ginamit ng isang estudyante ang University ID ng roommate sa service desk upang kunin ang dokumentong inilalabas lamang matapos beripikahin ang pagkakakilanlan ng cardholder.",
+          "taglish": "A student used a roommate's University ID sa service desk to receive a document na nire-release only after checking the cardholder's identity."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-08",
+    "offense_type": "major",
+    "offense_title": "Misconduct inside the class, library, laboratory, or campus",
+    "handbook_section": "VI.E",
+    "handbook_item": 8,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-08-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "During a regular lecture, a student repeatedly shouted jokes and unrelated comments after several warnings, forcing the instructor to stop teaching and remove the student.",
+          "tl": "Sa regular na lecture, paulit-ulit na sumigaw ng mga biro at walang kaugnayang komento ang isang estudyante kahit ilang beses nang binalaan, kaya itinigil ng guro ang pagtuturo at pinalabas siya.",
+          "taglish": "During a regular lecture, paulit-ulit na sumigaw ng jokes at unrelated comments ang student despite several warnings, kaya napahinto ang instructor at pinalabas siya."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-08-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "online_class",
+        "texts": {
+          "en": "In a live online class, a student deliberately played loud audio through the microphone and flooded the chat with unrelated messages until the discussion could not continue.",
+          "tl": "Sa live online class, sadyang nagpatugtog nang malakas sa mikropono ang isang estudyante at binaha ng walang kaugnayang mensahe ang chat hanggang hindi na maipagpatuloy ang talakayan.",
+          "taglish": "Sa live online class, deliberately nag-play ng loud audio through the mic ang student at nag-flood ng unrelated messages sa chat until the discussion had to stop."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-08-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "library",
+        "texts": {
+          "en": "A student played music from a portable speaker while the student and companions repeatedly laughed and shouted in the quiet study area, continuing after library staff directed them to stop.",
+          "tl": "Nagpatugtog ang isang estudyante gamit ang portable speaker habang paulit-ulit silang nagtawanan at nagsigawan ng mga kasama niya sa quiet study area, at nagpatuloy kahit pinatigil na ng library staff.",
+          "taglish": "Nag-play ang student ng music sa portable speaker habang paulit-ulit na nagtawanan at nagsigawan sila ng companions niya sa quiet study area, kahit pinapatigil na ng library staff."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-08-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "laboratory",
+        "texts": {
+          "en": "While laboratory instructions were being given, a student repeatedly whistled, banged on the worktable, and interrupted the instructor, delaying the entire session.",
+          "tl": "Habang nagbibigay ng laboratory instructions, paulit-ulit na sumipol, kumalabog sa worktable, at sumabad sa instructor ang isang estudyante kaya naantala ang buong session.",
+          "taglish": "While lab instructions were being given, paulit-ulit na nag-whistle, kumalabog sa worktable, at nag-interrupt sa instructor ang student, kaya na-delay ang buong session."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-08-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "Instead of joining the lesson, a student repeatedly played sound effects from a phone and drummed on the desk to draw reactions from classmates; normal discussion resumed only after the student left.",
+          "tl": "Sa halip na makilahok sa aralin, paulit-ulit na nagpatugtog ang isang estudyante ng sound effects sa cellphone at kinalabog ang mesa para magpa-react ang mga kaklase; nagpatuloy lamang nang maayos ang klase nang umalis siya.",
+          "taglish": "Instead of joining the lesson, paulit-ulit na nag-play ang student ng sound effects sa phone at nag-drum sa desk para mag-react ang classmates; naging normal lang ulit ang discussion after the student left."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-09",
+    "offense_type": "major",
+    "offense_title": "Deliberate disruption of an academic function or school activity",
+    "handbook_section": "VI.E",
+    "handbook_item": 9,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-09-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "During a University research symposium, a student seized an unattended microphone, shouted over the presenter, and refused to yield the floor until organizers suspended the session.",
+          "tl": "Sa University research symposium, kinuha ng isang estudyante ang mikroponong walang bantay, sinapawan ng sigaw ang presenter, at ayaw itong ibalik hanggang suspendihin ng organizers ang session.",
+          "taglish": "During the University research symposium, kinuha ng student ang unattended microphone, sinapawan ng sigaw ang presenter, at ayaw itong ibalik until organizers suspended the session."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-09-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "A student deliberately led repeated shouting during a solemn recognition program, drowning out the speakers and causing the ceremony to pause for crowd control.",
+          "tl": "Sadyang pinangunahan ng isang estudyante ang paulit-ulit na sigawan sa solemn recognition program, natabunan ang mga speaker, at kinailangang ihinto ang seremonya para maayos ang crowd.",
+          "taglish": "Sadyang pinangunahan ng student ang repeated shouting during a solemn recognition program, kaya natabunan ang speakers at kinailangang i-pause ang ceremony for crowd control."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-09-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "During a college assembly, a student blocked the stage entrance and repeatedly sounded a handheld siren so invited speakers could not begin the program.",
+          "tl": "Sa college assembly, hinarangan ng isang estudyante ang pasukan sa stage at paulit-ulit na nagpatunog ng handheld siren kaya hindi makapagsimula ang invited speakers.",
+          "taglish": "During the college assembly, hinarangan ng student ang stage entrance at paulit-ulit na pinatunog ang handheld siren kaya hindi makapagsimula ang invited speakers."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-09-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "official_off_campus_activity",
+        "texts": {
+          "en": "At a University-organized outreach program off campus, a student repeatedly interrupted the briefing with a megaphone and prevented participants from hearing safety instructions.",
+          "tl": "Sa University-organized outreach program sa labas ng campus, paulit-ulit na sumabat gamit ang megaphone ang isang estudyante at hindi marinig ng participants ang safety instructions.",
+          "taglish": "At a University-organized off-campus outreach, paulit-ulit na nag-interrupt gamit ang megaphone ang student, so participants could not hear the safety briefing."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-09-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "As an academic quiz competition started, a student intentionally kept triggering loud alarms from several hidden phones, creating confusion and forcing officials to clear the venue.",
+          "tl": "Nang magsimula ang academic quiz competition, sadyang paulit-ulit na pinatunog ng isang estudyante ang alarms ng ilang nakatagong cellphone, nagdulot ng kaguluhan, at napilitang palabasin ng officials ang lahat.",
+          "taglish": "As the academic quiz competition began, sadyang pinatunog ng student ang loud alarms mula sa ilang hidden phones, causing confusion kaya pina-clear ng officials ang venue."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-10",
+    "offense_type": "major",
+    "offense_title": "Brawl within the University premises or during a school activity",
+    "handbook_section": "VI.E",
+    "handbook_item": 10,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-10-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "corridor",
+        "texts": {
+          "en": "Two students exchanged punches and kicks in a classroom corridor, continuing the fight until security personnel separated them.",
+          "tl": "Nagsuntukan at nagsipaan ang dalawang estudyante sa corridor ng mga classroom at nagpatuloy hanggang awatin sila ng security personnel.",
+          "taglish": "Nagsuntukan at nagsipaan ang two students sa classroom corridor at nagpatuloy ang fight until pinaghiwalay sila ng security personnel."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-10-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "campus_gate",
+        "texts": {
+          "en": "Several students from two groups engaged in a sustained fistfight in the parking area beside the campus gate, with members on both sides joining the melee.",
+          "tl": "Nagkaroon ng matagal na suntukan ang dalawang grupo ng mga estudyante sa parking area katabi ng campus gate, at may mga sumali mula sa magkabilang panig.",
+          "taglish": "Nagkaroon ng sustained fistfight ang students from two groups sa parking area beside the campus gate, at may sumali from both sides sa melee."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-10-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "official_off_campus_activity",
+        "texts": {
+          "en": "During an official off-campus sports event, two student participants left the sideline and traded repeated blows before event marshals intervened.",
+          "tl": "Sa opisyal na off-campus sports event, umalis sa sideline ang dalawang student participant at paulit-ulit na nagsuntukan bago sila awatin ng event marshals.",
+          "taglish": "During an official off-campus sports event, two student participants left the sideline and traded repeated blows bago sila inawat ng event marshals."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-10-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "canteen",
+        "texts": {
+          "en": "A disagreement in the canteen escalated into a mutual fight involving four students who punched and grappled with one another until staff broke it up.",
+          "tl": "Nauwi sa magkabilang-panig na away ang pagtatalo sa canteen, kung saan nagsuntukan at nag-agawan ang apat na estudyante hanggang awatin ng staff.",
+          "taglish": "During a disagreement sa canteen, nauwi sa mutual fight ang group of four students na nagsuntukan at nag-grapple until staff broke it up."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-10-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "campus_gate",
+        "texts": {
+          "en": "Shortly after dismissal, students from opposing groups met in the entrance plaza just inside the University gate and took part in a rumble that security had to disperse.",
+          "tl": "Pagkatapos ng dismissal, nagtagpo ang magkalabang grupo ng mga estudyante sa entrance plaza sa loob mismo ng University gate at nag-rambulan hanggang paalisin sila ng security.",
+          "taglish": "Shortly after dismissal, nagkita ang opposing student groups sa entrance plaza just inside the University gate at nag-rambulan until security dispersed them."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-11",
+    "offense_type": "major",
+    "offense_title": "Inflicting physical injuries on another person",
+    "handbook_section": "VI.E",
+    "handbook_item": 11,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-11-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "corridor",
+        "texts": {
+          "en": "Without a mutual fight, a student struck a classmate in the face in the corridor, causing a bleeding nose that required treatment at the clinic.",
+          "tl": "Kahit walang gantihang away, sinuntok ng isang estudyante sa mukha ang kaklase sa corridor, na nagdulot ng pagdurugo ng ilong at kinailangang gamutin sa clinic.",
+          "taglish": "Without a mutual fight, sinuntok ng student sa face ang classmate sa corridor, causing a bleeding nose that required clinic treatment."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-11-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "corridor",
+        "texts": {
+          "en": "A student deliberately shoved another student down several steps, resulting in a sprained ankle documented by the campus clinic.",
+          "tl": "Sadyang itinulak ng isang estudyante ang kapwa estudyante pababa ng ilang baitang, na nagresulta sa sprained ankle na naitala ng campus clinic.",
+          "taglish": "Sadyang tinulak ng student ang kapwa student down several steps, resulting in a sprained ankle documented by the campus clinic."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-11-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "At a campus exhibit, a student threw a metal tumbler at another student, striking the arm and leaving a cut that needed first aid.",
+          "tl": "Sa campus exhibit, ibinato ng isang estudyante ang metal tumbler sa kapwa estudyante, tumama ito sa braso at nag-iwan ng sugat na kinailangang lapatan ng first aid.",
+          "taglish": "At a campus exhibit, ibinato ng student ang metal tumbler sa kapwa student, tumama sa braso, at nag-iwan ng cut na kailangan ng first aid."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-11-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "laboratory",
+        "texts": {
+          "en": "Inside a laboratory, a student intentionally slammed a cabinet door onto a classmate's hand, causing swelling and a fractured finger.",
+          "tl": "Sa loob ng laboratoryo, sadyang isinara nang malakas ng isang estudyante ang cabinet door sa kamay ng kaklase, na nagdulot ng pamamaga at bali sa daliri.",
+          "taglish": "Inside the laboratory, intentionally sinarhan nang malakas ng student ang cabinet door sa classmate's hand, causing swelling and a fractured finger."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-11-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "official_off_campus_activity",
+        "texts": {
+          "en": "During a University field activity, a student kicked a seated classmate after an argument, leaving bruising confirmed by the assigned first-aid team.",
+          "tl": "Sa University field activity, sinipa ng isang estudyante ang nakaupong kaklase matapos ang pagtatalo, at nagkaroon ito ng pasa na kinumpirma ng assigned first-aid team.",
+          "taglish": "During a University field activity, sinipa ng student ang seated classmate after an argument, leaving bruises confirmed by the assigned first-aid team."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-12",
+    "offense_type": "major",
+    "offense_title": "Direct assault upon a member of the University community",
+    "handbook_section": "VI.E",
+    "handbook_item": 12,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-12-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "campus_gate",
+        "texts": {
+          "en": "During a lawful bag inspection at the gate, a student swung a fist at the security guard who was carrying out the check.",
+          "tl": "Habang isinasagawa ang awtorisadong bag inspection sa gate, sinubukang suntukin ng isang estudyante ang security guard na gumagawa ng pagsusuri.",
+          "taglish": "During a lawful bag inspection sa gate, tinangkang suntukin ng student ang security guard who was carrying out the check."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-12-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "office",
+        "texts": {
+          "en": "After a grade consultation, a student forcefully shoved the professor who had just explained the official evaluation and tried to block the professor from leaving.",
+          "tl": "Matapos ang grade consultation, malakas na itinulak ng isang estudyante ang propesor na nagpaliwanag ng opisyal na evaluation at hinarangan itong makaalis.",
+          "taglish": "After a grade consultation, forcefully itinulak ng student ang professor who explained the official evaluation and tried to block the professor from leaving."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-12-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "office",
+        "texts": {
+          "en": "While an administrative support employee was enforcing the service queue, a student reached across the counter and slapped the employee.",
+          "tl": "Habang ipinapatupad ng administrative support employee ang pila sa serbisyo, dumukwang ang isang estudyante sa counter at sinampal ang empleyado.",
+          "taglish": "While an administrative support employee was enforcing the service queue, dumukwang ang student across the counter at sinampal ang employee."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-12-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "At a University program, a student grabbed and struck a designated student marshal who was directing attendees away from a restricted backstage area.",
+          "tl": "Sa isang University program, hinawakan at sinaktan ng isang estudyante ang designated student marshal na nagdidirekta sa attendees palayo sa restricted backstage area.",
+          "taglish": "At a University program, hinawakan at sinaktan ng student ang designated student marshal who was directing attendees away from the restricted backstage area."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-12-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "laboratory",
+        "texts": {
+          "en": "When a laboratory instructor stopped an unsafe procedure, a student grabbed the instructor by the uniform and attempted to hit the instructor with a clenched fist.",
+          "tl": "Nang pigilan ng laboratory instructor ang unsafe procedure, hinablot ng isang estudyante ang uniporme ng instructor at tinangkang suntukin ito.",
+          "taglish": "When the laboratory instructor stopped an unsafe procedure, hinablot ng student ang instructor's uniform at tinangkang suntukin ito."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-13",
+    "offense_type": "major",
+    "offense_title": "Provocation resulting in a heated verbal or physical confrontation",
+    "handbook_section": "VI.E",
+    "handbook_item": 13,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-13-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "corridor",
+        "texts": {
+          "en": "A student repeatedly taunted a group of classmates in the corridor until they surrounded the student and a heated shouting confrontation followed; staff intervened before anyone struck a blow.",
+          "tl": "Paulit-ulit na inasar ng isang estudyante ang grupo ng mga kaklase sa corridor hanggang palibutan siya ng mga ito at magkaroon ng mainitang sagutan; umawat ang staff bago may manakit.",
+          "taglish": "Paulit-ulit na inasar at hinamon ng student ang group of classmates sa corridor until they surrounded the student and a heated shouting confrontation followed; umawat ang staff bago may sumuntok."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-13-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "canteen",
+        "texts": {
+          "en": "A student walked to another table, issued repeated personal challenges, and mocked the group until several students stood and engaged in an intense face-to-face argument.",
+          "tl": "Lumapit ang isang estudyante sa kabilang mesa, paulit-ulit na humamon at nang-insulto hanggang tumayo ang ilang estudyante at magkaroon ng matinding harapang pagtatalo.",
+          "taglish": "Lumapit ang student sa kabilang table, paulit-ulit na humamon at nang-insulto until several students stood up at nagkaroon ng intense face-to-face argument."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-13-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "Before an intramural match, a student deliberately insulted and gestured at the opposing student group until both sides moved into a hostile face-off that marshals had to separate.",
+          "tl": "Bago ang intramural match, sadyang ininsulto at sinenyasan ng isang estudyante ang kalabang student group hanggang mauwi sa tensiyosong harapan na kinailangang paghiwalayin ng marshals.",
+          "taglish": "Before an intramural match, sadyang ininsulto ng student ang opposing group at sinabayan ng provocative gestures until nauwi sa hostile face-off na inawat ng marshals."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-13-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "After class, a student repeatedly dared several classmates to confront the student and used inflammatory remarks until a loud, heated exchange disrupted the room.",
+          "tl": "Pagkatapos ng klase, paulit-ulit na hinamon ng isang estudyante ang ilang kaklase at gumamit ng mapanulsol na salita hanggang magkaroon ng malakas at mainitang sagutan sa silid.",
+          "taglish": "After class, repeatedly hinamon ng student ang several classmates and used inflammatory remarks until a loud, heated exchange disrupted the room."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-13-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "corridor",
+        "texts": {
+          "en": "A student followed a group through the hallway while making hostile remarks and daring them to respond, leading to a tense confrontation that a faculty member stopped before it became a fight.",
+          "tl": "Sinundan ng isang estudyante ang grupo sa hallway habang nagsasabi ng mapanulsol na salita at hinahamon silang sumagot, kaya nauwi sa tensiyosong komprontasyon na pinigil ng guro bago maging suntukan.",
+          "taglish": "Sinundan ng student ang group through the hallway, making hostile remarks and daring them to respond, leading to a tense confrontation na pinigil ng faculty member before a fight started."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-14",
+    "offense_type": "major",
+    "offense_title": "Possessing or detonating an improvised explosive device (IED)",
+    "handbook_section": "VI.E",
+    "handbook_item": 14,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-14-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "inside the main entrance",
+        "texts": {
+          "en": "Just after the student entered through the main gate, security found in the student's bag a homemade device containing explosive powder, wires, a battery, and a switch intended to ignite the charge.",
+          "tl": "Pagkapasok ng estudyante sa main gate, nakita ng security sa kaniyang bag ang gawang-bahay na device na may explosive powder, wires, battery, at switch na pangsindi sa charge.",
+          "taglish": "Just after makapasok ang student through the main gate, nakita ng security sa bag niya ang homemade device na may explosive powder, wires, battery, at switch intended to ignite the charge."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-14-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "restroom",
+        "texts": {
+          "en": "A student lit a makeshift noise bomb assembled from packed pyrotechnic powder inside a campus restroom, producing a blast that triggered an evacuation.",
+          "tl": "Sinindihan ng isang estudyante ang makeshift noise bomb na binuo mula sa siksik na pyrotechnic powder sa loob ng campus restroom, at ang pagsabog ay nagdulot ng evacuation.",
+          "taglish": "Sinindihan ng student ang makeshift noise bomb na gawa sa packed pyrotechnic powder inside a campus restroom, causing a blast kaya kinailangang mag-evacuate."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-14-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "corridor",
+        "texts": {
+          "en": "Campus personnel recovered from a student's locker a sealed bottle packed with explosive material and fitted with a fuse; the student admitted assembling it outside class.",
+          "tl": "Narekober ng campus personnel mula sa locker ng isang estudyante ang selyadong bote na may explosive material at fuse; inamin ng estudyante na siya ang bumuo nito sa labas ng klase.",
+          "taglish": "Narekober ng campus personnel from a student's locker ang sealed bottle packed with explosive material and fitted with a fuse; inamin ng student na inassemble niya ito outside class."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-14-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "outdoor activity area inside NU Clark campus",
+        "texts": {
+          "en": "In an outdoor activity area inside the NU Clark campus, a student remotely triggered a small homemade explosive device concealed in a container, creating a sudden blast among attendees.",
+          "tl": "Sa outdoor activity area sa loob ng NU Clark campus, malayuang pinasabog ng isang estudyante ang maliit na homemade explosive device na nakatago sa lalagyan, na nagdulot ng biglaang pagsabog sa gitna ng attendees.",
+          "taglish": "Sa outdoor activity area inside the NU Clark campus, ginamit ng student ang remote para i-trigger ang small homemade explosive device na concealed sa container, creating a sudden blast among attendees."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-14-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "laboratory",
+        "texts": {
+          "en": "An instructor discovered that a student had secretly combined an ignition circuit and explosive contents into a portable container unrelated to any authorized laboratory exercise.",
+          "tl": "Natuklasan ng instructor na lihim na pinagsama ng isang estudyante ang ignition circuit at explosive contents sa portable container na walang kaugnayan sa anumang awtorisadong laboratory exercise.",
+          "taglish": "An instructor discovered na secretly pinagsama ng student ang ignition circuit and explosive contents in a portable container unrelated to any authorized lab exercise."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-15",
+    "offense_type": "major",
+    "offense_title": "Vandalism, unhygienic use, or destruction of property",
+    "handbook_section": "VI.E",
+    "handbook_item": 15,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-15-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "corridor",
+        "texts": {
+          "en": "A student used spray paint to place large markings across a newly painted University corridor wall without permission.",
+          "tl": "Gumamit ang isang estudyante ng spray paint upang lagyan ng malalaking marka ang bagong pinturang corridor wall ng Unibersidad nang walang pahintulot.",
+          "taglish": "Gumamit ang student ng spray paint para lagyan ng large markings ang newly painted University corridor wall without permission."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-15-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A student deliberately carved deep initials into a classroom desk and snapped its attached armrest while classmates watched.",
+          "tl": "Sadyang inukitan ng isang estudyante ng malalalim na initials ang classroom desk at binali ang nakakabit na armrest habang nakatingin ang mga kaklase.",
+          "taglish": "Deliberately nag-carve ang student ng deep initials sa classroom desk at binali ang attached armrest habang nakatingin ang classmates."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-15-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "restroom",
+        "texts": {
+          "en": "A student intentionally stuffed large amounts of paper and food waste into a restroom toilet, causing an overflow and leaving the facility unusable.",
+          "tl": "Sadyang isiniksik ng isang estudyante ang maraming papel at food waste sa toilet ng restroom, na nagdulot ng pag-apaw at hindi na magamit ang pasilidad.",
+          "taglish": "Intentionally siniksik ng student ang large amounts of paper and food waste sa restroom toilet, causing an overflow and making the facility unusable."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-15-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "library",
+        "texts": {
+          "en": "Inside the library, a student deliberately smashed another student's unattended laptop screen after recognizing the device as belonging to that student.",
+          "tl": "Sa loob ng library, sadyang binasag ng isang estudyante ang screen ng laptop na iniwan ng kapwa estudyante matapos makilalang sa taong iyon ang device.",
+          "taglish": "Inside the library, deliberately binasag ng student ang screen ng another student's unattended laptop after recognizing whose device it was."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-15-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "laboratory",
+        "texts": {
+          "en": "After being told to end a laboratory session, a student intentionally forced the microscope controls until the focusing mechanism broke.",
+          "tl": "Matapos sabihang tapusin ang laboratory session, sadyang pinuwersa ng isang estudyante ang controls ng microscope hanggang masira ang focusing mechanism.",
+          "taglish": "After being told to end the lab session, intentionally pinuwersa ng student ang microscope controls until the focusing mechanism broke."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-16",
+    "offense_type": "major",
+    "offense_title": "Preventing circulation of a recognized student publication",
+    "handbook_section": "VI.E",
+    "handbook_item": 16,
+    "handbook_page": 36,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-16-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "library",
+        "texts": {
+          "en": "A student removed every available bundle of the recognized campus newspaper from the library newsstand and hid the copies so other students could not read that issue.",
+          "tl": "Inalis ng isang estudyante ang lahat ng bundle ng kinikilalang campus newspaper sa library newsstand at itinago ang mga kopya upang hindi mabasa ng ibang estudyante ang isyung iyon.",
+          "taglish": "Inalis ng student ang lahat ng bundles ng recognized campus newspaper sa library newsstand at itinago ang copies para hindi mabasa ng other students ang issue."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-16-G02",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "corridor",
+        "texts": {
+          "en": "Before morning distribution, a student gathered a substantial stack of the official student paper from corridor stands and discarded it because the issue contained a critical editorial.",
+          "tl": "Bago ang morning distribution, tinipon ng isang estudyante ang maraming kopya ng official student paper mula sa corridor stands at itinapon ang mga ito dahil may kritikal na editorial ang issue.",
+          "taglish": "Before morning distribution, kinuha ng student ang substantial stack of the official student paper from corridor stands and discarded it dahil may critical editorial ang issue."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-16-G03",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "student_activity",
+        "texts": {
+          "en": "A student collected most copies of a recognized student magazine from several campus racks and locked them in an organization room to keep the edition from circulating.",
+          "tl": "Kinuha ng isang estudyante ang karamihan ng kopya ng kinikilalang student magazine mula sa ilang campus racks at ikinandado sa organization room upang hindi kumalat ang edition.",
+          "taglish": "Kinuha ng student ang most copies ng recognized student magazine mula sa several campus racks at ni-lock sa organization room para hindi mag-circulate ang edition."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-16-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "canteen",
+        "texts": {
+          "en": "Soon after volunteers from a recognized student publication filled the canteen stand, a student carried away nearly all copies and concealed them to prevent further distribution.",
+          "tl": "Pagkatapos punuin ng mga volunteer mula sa kinikilalang student publication ang stand sa canteen, kinuha ng isang estudyante ang halos lahat ng kopya at itinago upang mapigil ang patuloy na pamamahagi.",
+          "taglish": "Soon after volunteers from a recognized student publication filled the canteen stand, dinala ng student ang nearly all copies at itinago to prevent further distribution."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-16-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "corridor",
+        "texts": {
+          "en": "During student elections, a student emptied multiple newsstands of the accredited student publication's candidate issue and stored the stacks out of sight so voters would not receive them.",
+          "tl": "Sa student elections, inubos ng isang estudyante mula sa maraming newsstand ang candidate issue ng accredited student publication at itinago ang mga stack upang hindi ito matanggap ng mga botante.",
+          "taglish": "During student elections, inubos ng student ang candidate issue ng accredited student publication mula sa multiple newsstands at itinago ang stacks para hindi ito matanggap ng voters."
+        }
+      }
+    ]
+  }
+]

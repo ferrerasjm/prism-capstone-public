@@ -1,0 +1,1052 @@
+[
+  {
+    "offense_code": "MINOR-01",
+    "offense_type": "minor",
+    "offense_title": "Non-wearing of prescribed uniform",
+    "handbook_section": "VI.D",
+    "handbook_item": 1,
+    "handbook_page": "33",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-01-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Main Gate",
+        "texts": {
+          "en": "During the morning uniform inspection at the NU Clark main gate, a student entered in a plain shirt and jeans instead of the prescribed university uniform. The student had no approved exemption for that day.",
+          "tl": "Sa inspeksiyon ng uniporme sa pangunahing gate ng NU Clark, pumasok ang isang estudyante na naka-plain na kamiseta at maong sa halip na ang itinakdang uniporme. Wala siyang aprubadong exemption nang araw na iyon.",
+          "taglish": "Sa morning uniform inspection sa NU Clark main gate, pumasok ang student na naka-plain shirt at jeans instead of the prescribed university uniform. Wala rin siyang approved exemption for that day."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-01-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Regular classroom",
+        "texts": {
+          "en": "A faculty member recorded that a student attended the entire class in civilian clothes on a scheduled uniform day. The class was held on campus, and the student confirmed that the uniform had been left at home.",
+          "tl": "Itinala ng guro na dumalo ang isang estudyante sa buong klase na nakasibilyan kahit nakatakdang araw ng pagsusuot ng uniporme. Nasa campus ang klase, at inamin ng estudyante na naiwan sa bahay ang uniporme.",
+          "taglish": "Napansin ng instructor na civilian clothes ang suot ng student sa buong on-campus class kahit scheduled uniform day iyon. Sinabi ng student na naiwan sa bahay ang prescribed uniform."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-01-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Library entrance",
+        "texts": {
+          "en": "An officer issued a violation slip after seeing a student enter the library wearing only a university organization shirt and denim pants during regular class hours. No uniform-waiver activity was scheduled.",
+          "tl": "Nagbigay ng violation slip ang opisyal matapos makitang pumasok sa aklatan ang isang estudyante na organization shirt at pantalon na maong lamang ang suot sa oras ng klase. Walang nakatakdang aktibidad na nagpapahintulot na hindi mag-uniporme.",
+          "taglish": "Nag-issue ang officer ng violation slip nang pumasok ang student sa library na organization shirt at denim pants lang ang suot during regular class hours. Wala namang scheduled activity na may uniform waiver."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-01-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Student services hallway",
+        "texts": {
+          "en": "The discipline officer encoded a report that a student spent the afternoon inside the campus in casual street clothes despite being reminded at the gate to change into the required uniform.",
+          "tl": "Inencode ng discipline officer ang ulat na nanatili ang isang estudyante sa loob ng campus buong hapon na nakasuot ng pangkaraniwang damit kahit pinaalalahanan sa gate na magsuot ng kinakailangang uniporme.",
+          "taglish": "In-encode ng discipline officer na nanatili ang student sa campus all afternoon na naka-casual clothes, kahit ni-remind na siya sa gate na magpalit into the required uniform."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-01-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Academic building lobby",
+        "texts": {
+          "en": "CCTV review and a lobby guard's account showed a student changing out of the prescribed uniform immediately after entry and attending on-campus activities in civilian clothing for the rest of the day.",
+          "tl": "Makikita sa CCTV at sa salaysay ng guwardiya sa lobby na agad nagpalit mula sa itinakdang uniporme ang isang estudyante pagkapasok at dumalo sa mga gawain sa campus na nakasibilyan sa natitirang oras ng araw.",
+          "taglish": "Sa CCTV review at account ng lobby guard, makikitang nagpalit agad ang student mula sa prescribed uniform after entry. Dumalo siya sa campus activities in civilian clothes for the rest of the day."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-02",
+    "offense_type": "minor",
+    "offense_title": "Non-wearing or failure to bring University ID",
+    "handbook_section": "VI.D",
+    "handbook_item": 2,
+    "handbook_page": "33",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-02-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Main Gate",
+        "texts": {
+          "en": "At the NU Clark main gate, a student could not present a university ID and explained that it had been forgotten at home. The student cooperated with identity verification.",
+          "tl": "Sa pangunahing gate ng NU Clark, hindi maipakita ng isang estudyante ang university ID dahil naiwan daw ito sa bahay. Maayos siyang nakipagtulungan sa pagberipika ng kaniyang pagkakakilanlan.",
+          "taglish": "Sa NU Clark main gate, hindi ma-present ng student ang university ID dahil naiwan niya ito sa bahay. Cooperative naman siya during identity verification."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-02-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Lecture room",
+        "texts": {
+          "en": "During attendance, the instructor noticed that a student was not wearing the university ID. The student retrieved it from a bag only after being reminded that IDs must remain visibly worn on campus.",
+          "tl": "Habang kumukuha ng attendance, napansin ng guro na hindi suot ng isang estudyante ang university ID. Kinuha lamang niya ito sa bag matapos paalalahanang kailangang nakasuot at nakikita ang ID sa campus.",
+          "taglish": "During attendance, napansin ng instructor na hindi suot ng student ang university ID. Kinuha lang niya ito sa bag after being reminded na dapat visibly worn ang ID on campus."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-02-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Cafeteria",
+        "texts": {
+          "en": "A violation slip was recorded when a student was found in the cafeteria without an ID lace or card. The student acknowledged leaving the ID in another bag and did not refuse inspection.",
+          "tl": "Nagtala ng violation slip nang makitang nasa cafeteria ang isang estudyante na walang ID lace o card. Inamin niyang naiwan ang ID sa ibang bag at hindi naman siya tumanggi sa inspeksiyon.",
+          "taglish": "Nag-record ng violation slip nang makitang nasa cafeteria ang student without an ID lace or card. Inamin niyang naiwan sa ibang bag ang ID at hindi naman siya tumanggi sa inspection."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-02-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Off-campus university seminar",
+        "texts": {
+          "en": "At an official NU Clark seminar held off campus, the event marshal documented that a participating student had not brought the university ID required for the activity.",
+          "tl": "Sa opisyal na seminar ng NU Clark na ginanap sa labas ng campus, itinala ng event marshal na walang dalang university ID ang isang kalahok na estudyante kahit kinakailangan ito sa aktibidad.",
+          "taglish": "Sa official NU Clark seminar held off campus, dinocument ng event marshal na walang dalang university ID ang participating student kahit required ito for the activity."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-02-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Campus exit checkpoint",
+        "texts": {
+          "en": "A guard checking students at the exit found that one student had spent the school day with the university ID kept inside a wallet rather than worn as required. The student produced the card without resistance.",
+          "tl": "Sa pag-check sa exit, nalaman ng guwardiya na itinago lamang ng isang estudyante sa pitaka ang university ID sa buong araw sa halip na isuot ito ayon sa patakaran. Agad naman niyang inilabas ang card nang hingin.",
+          "taglish": "Sa exit check, nalaman ng guard na nasa wallet lang ng student ang university ID all day instead of being worn as required. Inilabas naman niya agad ang card without resistance."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-03",
+    "offense_type": "minor",
+    "offense_title": "Wearing inappropriate attire",
+    "handbook_section": "VI.D",
+    "handbook_item": 3,
+    "handbook_page": "33-34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-03-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Main Gate",
+        "texts": {
+          "en": "A student arrived at the NU Clark main gate wearing a sleeveless top with exposed shoulders and was advised that the attire did not meet the campus dress standard.",
+          "tl": "Dumating sa pangunahing gate ng NU Clark ang isang estudyante na nakasuot ng sleeveless na lantad ang mga balikat. Ipinaalam sa kaniya na hindi ito naaayon sa pamantayan ng pananamit sa campus.",
+          "taglish": "Pagdating sa NU Clark main gate, naka-sleeveless top with exposed shoulders ang student. Sinabihan siya ng guard na hindi compliant ang attire niya with the campus dress standard."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-03-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Laboratory classroom",
+        "texts": {
+          "en": "The laboratory instructor reported a student who attended class in torn jeans with large rips above the knees, contrary to the prescribed attire guidelines.",
+          "tl": "Iniulat ng laboratory instructor ang isang estudyanteng pumasok sa klase na naka-maong na may malalaking punit sa itaas ng tuhod, taliwas sa itinakdang gabay sa pananamit.",
+          "taglish": "Ini-report ng laboratory instructor na pumasok sa class ang student na naka-torn jeans with large rips above the knees. Labag ang suot na iyon sa prescribed attire guidelines."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-03-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Library",
+        "texts": {
+          "en": "An officer documented a student studying in the library while wearing beach-style flip-flops. The footwear was not part of an approved medical accommodation.",
+          "tl": "Itinala ng opisyal ang isang estudyanteng nag-aaral sa aklatan na naka-tsinelas na pang-beach. Ang sapatos ay hindi saklaw ng anumang aprubadong medical accommodation.",
+          "taglish": "Dinocument ng officer ang student na nag-aaral sa library habang naka-beach-style flip-flops. Wala naman siyang approved medical accommodation for that footwear."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-03-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Student services office",
+        "texts": {
+          "en": "While transacting at the student services office, a student was observed wearing shorts that ended well above the permitted length under the university attire policy.",
+          "tl": "Habang may transaksiyon sa student services office, napansing nakasuot ang isang estudyante ng shorts na higit na maikli kaysa sa pinahihintulutang haba sa patakaran ng unibersidad.",
+          "taglish": "Habang may transaction sa student services office, napansing naka-shorts ang student na mas maikli kaysa sa length allowed by the university attire policy."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-03-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "Academic building hallway",
+        "texts": {
+          "en": "A peer report, later verified by an officer, described a student attending afternoon classes in sheer leggings used as pants without an outer garment of the length required by the attire policy.",
+          "tl": "Sa ulat ng kapwa estudyante na beripikado ng opisyal, dumalo ang isang estudyante sa mga klase sa hapon na sheer leggings ang ginamit bilang pantalon at walang panlabas na kasuotang may haba na naaayon sa attire policy.",
+          "taglish": "Ayon sa peer report na na-verify ng officer, dumalo ang student sa afternoon classes wearing sheer leggings as pants without an outer garment of the length required by the attire policy."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-04",
+    "offense_type": "minor",
+    "offense_title": "Wearing clothing with inappropriate language or suggestive graphics",
+    "handbook_section": "VI.D",
+    "handbook_item": 4,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-04-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Main Gate",
+        "texts": {
+          "en": "At the main gate, security observed a student wearing a shirt printed with a large profane statement across the front. The wording was clearly visible to people entering the campus.",
+          "tl": "Sa pangunahing gate, napansin ng security na nakasuot ang isang estudyante ng damit na may malaking malaswang pananalita sa harap. Kitang-kita ang mga salita sa mga pumapasok sa campus.",
+          "taglish": "Sa main gate, nakita ng security na may large profane statement sa harap ng shirt ng student. Kitang-kita ang wording sa lahat ng pumapasok sa campus."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-04-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Lecture room",
+        "texts": {
+          "en": "A professor reported that a student's jacket displayed a suggestive cartoon with sexual innuendo on the back throughout class; it contained no nudity or pornographic image.",
+          "tl": "Iniulat ng propesor na may suggestive cartoon na may seksuwal na pahiwatig sa likod ng jacket ng isang estudyante sa buong klase; wala itong kahubaran o pornographic na larawan.",
+          "taglish": "Ini-report ng professor na may suggestive cartoon with sexual innuendo sa likod ng jacket ng student throughout class; wala itong nudity or pornographic image."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-04-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Cafeteria",
+        "texts": {
+          "en": "A violation slip was issued after an officer verified that a student's cap carried an untargeted obscene slogan containing profanity. It did not name or attack any person or group.",
+          "tl": "Nagbigay ng violation slip matapos beripikahin ng opisyal na ang sumbrero ng estudyante ay may malaswa at pagmumurang slogan. Wala itong pinangalanan o inatakeng tao o grupo.",
+          "taglish": "Nag-issue ng violation slip matapos ma-verify ng officer na may untargeted obscene slogan with profanity ang cap ng student. Wala itong pinangalanan o inatakeng person or group."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-04-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "University event venue",
+        "texts": {
+          "en": "During an on-campus organization fair, a student wore a graphic shirt depicting obscene hand gestures. The event marshal documented the clothing before asking the student to cover it.",
+          "tl": "Sa organization fair sa campus, nakasuot ang isang estudyante ng graphic shirt na may malaswang kumpas ng kamay. Itinala muna ito ng event marshal bago hiniling na takpan ang larawan.",
+          "taglish": "During an on-campus organization fair, nagsuot ang student ng graphic shirt showing obscene hand gestures. Dinocument muna ito ng event marshal bago pinatakpan ang image."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-04-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "Library study area",
+        "texts": {
+          "en": "A library user complained about a student's sweatshirt whose stylized design spelled out a vulgar phrase when read in full. Library staff inspected the garment and confirmed the wording.",
+          "tl": "Nagreklamo ang isang gumagamit ng aklatan tungkol sa sweatshirt ng estudyante na ang disenyo ay bumubuo ng bulgar na parirala kapag binasa nang buo. Sinuri ito ng library staff at kinumpirma ang nakasulat.",
+          "taglish": "Nagreklamo ang isang library user tungkol sa sweatshirt ng student na ang stylized design ay bumubuo ng vulgar phrase when read in full. Chineck ng library staff ang garment at kinumpirma ang wording."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-05",
+    "offense_type": "minor",
+    "offense_title": "Using classroom, facilities, or equipment without reservation or proper authority",
+    "handbook_section": "VI.D",
+    "handbook_item": 5,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-05-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Unscheduled classroom",
+        "texts": {
+          "en": "Security found a group using an empty classroom for a meeting after class hours. The room had not been reserved, and none of the students had permission from the facilities office.",
+          "tl": "Natagpuan ng security ang isang grupo na gumagamit ng bakanteng silid-aralan para sa pulong matapos ang klase. Walang reservation ang silid at wala sa mga estudyante ang may pahintulot mula sa facilities office.",
+          "taglish": "Naabutan ng security ang isang group na gumagamit ng empty classroom for a meeting after class hours. Hindi reserved ang room, at wala sa kanila ang may permission from the facilities office."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-05-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Audio-visual room",
+        "texts": {
+          "en": "A faculty member discovered students operating the projector and sound system in the audio-visual room without a booking or an authorized staff member present.",
+          "tl": "Nadiskubre ng guro na ginagamit ng mga estudyante ang projector at sound system sa audio-visual room nang walang booking at walang awtorisadong staff na kasama.",
+          "taglish": "Naabutan ng faculty member ang mga student na gumagamit ng projector at sound system sa audio-visual room without a booking or authorized staff supervision."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-05-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Science laboratory",
+        "texts": {
+          "en": "During an approved open-laboratory period, an officer recorded a student using a science workstation for a personal project without reserving it or obtaining approval for that use.",
+          "tl": "Sa aprubadong open-laboratory period, itinala ng opisyal na gumamit ang isang estudyante ng science workstation para sa personal na proyekto nang walang reservation o pahintulot para sa paggamit nito.",
+          "taglish": "During an approved open-lab period, itinala ng officer na gumamit ang student ng science workstation for a personal project without reserving it or getting approval for that use."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-05-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Multipurpose hall",
+        "texts": {
+          "en": "The discipline office received a report that students rehearsed in the multipurpose hall even though another activity held the reservation. They had not requested authority to use the venue.",
+          "tl": "Nakatanggap ang discipline office ng ulat na nag-rehearse ang mga estudyante sa multipurpose hall kahit nakalaan ito sa ibang aktibidad. Hindi sila humingi ng pahintulot na gamitin ang venue.",
+          "taglish": "Nakatanggap ang discipline office ng report na nag-rehearse ang mga student sa multipurpose hall kahit reserved ito for another activity. Hindi sila humingi ng authority to use the venue."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-05-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "Faculty-managed simulation room",
+        "texts": {
+          "en": "The simulation room was open as a waiting area between classes, but the custodian's log confirmed that a student operated its training equipment without signing up or obtaining faculty clearance.",
+          "tl": "Bukas bilang waiting area ang simulation room sa pagitan ng mga klase, ngunit nakumpirma sa log ng custodian na pinaandar ng isang estudyante ang training equipment nang walang sign-up o pahintulot ng guro.",
+          "taglish": "Open as a waiting area ang simulation room between classes, pero na-confirm sa custodian log na inoperate ng student ang training equipment without signing up or getting faculty clearance."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-06",
+    "offense_type": "minor",
+    "offense_title": "Loitering along classroom corridors while classes are ongoing",
+    "handbook_section": "VI.D",
+    "handbook_item": 6,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-06-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Classroom corridor",
+        "texts": {
+          "en": "While lectures were in progress, an instructor observed a student repeatedly walking back and forth in the corridor outside several classrooms without any stated destination or official task.",
+          "tl": "Habang nagpapatuloy ang mga lecture, napansin ng guro ang isang estudyante na pabalik-balik sa corridor sa labas ng mga silid-aralan nang walang pupuntahan o opisyal na gawain.",
+          "taglish": "Habang ongoing ang lectures, napansin ng instructor na paulit-ulit na naglalakad ang student sa corridor outside several classrooms. Wala siyang official task o specific destination."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-06-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Second-floor academic hallway",
+        "texts": {
+          "en": "A roving guard found three students lingering beside classroom doors for nearly thirty minutes while classes were ongoing. They were not waiting for an office appointment or class dismissal.",
+          "tl": "Natagpuan ng roving guard ang tatlong estudyante na nakatambay sa tabi ng mga pinto ng classroom nang halos tatlumpung minuto habang may klase. Hindi sila naghihintay ng appointment o dismissal.",
+          "taglish": "Naabutan ng roving guard ang tatlong student na tumatambay beside classroom doors for almost thirty minutes habang ongoing ang classes. Hindi sila naghihintay ng appointment or dismissal."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-06-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Hallway near lecture rooms",
+        "texts": {
+          "en": "A violation slip was issued to a student who remained seated on the hallway floor outside active lecture rooms throughout a class period despite being directed to use an authorized waiting area.",
+          "tl": "Binigyan ng violation slip ang isang estudyante na nanatiling nakaupo sa sahig ng hallway sa labas ng mga silid na may klase sa buong class period kahit itinuro na ang tamang waiting area.",
+          "taglish": "Nag-issue ng violation slip sa student na nakaupo sa hallway floor outside active lecture rooms for an entire class period. Hindi siya lumipat kahit itinuro na sa kaniya ang authorized waiting area."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-06-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Academic wing corridor",
+        "texts": {
+          "en": "The encoded report described students spending class time idly gathered in an academic-wing corridor, moving only when faculty passed and returning after the faculty members entered their rooms.",
+          "tl": "Ayon sa inencode na ulat, nagpalipas ng oras ng klase ang mga estudyante na nakatambay sa corridor ng academic wing. Umaalis lamang sila kapag may gurong dumaraan at bumabalik matapos pumasok ang guro sa silid.",
+          "taglish": "Ayon sa encoded report, walang ginagawa at nagkukumpulan ang mga student sa academic-wing corridor during class time. Umaalis lang sila kapag may faculty na dumaraan at bumabalik once the faculty entered their rooms."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-06-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "Corridor outside examination rooms",
+        "texts": {
+          "en": "Students taking an examination reported another student pacing and waiting in the corridor outside their rooms for most of the testing period. An officer confirmed that the student had no scheduled class or authorized purpose there.",
+          "tl": "Iniulat ng mga kumukuha ng pagsusulit ang isa pang estudyanteng paikot-ikot at naghihintay sa corridor sa labas ng kanilang mga silid sa halos buong exam period. Kinumpirma ng opisyal na wala siyang nakatakdang klase o awtorisadong pakay doon.",
+          "taglish": "Ini-report ng mga student taking an exam na may isang student na pacing and waiting sa corridor outside their rooms for most of the testing period. Na-confirm ng officer na wala siyang scheduled class or authorized purpose doon."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-07",
+    "offense_type": "minor",
+    "offense_title": "Eating in classrooms, laboratories, offices, libraries, or study areas",
+    "handbook_section": "VI.D",
+    "handbook_item": 7,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-07-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Lecture room",
+        "texts": {
+          "en": "During a lecture, a student opened a packed rice meal and ate it at the classroom desk. The instructor documented the incident after reminding the class that meals must be taken in designated dining areas.",
+          "tl": "Habang may lecture, nagbukas ang isang estudyante ng baong kanin at kumain sa desk sa loob ng classroom. Itinala ito ng guro matapos ipaalalang sa designated dining areas lamang dapat kumain.",
+          "taglish": "During a lecture, nagbukas ang student ng packed rice meal at kumain sa classroom desk. Dinocument ito ng instructor matapos i-remind ang class na sa designated dining areas lang dapat kumain."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-07-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Library reading section",
+        "texts": {
+          "en": "Library staff saw a student eating chips and a sandwich at a reading table inside the quiet section. Food was still being consumed when the roving guard arrived.",
+          "tl": "Nakita ng library staff ang isang estudyante na kumakain ng chips at sandwich sa reading table sa quiet section. Kumakain pa rin siya nang dumating ang roving guard.",
+          "taglish": "Nakita ng library staff ang student na kumakain ng chips and a sandwich sa reading table inside the quiet section. Kumakain pa rin siya when the roving guard arrived."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-07-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Computer laboratory",
+        "texts": {
+          "en": "An officer issued a violation slip after a student was observed consuming noodles beside a computer laboratory workstation during an open-lab period.",
+          "tl": "Nagbigay ng violation slip ang opisyal matapos makitang kumakain ng noodles ang isang estudyante sa tabi ng workstation sa computer laboratory habang open-lab period.",
+          "taglish": "Nag-issue ang officer ng violation slip nang makitang kumakain ng noodles ang student beside a computer laboratory workstation during an open-lab period."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-07-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Group study room",
+        "texts": {
+          "en": "The study-room monitor reported that a student brought in takeout food and ate a full meal while the room was being used for group review.",
+          "tl": "Iniulat ng study-room monitor na nagdala ng takeout food ang isang estudyante at kumain ng buong meal habang ginagamit ang silid para sa group review.",
+          "taglish": "Ini-report ng study-room monitor na nagdala ng takeout food ang student sa loob at kumain ng full meal habang ginagamit ang room for group review."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-07-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Administrative office reception area",
+        "texts": {
+          "en": "An office staff member documented a student eating pastries at the reception worktable while waiting for a document. The table was inside the administrative office rather than in the public dining area.",
+          "tl": "Itinala ng office staff ang isang estudyante na kumakain ng pastries sa reception worktable habang naghihintay ng dokumento. Nasa loob ng administrative office ang mesa at hindi sa pampublikong kainan.",
+          "taglish": "Dinocument ng office staff ang student na kumakain ng pastries sa reception worktable while waiting for a document. Nasa loob ng administrative office ang table, hindi sa public dining area."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-08",
+    "offense_type": "minor",
+    "offense_title": "Littering",
+    "handbook_section": "VI.D",
+    "handbook_item": 8,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-08-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Campus walkway",
+        "texts": {
+          "en": "A guard saw a student finish a bottled drink and leave the empty bottle on a campus walkway despite a waste bin being a few steps away.",
+          "tl": "Nakita ng guwardiya na iniwan ng isang estudyante ang walang lamang bote sa walkway ng campus matapos uminom kahit may basurahan ilang hakbang lamang ang layo.",
+          "taglish": "Nakita ng guard na inubos ng student ang bottled drink at iniwan ang empty bottle sa campus walkway kahit may waste bin a few steps away."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-08-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Classroom",
+        "texts": {
+          "en": "After class, the instructor observed a student drop used paper and snack wrappers under the desk and walk out without disposing of them properly.",
+          "tl": "Pagkatapos ng klase, nakita ng guro na iniwan ng isang estudyante ang ginamit na papel at mga balot ng pagkain sa ilalim ng desk at umalis nang hindi itinapon nang maayos.",
+          "taglish": "After class, nakita ng instructor na iniwan ng student ang used paper at snack wrappers under the desk, pagkatapos ay umalis without disposing of them properly."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-08-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Cafeteria courtyard",
+        "texts": {
+          "en": "A violation slip was recorded when a student deliberately placed a used food container beside a planter in the cafeteria courtyard instead of putting it in the marked trash receptacle.",
+          "tl": "Nagtala ng violation slip nang sadyang inilagay ng isang estudyante ang ginamit na food container sa tabi ng planter sa cafeteria courtyard sa halip na sa nakatalagang basurahan.",
+          "taglish": "Nag-record ng violation slip nang sadyang inilagay ng student ang used food container beside a planter in the cafeteria courtyard instead of the marked trash receptacle."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-08-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Stairwell",
+        "texts": {
+          "en": "CCTV footage reviewed by the discipline office showed a student letting several printed flyers fall in the stairwell and leaving them scattered on the steps.",
+          "tl": "Sa CCTV na sinuri ng discipline office, makikitang hinayaang mahulog ng isang estudyante ang ilang printed flyers sa stairwell at iniwang nakakalat sa mga baitang.",
+          "taglish": "Sa CCTV footage reviewed by the discipline office, makikitang hinayaan ng student na mahulog ang ilang printed flyers sa stairwell at iniwang scattered on the steps."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-08-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "Outdoor student seating area",
+        "texts": {
+          "en": "Students reported that a classmate swept pencil shavings and torn notes from an outdoor table directly onto the ground before leaving. A campus aide verified the discarded materials.",
+          "tl": "Iniulat ng mga estudyante na winalis ng isang kaklase mula sa outdoor table papunta sa lupa ang pencil shavings at punit na notes bago umalis. Kinumpirma ng campus aide ang mga itinapong materyal.",
+          "taglish": "Ini-report ng mga student na winalis ng classmate ang pencil shavings at torn notes from an outdoor table diretso sa ground bago umalis. Na-verify ng campus aide ang discarded materials."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-09",
+    "offense_type": "minor",
+    "offense_title": "Rearranging furniture without approval",
+    "handbook_section": "VI.D",
+    "handbook_item": 9,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-09-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Lecture room",
+        "texts": {
+          "en": "Before class, students moved the room's tables into a large circle without asking the instructor or facilities staff. They left the approved classroom layout altered.",
+          "tl": "Bago magsimula ang klase, inayos ng mga estudyante ang mga mesa bilang malaking bilog nang hindi nagpapaalam sa guro o facilities staff. Iniwan nilang nabago ang aprubadong ayos ng silid.",
+          "taglish": "Before class, inilipat ng mga student ang mga table sa room into a large circle without asking the instructor or facilities staff. Iniwan nilang iba ang ayos from the approved classroom layout."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-09-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Library discussion area",
+        "texts": {
+          "en": "Library security observed a student carrying chairs from the reading section into a discussion room without clearance from library personnel.",
+          "tl": "Nakita ng library security ang isang estudyante na naglilipat ng mga upuan mula sa reading section papunta sa discussion room nang walang pahintulot ng library personnel.",
+          "taglish": "Nakita ng library security ang student na naglipat ng chairs from the reading section into a discussion room without clearance from library personnel."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-09-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Computer laboratory",
+        "texts": {
+          "en": "A violation slip was issued after a student repositioned several computer chairs and movable dividers to create a private corner without the laboratory custodian's approval.",
+          "tl": "Nagbigay ng violation slip matapos ilipat ng isang estudyante ang ilang computer chair at movable divider upang gumawa ng pribadong sulok nang walang pahintulot ng laboratory custodian.",
+          "taglish": "Nag-issue ng violation slip matapos ilipat-lipat ng student ang several computer chairs at movable dividers to create a private corner without the lab custodian's approval."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-09-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Multipurpose classroom",
+        "texts": {
+          "en": "The room custodian reported that a student organization stacked classroom desks against one wall for an informal practice and did not obtain approval to change the setup.",
+          "tl": "Iniulat ng room custodian na isinalansan ng isang student organization ang mga desk sa isang pader para sa impormal na practice nang walang pahintulot na baguhin ang setup.",
+          "taglish": "Ini-report ng room custodian na isinalansan ng student organization ang classroom desks against one wall for an informal practice. Wala silang approval to change the setup."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-09-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "Science laboratory",
+        "texts": {
+          "en": "At the end of a laboratory session, the instructor found that students had shifted stools and demonstration tables into another work bay for convenience, although no change to the fixed room arrangement had been authorized.",
+          "tl": "Pagkatapos ng laboratory session, nakita ng instructor na inilipat ng mga estudyante ang mga stool at demonstration table sa ibang work bay para sa kanilang kaginhawaan kahit walang pahintulot na baguhin ang ayos ng silid.",
+          "taglish": "At the end of the laboratory session, nakita ng instructor na inilipat ng mga student ang stools at demonstration tables into another work bay for convenience, kahit walang authorized layout change."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-10",
+    "offense_type": "minor",
+    "offense_title": "Violating policies on the use of lockers",
+    "handbook_section": "VI.D",
+    "handbook_item": 10,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-10-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Student locker area",
+        "texts": {
+          "en": "During a locker check, staff found a student using a locker assigned to another student, contrary to the posted assignee-only rule. The current user had no authorization or recorded transfer.",
+          "tl": "Sa locker check, natuklasan ng staff na gumagamit ang isang estudyante ng locker na nakatalaga sa iba, labag sa nakapaskil na assignee-only rule. Wala siyang pahintulot o nakatalang paglilipat.",
+          "taglish": "During a locker check, naabutan ng staff ang student na gumagamit ng locker assigned to someone else, contrary sa posted assignee-only rule. Wala siyang authorization or recorded transfer."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-10-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Student locker area",
+        "texts": {
+          "en": "A facilities aide reported that a student placed a personal padlock on an unassigned vacant locker and stored belongings there despite the posted requirement to register before use.",
+          "tl": "Iniulat ng facilities aide na nilagyan ng isang estudyante ng sariling padlock ang bakanteng locker at naglagay ng gamit doon kahit nakapaskil na kailangang magparehistro bago gumamit.",
+          "taglish": "Ini-report ng facilities aide na nilagyan ng student ng personal padlock ang unassigned vacant locker at nag-store ng belongings despite the posted registration-before-use rule."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-10-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Locker bank near classrooms",
+        "texts": {
+          "en": "An officer documented that a student gave the combination of an assigned locker to several classmates, allowing them to share it despite the individual-use rule posted in the locker area.",
+          "tl": "Itinala ng opisyal na ibinigay ng isang estudyante sa ilang kaklase ang combination ng kaniyang assigned locker kaya pinagsasaluhan nila ito kahit nakapaskil sa locker area na para lamang ito sa indibidwal na gamit.",
+          "taglish": "Dinocument ng officer na ibinahagi ng student sa several classmates ang combination ng assigned locker. Pinagamit niya ito sa kanila despite the individual-use rule posted sa locker area."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-10-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "Athletics locker section",
+        "texts": {
+          "en": "After the locker-use period stated in the published policy ended, a student continued keeping personal items there despite two written reminders to clear and surrender the locker.",
+          "tl": "Pagkatapos ng locker-use period na nakasaad sa inilathalang patakaran, patuloy na nag-iwan ng personal na gamit ang isang estudyante kahit dalawang beses nang pinadalhan ng paalala na linisin at isauli ang locker.",
+          "taglish": "After the locker-use period in the published policy ended, patuloy na nag-iwan ang student ng personal items despite two written reminders to clear and surrender the locker."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-10-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "Laboratory locker area",
+        "texts": {
+          "en": "The laboratory custodian traced items in two numbered lockers to the same student. Records and the posted one-locker-per-student rule showed that only one was assigned and the student occupied the second without permission.",
+          "tl": "Natukoy ng laboratory custodian na iisang estudyante ang may gamit sa dalawang numbered locker. Ayon sa records at nakapaskil na one-locker-per-student rule, isa lamang ang nakatalaga sa kaniya at ginamit niya ang pangalawa nang walang pahintulot.",
+          "taglish": "Na-trace ng laboratory custodian sa iisang student ang belongings sa two numbered lockers. Ayon sa records at posted one-locker-per-student rule, isa lang ang assigned sa kaniya at ginamit niya ang second locker without permission."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-11",
+    "offense_type": "minor",
+    "offense_title": "Concealing or hiding library materials",
+    "handbook_section": "VI.D",
+    "handbook_item": 11,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-11-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Library book stacks",
+        "texts": {
+          "en": "A librarian saw a student place a high-demand reference book behind a row of unrelated volumes so it would remain available only to that student later.",
+          "tl": "Nakita ng librarian na itinago ng isang estudyante ang isang in-demand na reference book sa likod ng hanay ng mga librong hindi kaugnay upang siya lamang ang makagamit nito sa susunod.",
+          "taglish": "Nakita ng librarian na itinago ng student ang high-demand reference book behind unrelated volumes para siya lang ang makagamit nito later."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-11-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Library reading section",
+        "texts": {
+          "en": "A student reported seeing a classmate slide a reserved textbook under an unused reading table before leaving the library. Staff recovered the book from that concealed spot.",
+          "tl": "Iniulat ng isang estudyante na isiniksik ng kaklase ang reserved textbook sa ilalim ng hindi ginagamit na reading table bago umalis sa library. Nakuha ng staff ang libro mula sa taguang iyon.",
+          "taglish": "Ini-report ng student na nakita niyang isiniksik ng classmate ang reserved textbook under an unused reading table bago umalis. Na-recover ng library staff ang book from the hidden spot."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-11-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "Library periodicals area",
+        "texts": {
+          "en": "CCTV review showed a student wrapping a current journal in scrap paper and placing it on a bottom shelf marked for old newspapers to keep others from finding it.",
+          "tl": "Sa CCTV review, makikitang binalot ng isang estudyante sa lumang papel ang kasalukuyang journal at inilagay ito sa ibabang shelf para sa mga lumang diyaryo upang hindi ito makita ng iba.",
+          "taglish": "Sa CCTV review, makikitang binalot ng student ang current journal in scrap paper at inilagay sa bottom shelf for old newspapers para hindi ito mahanap ng other users."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-11-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Library reference section",
+        "texts": {
+          "en": "A violation slip was issued after a student admitted moving the only available copy of a reference title into a cabinet nook not used for shelving, intending to retrieve it before the next class.",
+          "tl": "Nagbigay ng violation slip matapos aminin ng isang estudyante na inilipat niya ang nag-iisang available na kopya ng reference title sa sulok ng cabinet na hindi lagayan ng libro upang balikan bago ang susunod na klase.",
+          "taglish": "Nag-issue ng violation slip matapos aminin ng student na inilipat niya ang only available reference copy into an unshelved cabinet nook. Balak niya itong kunin before the next class."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-11-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Library reserve desk area",
+        "texts": {
+          "en": "When a reserve book repeatedly appeared missing from its proper shelf, library staff checked the area and found it concealed inside an empty binder. Access records and a witness identified the student who had hidden it for later use.",
+          "tl": "Nang paulit-ulit na hindi makita sa tamang shelf ang reserve book, sinuri ng library staff ang lugar at natagpuan itong nakatago sa loob ng bakanteng binder. Sa access records at salaysay ng saksi, natukoy ang estudyanteng nagtago nito para magamit sa susunod.",
+          "taglish": "Nang paulit-ulit mawala ang reserve book from its proper shelf, natagpuan ito ng library staff na nakatago inside an empty binder. Sa access records at witness account, natukoy ang student na nagtago nito for later use."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-12",
+    "offense_type": "minor",
+    "offense_title": "Dyeing hair with artificial color",
+    "handbook_section": "VI.D",
+    "handbook_item": 12,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-12-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Main Gate",
+        "texts": {
+          "en": "During entry inspection, security documented a student whose hair had been dyed bright blue, an artificial color not permitted under the student grooming policy.",
+          "tl": "Sa entry inspection, itinala ng security ang isang estudyante na kinulayan ng matingkad na asul ang buhok, isang artificial color na hindi pinahihintulutan sa grooming policy.",
+          "taglish": "During entry inspection, dinocument ng security ang student na bright blue ang dyed hair. Artificial color iyon na hindi allowed under the student grooming policy."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-12-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Classroom",
+        "texts": {
+          "en": "A faculty adviser reported that a student returned to class with newly dyed violet hair covering most of the head.",
+          "tl": "Iniulat ng faculty adviser na bumalik sa klase ang isang estudyante na bagong kulayan ng violet ang halos buong buhok.",
+          "taglish": "Ini-report ng faculty adviser na bumalik sa class ang student na newly dyed violet ang halos buong buhok."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-12-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Student services hallway",
+        "texts": {
+          "en": "An officer issued a violation slip after confirming that the vivid green streaks visible in a student's hair were permanent dye rather than temporary event accessories.",
+          "tl": "Nagbigay ng violation slip ang opisyal matapos makumpirmang permanent dye at hindi pansamantalang event accessory ang matingkad na berdeng streaks sa buhok ng estudyante.",
+          "taglish": "Nag-issue ang officer ng violation slip matapos ma-confirm na permanent dye ang vivid green streaks sa buhok ng student, hindi temporary event accessories."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-12-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Library entrance",
+        "texts": {
+          "en": "The discipline office encoded a report that a student had dyed the lower half of the hair neon pink and wore it visibly while entering the library.",
+          "tl": "Inencode ng discipline office ang ulat na kinulayan ng neon pink ng isang estudyante ang ibabang bahagi ng buhok at lantad itong suot nang pumasok sa library.",
+          "taglish": "In-encode ng discipline office ang report na neon pink ang dye sa lower half ng buhok ng student at visible ito habang pumapasok siya sa library."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-12-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "Laboratory class",
+        "texts": {
+          "en": "Under normal laboratory lighting, an instructor observed that a student's hair had alternating red and silver dyed sections. The student confirmed that both colors had been applied before coming to campus.",
+          "tl": "Sa normal na ilaw ng laboratoryo, napansin ng instructor na salit-salitan ang pula at silver na kinulayang bahagi ng buhok ng estudyante. Kinumpirma ng estudyante na inilagay ang parehong kulay bago pumasok sa campus.",
+          "taglish": "Under normal laboratory lighting, napansin ng instructor ang alternating red and silver dyed sections sa buhok ng student. Kinumpirma niyang parehong color ang inapply before coming to campus."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-13",
+    "offense_type": "minor",
+    "offense_title": "Wearing prohibited body-piercing accessories",
+    "handbook_section": "VI.D",
+    "handbook_item": 13,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-13-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Main Gate",
+        "texts": {
+          "en": "At entry inspection, security observed a male student wearing stud earrings in both ears, which are prohibited for male students under the handbook rule.",
+          "tl": "Sa entry inspection, nakita ng security ang isang lalaking estudyante na may stud earrings sa magkabilang tainga, na ipinagbabawal sa mga lalaking estudyante ayon sa handbook.",
+          "taglish": "Sa entry inspection, nakita ng security ang male student na may stud earrings in both ears. Prohibited iyon for male students under the handbook rule."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-13-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Classroom",
+        "texts": {
+          "en": "An instructor documented a female student wearing three earrings on each ear lobe, exceeding the allowed one earring per ear lobe.",
+          "tl": "Itinala ng instructor ang isang babaeng estudyante na may tatlong hikaw sa bawat ear lobe, lampas sa pinahihintulutang isang hikaw sa bawat tainga.",
+          "taglish": "Dinocument ng instructor ang female student na may three earrings on each ear lobe, lampas sa allowed na one earring per ear lobe."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-13-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Library",
+        "texts": {
+          "en": "A violation slip was issued after an officer observed a student wearing a metal nose ring inside the library and confirmed that it was a body-piercing accessory.",
+          "tl": "Nagbigay ng violation slip matapos makita ng opisyal ang isang estudyante na may metal nose ring sa loob ng library at makumpirmang body-piercing accessory ito.",
+          "taglish": "Nag-issue ng violation slip matapos makita ng officer na may metal nose ring ang student inside the library at ma-confirm na body-piercing accessory iyon."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-13-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Cafeteria",
+        "texts": {
+          "en": "The discipline office received a verified report of a student wearing a visible eyebrow-piercing bar while staying in the campus cafeteria.",
+          "tl": "Nakatanggap ang discipline office ng beripikadong ulat tungkol sa isang estudyante na may nakikitang eyebrow-piercing bar habang nasa cafeteria ng campus.",
+          "taglish": "Nakatanggap ang discipline office ng verified report tungkol sa student na may visible eyebrow-piercing bar habang nasa campus cafeteria."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-13-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Academic building lobby",
+        "texts": {
+          "en": "A lobby guard initially noticed a small metallic accessory partly covered by a student's hair. On inspection, it was confirmed to be a cartilage piercing in the upper ear rather than an ordinary clip.",
+          "tl": "Napansin ng guwardiya sa lobby ang maliit na metal accessory na bahagyang natatakpan ng buhok ng estudyante. Sa inspeksiyon, nakumpirmang cartilage piercing ito sa itaas ng tainga at hindi pangkaraniwang clip.",
+          "taglish": "Napansin ng lobby guard ang small metallic accessory na partly covered ng buhok ng student. Sa inspection, na-confirm na upper-ear cartilage piercing iyon, hindi ordinary clip."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-14",
+    "offense_type": "minor",
+    "offense_title": "Presence in areas designated for the opposite sex",
+    "handbook_section": "VI.D",
+    "handbook_item": 14,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-14-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Women's restroom entrance",
+        "texts": {
+          "en": "A guard found a male student inside the women's restroom after he entered with classmates as a joke. There was no emergency or authorized maintenance reason for his presence.",
+          "tl": "Natagpuan ng guwardiya ang isang lalaking estudyante sa loob ng women's restroom matapos siyang pumasok kasama ng mga kaklase bilang biro. Walang emergency o awtorisadong maintenance na dahilan para naroon siya.",
+          "taglish": "Naabutan ng guard ang male student inside the women's restroom matapos pumasok doon with classmates as a joke. Walang emergency or authorized maintenance reason para naroon siya."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-14-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Men's restroom",
+        "texts": {
+          "en": "Students reported a female student waiting inside the men's restroom for a friend. An officer verified that she remained there even though the public hallway was available.",
+          "tl": "Iniulat ng mga estudyante ang isang babaeng estudyante na naghihintay ng kaibigan sa loob ng men's restroom. Kinumpirma ng opisyal na nanatili siya roon kahit maaaring maghintay sa pampublikong hallway.",
+          "taglish": "Ini-report ng mga student ang female student na naghihintay ng friend inside the men's restroom. Na-verify ng officer na nanatili siya roon kahit available ang public hallway."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-14-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "violation_slip",
+        "location_context": "Gender-designated changing room",
+        "texts": {
+          "en": "A violation slip was issued after a student entered and stayed in the changing room explicitly designated for the opposite sex to retrieve a classmate's bag, without seeking staff assistance.",
+          "tl": "Nagbigay ng violation slip matapos pumasok at manatili ang isang estudyante sa changing room na malinaw na nakatalaga sa kabilang kasarian upang kunin ang bag ng kaklase nang hindi humingi ng tulong sa staff.",
+          "taglish": "Nag-issue ng violation slip matapos pumasok at manatili ang student sa changing room designated for the opposite sex para kunin ang bag ng classmate without seeking staff assistance."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-14-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Restroom near the library",
+        "texts": {
+          "en": "The encoded incident stated that a student knowingly used the restroom marked exclusively for the opposite sex even though the correct restroom beside it was open.",
+          "tl": "Ayon sa inencode na insidente, sadyang ginamit ng isang estudyante ang restroom na malinaw na para lamang sa kabilang kasarian kahit bukas ang tamang restroom sa tabi nito.",
+          "taglish": "Ayon sa encoded incident, sadyang ginamit ng student ang restroom marked exclusively for the opposite sex kahit open ang correct restroom sa tabi nito."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-14-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Restricted gender-designated washroom",
+        "texts": {
+          "en": "CCTV at the hallway entrance and two witness accounts confirmed that a student crossed the posted gender-designation sign and remained in the opposite-sex washroom for several minutes. No safety incident or official instruction required the entry.",
+          "tl": "Kinumpirma ng hallway CCTV at dalawang saksi na nilampasan ng isang estudyante ang gender-designation sign at nanatili sa washroom para sa kabilang kasarian nang ilang minuto. Walang insidenteng pangkaligtasan o opisyal na utos na nangangailangan ng pagpasok.",
+          "taglish": "Na-confirm sa hallway CCTV at two witness accounts na nilampasan ng student ang posted gender-designation sign at nanatili sa opposite-sex washroom for several minutes. Walang safety incident or official instruction na nag-require ng entry."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MINOR-15",
+    "offense_type": "minor",
+    "offense_title": "Bypassing the student entrance to bring items inside University premises",
+    "handbook_section": "VI.D",
+    "handbook_item": 15,
+    "handbook_page": "34",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MINOR-15-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Service gate",
+        "texts": {
+          "en": "Security saw a student use the service gate instead of the student entrance to carry a large box of ordinary project materials into the NU Clark campus without inspection.",
+          "tl": "Nakita ng security ang isang estudyante na gumamit ng service gate sa halip na student entrance upang maipasok sa NU Clark campus ang malaking kahon ng karaniwang project materials nang hindi naiinspeksiyon.",
+          "taglish": "Nakita ng security na ginamit ng student ang service gate instead of the student entrance para maipasok sa NU Clark campus ang large box of ordinary project materials without inspection."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-15-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "violation_slip",
+        "location_context": "Campus exit door",
+        "texts": {
+          "en": "A violation slip was issued to a student who arranged for a classmate inside to open an exit-only door, then carried several bags of food through it without using the designated entrance or inspection lane.",
+          "tl": "Nagbigay ng violation slip sa estudyanteng nagpasuyo sa kaklaseng nasa loob na buksan ang exit-only door, saka ipinasok doon ang ilang bag ng pagkain nang hindi dumaraan sa itinakdang entrance o inspection lane.",
+          "taglish": "Nag-issue ng violation slip sa student who asked a classmate inside to open the exit-only door, then carried several bags of food through it without using the designated entrance or inspection lane."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-15-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "Side access near parking area",
+        "texts": {
+          "en": "A witness reported that a student received a parcel through a side access point near the parking area and carried it into the academic building, deliberately avoiding the student-entry checkpoint.",
+          "tl": "Iniulat ng saksi na tinanggap ng isang estudyante ang parcel sa side access malapit sa parking area at dinala ito sa academic building habang sadyang iniiwasan ang student-entry checkpoint.",
+          "taglish": "Ini-report ng witness na tinanggap ng student ang parcel through a side access near the parking area at dinala ito into the academic building, deliberately avoiding the student-entry checkpoint."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-15-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Loading area",
+        "texts": {
+          "en": "The discipline office encoded a report that a student entered through the loading area with personal merchandise after being told that all student-carried items must pass through the main inspection lane.",
+          "tl": "Inencode ng discipline office ang ulat na pumasok ang isang estudyante sa loading area na may dalang personal merchandise kahit sinabihang lahat ng gamit ng estudyante ay dapat dumaan sa main inspection lane.",
+          "taglish": "In-encode ng discipline office na pumasok ang student through the loading area with personal merchandise kahit sinabihan siyang all student-carried items must pass through the main inspection lane."
+        }
+      },
+      {
+        "scenario_group_id": "MINOR-15-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Perimeter gate beside campus facilities",
+        "texts": {
+          "en": "CCTV showed a student handing a tote bag over a low perimeter gate to a classmate inside, then entering normally without the bag. The receiving classmate took the bag into a classroom before security could inspect it.",
+          "tl": "Makikita sa CCTV na ipinasa ng isang estudyante ang tote bag sa ibabaw ng mababang perimeter gate sa kaklaseng nasa loob at saka pumasok nang normal na wala ang bag. Dinala ng tumanggap na kaklase ang bag sa classroom bago ito ma-inspeksiyon ng security.",
+          "taglish": "Sa CCTV, makikitang ipinasa ng student ang tote bag over a low perimeter gate sa classmate already inside, saka siya normal na pumasok nang wala iyon. Dinala ng classmate ang bag sa classroom before security inspection."
+        }
+      }
+    ]
+  }
+]

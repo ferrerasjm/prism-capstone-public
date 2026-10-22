@@ -1,0 +1,1052 @@
+[
+  {
+    "offense_code": "MAJOR-33",
+    "offense_type": "major",
+    "offense_title": "Membership in a fraternity or sorority, including a violent unrecognized organization",
+    "handbook_section": "VI.E",
+    "handbook_item": 33,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-33-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Student Discipline Office",
+        "texts": {
+          "en": "During case verification, a student acknowledged being an active member of a fraternity not recognized by NU Clark and confirmed regularly paying chapter dues. No recruitment or initiation activity was alleged in this incident.",
+          "tl": "Sa pagberipika ng kaso, inamin ng isang estudyante na aktibong miyembro siya ng fraternity na hindi kinikilala ng NU Clark at regular siyang nagbabayad ng chapter dues. Walang alegasyon ng recruitment o initiation sa insidenteng ito.",
+          "taglish": "Sa case verification, inamin ng student na active member siya ng fraternity na hindi recognized ng NU Clark at regular siyang nagbabayad ng chapter dues. Walang recruitment or initiation na involved sa incident."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-33-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Student organization meeting room",
+        "texts": {
+          "en": "A faculty adviser found a student's name and signature on the current membership roster of an unrecognized fraternity. The student confirmed attending its closed member meetings throughout the term.",
+          "tl": "Nakita ng faculty adviser ang pangalan at pirma ng isang estudyante sa kasalukuyang membership roster ng isang hindi kinikilalang fraternity. Kinumpirma ng estudyante na dumadalo siya sa mga saradong pulong ng mga miyembro sa buong term.",
+          "taglish": "Nakita ng faculty adviser ang name at signature ng student sa current membership roster ng isang unrecognized fraternity. Kinumpirma rin ng student na uma-attend siya sa closed member meetings nito throughout the term."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-33-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "Campus activity area",
+        "texts": {
+          "en": "Security documented a student wearing the exclusive insignia of an unrecognized fraternity during a campus activity. Follow-up verification showed a membership card issued to the student by that group.",
+          "tl": "Itinala ng security ang isang estudyante na suot ang eksklusibong insignia ng fraternity na hindi kinikilala habang nasa campus activity. Sa follow-up verification, natagpuan ang membership card na ibinigay ng grupong iyon sa estudyante.",
+          "taglish": "Na-document ng security ang student na suot ang exclusive insignia ng isang unrecognized fraternity during a campus activity. Sa follow-up verification, nakumpirma ang membership card na issued sa kaniya ng group."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-33-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "Off-campus venue after a university activity",
+        "texts": {
+          "en": "A student witness reported that a classmate attended a private chapter assembly after an official university activity and was introduced as a full member of an unrecognized sorority. The classmate later confirmed the membership.",
+          "tl": "Iniulat ng isang estudyanteng saksi na dumalo ang kaklase sa pribadong chapter assembly matapos ang opisyal na university activity at ipinakilala bilang ganap na miyembro ng hindi kinikilalang sorority. Kalaunan ay kinumpirma ng kaklase ang membership.",
+          "taglish": "Ini-report ng student witness na dumalo ang classmate sa private chapter assembly after an official university activity at ipinakilala bilang full member ng unrecognized sorority. Later, kinumpirma rin ng classmate ang membership."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-33-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Student Development and Activities Office",
+        "texts": {
+          "en": "The activities office found a currently enrolled student on the verified membership list of an unrecognized organization. University case records showed that the organization endorsed violence in its charter and had participated in a documented violent attack; the student confirmed membership, but no recruitment or initiation by the student was alleged.",
+          "tl": "Natagpuan ng activities office ang isang kasalukuyang estudyante sa beripikadong membership list ng hindi kinikilalang organisasyon. Ipinakita ng university case records na itinataguyod ng organisasyon ang karahasan sa charter nito at lumahok ito sa isang dokumentadong marahas na pag-atake; kinumpirma ng estudyante ang membership ngunit walang alegasyon na nag-recruit o nagsagawa siya ng initiation.",
+          "taglish": "Nakita ng activities office ang currently enrolled student sa verified membership list ng isang unrecognized organization. Ipinakita ng university case records na ine-endorse ng charter nito ang violence at lumahok ang group sa isang documented violent attack; kinumpirma ng student ang membership, pero walang alleged recruitment or initiation by the student."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-34",
+    "offense_type": "major",
+    "offense_title": "Recruitment of students to join an unrecognized fraternity or sorority",
+    "handbook_section": "VI.E",
+    "handbook_item": 34,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-34-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Cafeteria",
+        "texts": {
+          "en": "A student reported being given an application form and invited to join a fraternity that is not recognized by NU Clark. The recruiter asked for contact details and a commitment to attend the group's orientation.",
+          "tl": "Iniulat ng isang estudyante na binigyan siya ng application form at inanyayahang sumali sa fraternity na hindi kinikilala ng NU Clark. Hiningi ng recruiter ang kaniyang contact details at pangakong dadalo sa orientation ng grupo.",
+          "taglish": "Ini-report ng student na binigyan siya ng application form at inimbitahang sumali sa fraternity na hindi recognized ng NU Clark. Hiningi ng recruiter ang contact details niya at commitment na um-attend sa orientation ng group."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-34-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "University class group chat",
+        "texts": {
+          "en": "Screenshots showed a student repeatedly inviting first-year classmates through a class group chat to become new members of an unrecognized sorority and directing interested students to a private recruitment channel.",
+          "tl": "Makikita sa screenshots na paulit-ulit na inaanyayahan ng isang estudyante sa class group chat ang mga first-year na kaklase na maging bagong miyembro ng hindi kinikilalang sorority at itinuturo sila sa pribadong recruitment channel.",
+          "taglish": "Makikita sa screenshots na paulit-ulit na ini-invite ng student ang first-year classmates sa class group chat para maging members ng unrecognized sorority. Dinidirekta rin niya ang interested students sa private recruitment channel."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-34-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "Academic building lobby",
+        "texts": {
+          "en": "Security observed a student quietly distributing cards for a fraternity orientation in the lobby. The Student Development and Activities Office confirmed that the fraternity had no recognition, and the cards requested prospective-member sign-ups.",
+          "tl": "Nakita ng security ang isang estudyante na palihim na namimigay ng cards para sa fraternity orientation sa lobby. Kinumpirma ng Student Development and Activities Office na hindi kinikilala ang fraternity at humihingi ang cards ng prospective-member sign-ups.",
+          "taglish": "Na-observe ng security ang student na palihim na namimigay ng cards para sa fraternity orientation sa lobby. Kinumpirma ng activities office na unrecognized ang fraternity at humihingi ang cards ng prospective-member sign-ups."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-34-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Off-campus academic event",
+        "texts": {
+          "en": "During travel for an academic event, a faculty member heard a student pitching the benefits of joining an unrecognized fraternity to several classmates and collecting their names for a recruitment meeting.",
+          "tl": "Habang bumibiyahe para sa academic event, narinig ng guro ang isang estudyante na ipinapaliwanag sa ilang kaklase ang mga benepisyo ng pagsali sa hindi kinikilalang fraternity upang hikayatin silang sumali, habang kinokolekta ang kanilang pangalan para sa recruitment meeting.",
+          "taglish": "Habang bumibiyahe para sa academic event, narinig ng faculty member ang student na pini-pitch sa classmates ang benefits ng pagsali sa unrecognized fraternity. Kinokolekta rin niya ang kanilang names para sa recruitment meeting."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-34-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "Online meeting advertised to NU Clark students",
+        "texts": {
+          "en": "A supposedly social online meeting was recorded after the organizer began presenting membership requirements, chapter privileges, and sign-up instructions for a sorority with no university recognition. The organizer specifically targeted enrolled NU Clark students.",
+          "tl": "Nairekord ang isang online meeting na ipinakilalang simpleng social gathering nang magsimulang ilahad ng organizer ang membership requirements, chapter privileges, at sign-up instructions para sa sorority na walang university recognition. Mga estudyante ng NU Clark ang partikular na inimbitahan.",
+          "taglish": "Na-record ang online meeting na ipinakilalang social gathering nang mag-present ang organizer ng membership requirements, chapter privileges, at sign-up instructions para sa unrecognized sorority. Enrolled NU Clark students ang specifically tina-target niya."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-35",
+    "offense_type": "major",
+    "offense_title": "Encouraging students to violate their Non-Fraternity Contracts",
+    "handbook_section": "VI.E",
+    "handbook_item": 35,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-35-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Campus courtyard",
+        "texts": {
+          "en": "A student who had signed a Non-Fraternity Contract reported that a classmate urged the student to ignore the agreement and secretly join an unrecognized fraternity.",
+          "tl": "Iniulat ng isang estudyanteng lumagda sa Non-Fraternity Contract na hinimok siya ng kaklase na balewalain ang kasunduan at palihim na sumali sa hindi kinikilalang fraternity.",
+          "taglish": "Ini-report ng student na pumirma sa Non-Fraternity Contract na inudyukan siya ng classmate na i-ignore ang agreement at palihim na sumali sa unrecognized fraternity."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-35-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Private messaging channel",
+        "texts": {
+          "en": "Verified messages showed a student telling several contract signatories that the university would never discover their membership and coaching them to conceal joining an unrecognized sorority.",
+          "tl": "Makikita sa beripikadong messages na sinabihan ng isang estudyante ang ilang lumagda sa kontrata na hindi malalaman ng unibersidad ang kanilang membership at tinuruan silang itago ang pagsali sa hindi kinikilalang sorority.",
+          "taglish": "Makikita sa verified messages na sinabihan ng student ang ilang contract signatories na hindi raw madi-discover ng university ang membership nila. Tinuruan pa niya silang itago ang pagsali sa unrecognized sorority."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-35-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Student advising area",
+        "texts": {
+          "en": "A faculty adviser overheard a student pressuring a classmate to disregard the Non-Fraternity Contract already on file, saying the signed promise should not prevent participation in an unrecognized group.",
+          "tl": "Narinig ng faculty adviser ang isang estudyante na pine-pressure ang kaklase na balewalain ang Non-Fraternity Contract na nasa record na at sinasabing hindi dapat hadlangan ng pinirmahang pangako ang pagsali sa hindi kinikilalang grupo.",
+          "taglish": "Narinig ng faculty adviser na pine-pressure ng student ang classmate na balewalain ang Non-Fraternity Contract na already on file. Sinabi niyang hindi dapat pigilan ng signed promise ang participation sa unrecognized group."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-35-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "Online student forum",
+        "texts": {
+          "en": "An enrolled student publicly invited students who had signed Non-Fraternity Contracts to join an unrecognized fraternity and posted instructions for hiding the new affiliation from university offices.",
+          "tl": "Hayagang inanyayahan ng isang estudyante ang mga lumagda sa Non-Fraternity Contracts na sumali sa hindi kinikilalang fraternity at nag-post ng mga tagubilin kung paano itatago sa mga opisina ng unibersidad ang bagong affiliation.",
+          "taglish": "Hayagang inimbitahan ng enrolled student ang mga pumirma sa Non-Fraternity Contracts to join an unrecognized fraternity at nag-post siya ng instructions for hiding the new affiliation from university offices."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-35-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Private gathering near campus",
+        "texts": {
+          "en": "Witness accounts from a private gathering consistently described a student persuading attendees to break their signed Non-Fraternity Contracts, dismissing the contracts as meaningless and offering ways to avoid detection.",
+          "tl": "Magkakatugma ang mga salaysay ng saksi na hinikayat ng isang estudyante ang mga dumalo na labagin ang pinirmahan nilang Non-Fraternity Contracts, sinabing walang halaga ang mga ito, at nagbigay ng paraan upang hindi mahuli.",
+          "taglish": "Magkakatugma ang witness accounts mula sa private gathering: hinihikayat ng student ang attendees na labagin ang signed Non-Fraternity Contracts nila. Tinawag niyang meaningless ang agreements at nag-offer pa ng ways to avoid detection."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-36",
+    "offense_type": "major",
+    "offense_title": "Bullying",
+    "handbook_section": "VI.E",
+    "handbook_item": 36,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-36-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Classroom",
+        "texts": {
+          "en": "A student reported being repeatedly mocked about academic difficulties by the same group during class breaks. The group encouraged others to laugh and continued after being asked to stop.",
+          "tl": "Iniulat ng isang estudyante na paulit-ulit siyang kinukutya ng parehong grupo tungkol sa kaniyang hirap sa pag-aaral tuwing class break. Hinihikayat ng grupo ang iba na tumawa at nagpatuloy kahit pinatigil na.",
+          "taglish": "Ini-report ng student na paulit-ulit siyang mino-mock ng parehong group tungkol sa academic difficulties niya during class breaks. Hinihikayat ng group ang iba na tumawa at nagpatuloy sila kahit pinatigil na."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-36-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Class group chat",
+        "texts": {
+          "en": "Over several weeks, classmates used a group chat to circulate edited humiliating images of one student and deliberately excluded that student from course coordination. Screenshots documented the repeated targeting.",
+          "tl": "Sa loob ng ilang linggo, ginamit ng mga kaklase ang group chat upang magpakalat ng nakakahiya at edited na larawan ng isang estudyante at sadyang hindi siya isinali sa course coordination. Naitala sa screenshots ang paulit-ulit na pag-target.",
+          "taglish": "Sa loob ng several weeks, nagpakalat ang classmates ng edited at humiliating images ng isang student sa group chat at sinadya nilang i-exclude siya sa course coordination. Na-document sa screenshots ang repeated targeting."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-36-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Laboratory class",
+        "texts": {
+          "en": "A laboratory instructor observed senior students repeatedly ordering a quieter classmate to perform their cleanup tasks while ridiculing the classmate in front of the group. The conduct had occurred in multiple sessions.",
+          "tl": "Napansin ng laboratory instructor na paulit-ulit na inuutusan ng mga senior student ang tahimik na kaklase na gawin ang kanilang cleanup tasks habang kinukutya ito sa harap ng grupo. Nangyari ang asal sa ilang session.",
+          "taglish": "Na-observe ng laboratory instructor na paulit-ulit na inuutusan ng senior students ang quieter classmate na gawin ang cleanup tasks nila habang nire-ridicule siya sa harap ng group. Nangyari ang conduct sa multiple sessions."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-36-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "Campus common areas",
+        "texts": {
+          "en": "A complaint described a coordinated pattern in which several students spread a false embarrassing rumor, pointed at the targeted student in hallways, and pressured peers not to sit with that student.",
+          "tl": "Inilarawan sa reklamo ang sabayang gawain ng ilang estudyante na nagpakalat ng nakahihiyang maling tsismis, itinuturo ang target sa hallway, at pine-pressure ang iba na huwag tabihan ang estudyante.",
+          "taglish": "Inilarawan sa complaint ang coordinated pattern kung saan nagpakalat ang several students ng false at embarrassing rumor, itinuturo ang targeted student sa hallways, at pine-pressure ang peers na huwag tumabi sa kaniya."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-36-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Student social-media space",
+        "texts": {
+          "en": "An account operated by a student posted daily polls designed to humiliate one classmate and tagged members of the class to amplify the ridicule. Platform records and admissions established the operator, and the posts contained no sexual or gender-based content.",
+          "tl": "Isang account na pinapatakbo ng estudyante ang araw-araw na nagpo-post ng polls upang ipahiya ang isang kaklase at tina-tag ang klase para palakihin ang pangungutya. Natukoy ang nagpapatakbo ng account sa platform records at sa pag-amin ng estudyante, at walang seksuwal o gender-based na nilalaman ang posts.",
+          "taglish": "Isang student-operated account ang nag-post ng daily polls para hiyain ang isang classmate at tina-tag ang buong class para mas maraming makisali sa ridicule. Na-identify ang operator through platform records at sa admission ng student, at walang sexual or gender-based content ang posts."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-37",
+    "offense_type": "major",
+    "offense_title": "Gender-based sexual harassment",
+    "handbook_section": "VI.E",
+    "handbook_item": 37,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-37-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Academic building hallway",
+        "texts": {
+          "en": "A student reported repeated catcalling and sexual comments about the student's body from the same classmate in the hallway. The remarks continued after a clear request to stop.",
+          "tl": "Iniulat ng isang estudyante ang paulit-ulit na catcalling at seksuwal na komento tungkol sa kaniyang katawan mula sa parehong kaklase sa hallway. Nagpatuloy ang mga salita kahit malinaw nang pinatigil.",
+          "taglish": "Ini-report ng student ang repeated catcalling at sexual comments ng parehong classmate tungkol sa body niya sa hallway. Nagpatuloy ang remarks kahit malinaw na niyang hiniling na itigil iyon."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-37-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Course group chat",
+        "texts": {
+          "en": "Screenshots from a course group chat showed a student directing degrading sexual jokes and sexist remarks at a classmate. The messages discussed the classmate's body but made no request for a sexual encounter.",
+          "tl": "Makikita sa screenshots ng course group chat na tinutukan ng isang estudyante ang kaklase ng mapanlait na sexual jokes at sexist remarks. Tinalakay ng messages ang katawan ng kaklase ngunit walang paanyaya sa sexual encounter.",
+          "taglish": "Makikita sa screenshots ng course group chat na tinatarget ng student ang classmate gamit ang degrading sexual jokes at sexist remarks. Tungkol sa body ng classmate ang messages, pero walang sexual proposition."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-37-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Classroom",
+        "texts": {
+          "en": "A faculty member witnessed students repeatedly using hostile slurs about a classmate's perceived sexual orientation and gender expression during group work. The targeted classmate had already objected to the remarks.",
+          "tl": "Nasaksihan ng guro ang paulit-ulit na paggamit ng mga estudyante ng mapanirang salita tungkol sa inaakalang sexual orientation at gender expression ng kaklase habang group work. Tumutol na ang target sa mga komento.",
+          "taglish": "Nasaksihan ng faculty member na paulit-ulit gumagamit ang students ng hostile slurs tungkol sa perceived sexual orientation at gender expression ng classmate during group work. Nag-object na dati ang targeted classmate."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-37-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "Student services queue",
+        "texts": {
+          "en": "While waiting at student services, a student repeatedly made misogynistic and sexually demeaning remarks toward a university staff member. Witnesses confirmed that the comments were directed at the staff member because of gender.",
+          "tl": "Habang naghihintay sa student services, paulit-ulit na nagbitiw ang isang estudyante ng misogynistic at seksuwal na mapanirang komento sa isang university staff member. Kinumpirma ng mga saksi na nakatuon ang komento sa staff dahil sa kasarian.",
+          "taglish": "Habang naghihintay sa student services, paulit-ulit na nagbitaw ang student ng misogynistic at sexually demeaning remarks sa university staff member. Kinumpirma ng witnesses na tina-target ang staff member dahil sa gender."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-37-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Online class discussion board",
+        "texts": {
+          "en": "A student used an online class board to post repeated unsolicited ratings of a classmate's body and gendered insults under the classmate's academic submissions. The posts did not propose a relationship or involve physical contact.",
+          "tl": "Ginamit ng isang estudyante ang online class board upang paulit-ulit na mag-post ng hindi hinihinging ratings sa katawan ng kaklase at gendered insults sa ilalim ng academic submissions nito. Walang alok na relasyon o pisikal na paghawak sa posts.",
+          "taglish": "Ginamit ng student ang online class board para paulit-ulit mag-post ng unsolicited ratings sa body ng classmate at gendered insults sa ilalim ng academic submissions. Walang relationship proposal o physical contact na involved sa posts."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-38",
+    "offense_type": "major",
+    "offense_title": "Unauthorized possession or use of prohibited drugs",
+    "handbook_section": "VI.E",
+    "handbook_item": 38,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-38-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Main Gate inspection area",
+        "texts": {
+          "en": "During a lawful bag inspection at the NU Clark main gate, security recovered a sealed packet later confirmed through proper procedure to contain marijuana. The student had no lawful authorization to possess it.",
+          "tl": "Sa legal na bag inspection sa pangunahing gate ng NU Clark, nakakuha ang security ng selyadong pakete na nakumpirmang marijuana sa wastong proseso. Walang legal na pahintulot ang estudyante na dalhin ito.",
+          "taglish": "During a lawful bag inspection sa NU Clark main gate, nakuha ng security ang sealed packet na later confirmed through proper procedure bilang marijuana. Walang lawful authorization ang student para i-possess ito."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-38-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Campus restroom",
+        "texts": {
+          "en": "A responding officer found a student using a prohibited drug inside a campus restroom. The recovered substance and implements were secured and identified under the university's evidence procedure.",
+          "tl": "Natagpuan ng responding officer ang isang estudyante na gumagamit ng ipinagbabawal na droga sa loob ng campus restroom. Siniguro at kinilala ang narekober na substance at kagamitan ayon sa evidence procedure ng unibersidad.",
+          "taglish": "Naabutan ng responding officer ang student na gumagamit ng prohibited drug sa loob ng campus restroom. Ang recovered substance at implements ay sinecure at na-identify ayon sa university evidence procedures."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-38-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Classroom",
+        "texts": {
+          "en": "A student was found carrying controlled tablets in an unlabelled pouch during class. Verification established that the tablets required a prescription and that the student had none.",
+          "tl": "Natagpuan ang isang estudyante na may dalang controlled tablets sa walang label na pouch habang nasa klase. Napatunayang kailangan ng reseta ang mga tableta at wala nito ang estudyante.",
+          "taglish": "Natagpuan ang student na may dalang controlled tablets sa unlabelled pouch during class. Sa verification, napatunayang kailangan ng prescription ang tablets pero wala nito ang student."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-38-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Off-campus university field activity",
+        "texts": {
+          "en": "During an official off-campus field activity, a faculty supervisor discovered a prohibited drug in a participant's personal kit. Required authorities confirmed the substance, and the student could not show lawful authorization.",
+          "tl": "Sa opisyal na off-campus field activity, natuklasan ng faculty supervisor ang ipinagbabawal na droga sa personal kit ng isang kalahok. Kinumpirma ito ng mga kinauukulan at walang maipakitang legal na pahintulot ang estudyante.",
+          "taglish": "During an official off-campus field activity, nakita ng faculty supervisor ang prohibited drug sa personal kit ng participant. Properly confirmed ang substance, at walang lawful authorization ang student."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-38-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Campus parcel-receiving area",
+        "texts": {
+          "en": "Security intercepted a parcel accepted and opened by a student in the campus receiving area. Evidence handling later confirmed that the concealed contents were a prohibited drug, and records tied the delivery to the student.",
+          "tl": "Na-intercept ng security ang parcel na tinanggap at binuksan ng isang estudyante sa campus receiving area. Sa evidence handling, nakumpirmang ipinagbabawal na droga ang nakatagong laman at nakaugnay sa estudyante ang delivery records.",
+          "taglish": "Na-intercept ng security ang parcel na tinanggap at binuksan ng student sa campus receiving area. Kinumpirma sa proper evidence handling na prohibited drug ang concealed contents, at iniugnay ng delivery records ang parcel sa student."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-39",
+    "offense_type": "major",
+    "offense_title": "Failure to comply with the University Drug Testing Program",
+    "handbook_section": "VI.E",
+    "handbook_item": 39,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-39-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "University health services",
+        "texts": {
+          "en": "A selected student failed to report for the required university drug test on two scheduled dates despite documented notices. No approved postponement or valid excuse was submitted.",
+          "tl": "Hindi sumipot ang napiling estudyante sa kinakailangang university drug test sa dalawang nakatakdang petsa kahit may dokumentadong notices. Wala siyang aprubadong postponement o isinumiteng valid excuse.",
+          "taglish": "Hindi nag-report ang selected student para sa required university drug test sa dalawang scheduled dates kahit may documented notices. Wala rin siyang sinumiteng approved postponement o valid excuse."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-39-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Drug-testing collection site",
+        "texts": {
+          "en": "After completing registration at the official collection site, a student refused to provide the required specimen and left even after the testing procedure and consequences were explained.",
+          "tl": "Matapos magparehistro sa opisyal na collection site, tumanggi ang isang estudyante na magbigay ng kinakailangang specimen at umalis kahit naipaliwanag na ang testing procedure at mga kahihinatnan.",
+          "taglish": "Pagkatapos mag-register sa official collection site, tumanggi ang student na ibigay ang required specimen at umalis kahit naipaliwanag na ang testing procedure at consequences."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-39-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "University drug-testing venue",
+        "texts": {
+          "en": "The testing coordinator reported that a student began the mandatory process but left before identity verification and sample collection were completed. The student ignored the written instruction to return before the deadline.",
+          "tl": "Iniulat ng testing coordinator na sinimulan ng isang estudyante ang mandatory process ngunit umalis bago matapos ang identity verification at sample collection. Hindi niya sinunod ang nakasulat na utos na bumalik bago ang deadline.",
+          "taglish": "Ini-report ng testing coordinator na sinimulan ng student ang mandatory process pero umalis bago matapos ang identity verification at sample collection. Hindi rin niya sinunod ang written instruction na bumalik."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-39-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Health-services monitoring records",
+        "texts": {
+          "en": "After a physician evaluated a first-time confirmed-positive student as non-drug-dependent, the student acknowledged a six-month monitoring plan requiring monthly tests and counseling but missed two required appointments without an approved reason.",
+          "tl": "Matapos suriin ng physician ang first-time confirmed-positive na estudyante bilang non-drug-dependent, kinilala ng estudyante ang anim na buwang monitoring plan na may buwanang tests at counseling ngunit hindi siya dumalo sa dalawang kinakailangang appointment nang walang aprubadong dahilan.",
+          "taglish": "After ma-evaluate ng physician ang first-time confirmed-positive student as non-drug-dependent, in-acknowledge niya ang six-month monitoring plan with monthly tests and counseling pero hindi niya nadaluhan ang two required appointments without an approved reason."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-39-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Student portal and health-services records",
+        "texts": {
+          "en": "Delivery logs showed that a student opened multiple official drug-testing notices in the student portal. The compliance deadline passed without attendance, required forms, a medical deferment, or any response from the student.",
+          "tl": "Makikita sa delivery logs na binuksan ng isang estudyante ang maraming opisyal na drug-testing notices sa student portal. Lumipas ang compliance deadline nang walang attendance, kinakailangang forms, medical deferment, o anumang tugon.",
+          "taglish": "Makikita sa delivery logs na binuksan ng student ang multiple official drug-testing notices sa portal. Lumampas ang compliance deadline nang walang attendance, required forms, medical deferment, o anumang response."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-40",
+    "offense_type": "major",
+    "offense_title": "Committing acts of lewdness or any act of immorality",
+    "handbook_section": "VI.E",
+    "handbook_item": 40,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-40-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Campus courtyard",
+        "texts": {
+          "en": "Security witnessed a student deliberately expose an intimate body part in the campus courtyard as part of a prank. The act was not directed as a sexual advance toward any particular person.",
+          "tl": "Nasaksihan ng security na sadyang inilantad ng isang estudyante ang maselang bahagi ng katawan sa campus courtyard bilang prank. Hindi ito nakatuon bilang sexual advance sa isang partikular na tao.",
+          "taglish": "Nasaksihan ng security na sinadyang ilantad ng student ang intimate body part niya sa campus courtyard bilang prank. Hindi directed sa sinuman bilang sexual advance ang act."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-40-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Empty classroom after class",
+        "texts": {
+          "en": "A faculty member entered an empty classroom and found students recording a video in which one participant repeatedly performed obscene sexual gestures for the camera. No other person was touched or propositioned.",
+          "tl": "Pumasok ang guro sa bakanteng classroom at natagpuan ang mga estudyanteng nagre-record ng video kung saan paulit-ulit na gumagawa ng malaswang sexual gestures ang isang kalahok para sa camera. Walang hinawakan o inalok na ibang tao.",
+          "taglish": "Pagpasok ng faculty member sa empty classroom, nakita niyang nagre-record ng video ang students habang paulit-ulit na gumagawa ang isang participant ng obscene sexual gestures sa camera. Walang taong hinawakan o binigyan ng sexual proposition."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-40-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Student organization rehearsal room",
+        "texts": {
+          "en": "During rehearsal, a student performed a simulated sexual act as an unscripted joke in front of the group. Witnesses consistently described the conduct as deliberate and lewd rather than affectionate contact with another person.",
+          "tl": "Habang rehearsal, nagsagawa ang isang estudyante ng kunwaring sexual act bilang hindi kasali sa script na biro sa harap ng grupo. Magkakatugma ang mga saksi na sadya at mahalay ang kilos at hindi affectionate contact sa ibang tao.",
+          "taglish": "During rehearsal, gumawa ang student ng simulated sexual act bilang unscripted joke sa harap ng group. Ayon sa witnesses, deliberate lewd conduct iyon at hindi affectionate contact sa ibang person."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-40-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "Academic building stairwell",
+        "texts": {
+          "en": "A roving guard encountered a student deliberately engaging in obscene self-touching in a stairwell open to campus users. The conduct involved no contact with another person.",
+          "tl": "Naabutan ng roving guard ang isang estudyante na sadyang gumagawa ng mahalay na paghawak sa sarili sa stairwell na bukas sa mga gumagamit ng campus. Walang ibang taong hinawakan sa insidente.",
+          "taglish": "Naabutan ng roving guard ang student na sadyang gumagawa ng obscene self-touching sa stairwell na open sa campus users. Walang contact sa ibang person ang conduct."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-40-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "Outdoor student activity area",
+        "texts": {
+          "en": "Several witnesses reported a student staging a sexualized stripping prank and making repeated pelvic gestures in an outdoor activity area. The behavior was a public lewd performance, with no sexual material displayed and no targeted proposition or touching.",
+          "tl": "Iniulat ng ilang saksi na nagsagawa ang isang estudyante ng sexualized stripping prank at paulit-ulit na pelvic gestures sa outdoor activity area. Pampublikong mahalay na performance ito, walang ipinakitang sexual material, at walang tinarget na alok o paghawak.",
+          "taglish": "Ini-report ng several witnesses na nag-stage ang student ng sexualized stripping prank at paulit-ulit na pelvic gestures sa outdoor activity area. Public lewd performance ito, pero walang displayed sexual material, targeted proposition, o touching."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-41",
+    "offense_type": "major",
+    "offense_title": "Possessing, displaying, or distributing pornographic materials",
+    "handbook_section": "VI.E",
+    "handbook_item": 41,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-41-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Computer laboratory",
+        "texts": {
+          "en": "A laboratory instructor found a student using an assigned workstation to access a pornographic website during class. The browser content was verified before the session was closed.",
+          "tl": "Natagpuan ng laboratory instructor ang isang estudyante na gumagamit ng assigned workstation upang mag-access ng pornographic website habang may klase. Beripikado ang browser content bago isinara ang session.",
+          "taglish": "Nakita ng laboratory instructor na ginagamit ng student ang assigned workstation para mag-access ng pornographic website during class. Na-verify ang browser content bago isinara ang session."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-41-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Cafeteria",
+        "texts": {
+          "en": "Students reported that a classmate deliberately played an explicit pornographic video on a phone and held the screen up for a group to watch in the cafeteria.",
+          "tl": "Iniulat ng mga estudyante na sadyang nag-play ang kaklase ng hayagang pornographic video sa cellphone at itinaas ang screen upang mapanood ng grupo sa cafeteria.",
+          "taglish": "Ini-report ng students na sadyang nag-play ang classmate ng explicit pornographic video sa phone at itinaas ang screen para mapanood ng group sa cafeteria."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-41-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "Library bag inspection area",
+        "texts": {
+          "en": "During an authorized inspection, library security found printed pornographic photographs in a student's folder. The student acknowledged bringing the materials onto campus.",
+          "tl": "Sa awtorisadong inspeksiyon, nakakita ang library security ng printed pornographic photographs sa folder ng isang estudyante. Inamin ng estudyante na dinala niya ang mga materyal sa campus.",
+          "taglish": "During an authorized inspection, nakakita ang library security ng printed pornographic photographs sa folder ng student. Inamin ng student na siya ang nagdala ng materials sa campus."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-41-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "University class messaging channel",
+        "texts": {
+          "en": "Message records showed a student uploading and forwarding pornographic files to a university class channel used for coursework. The files themselves, rather than sexual remarks or proposals, were the subject of the report.",
+          "tl": "Makikita sa message records na nag-upload at nag-forward ang isang estudyante ng pornographic files sa university class channel para sa coursework. Ang mismong files, hindi sexual remarks o proposals, ang paksa ng ulat.",
+          "taglish": "Makikita sa message records na nag-upload at nag-forward ang student ng pornographic files sa university class channel na ginagamit sa coursework. Ang files mismo ang subject ng report, hindi sexual remarks o proposals."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-41-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "Library group study room",
+        "texts": {
+          "en": "A faculty adviser responding to a complaint found that a student had connected a personal laptop to the study-room display and projected a folder of explicit pornographic images for classmates.",
+          "tl": "Sa pagtugon sa reklamo, natuklasan ng faculty adviser na ikinonekta ng isang estudyante ang personal laptop sa display ng study room at ipinakita sa mga kaklase ang folder ng hayagang pornographic images.",
+          "taglish": "Sa pagresponde sa complaint, nalaman ng faculty adviser na ikinonekta ng student ang personal laptop sa study-room display at nag-project ng folder ng explicit pornographic images para sa classmates."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-42",
+    "offense_type": "major",
+    "offense_title": "Committing acts of lasciviousness",
+    "handbook_section": "VI.E",
+    "handbook_item": 42,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-42-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Academic building corridor",
+        "texts": {
+          "en": "A student reported that a classmate deliberately groped an intimate body area while passing in the corridor. The contact was not consensual and was witnessed by two students.",
+          "tl": "Iniulat ng isang estudyante na sadyang hinipuan ng kaklase ang maselang bahagi ng kaniyang katawan habang nagdaraan sa corridor. Walang pahintulot ang paghawak at nasaksihan ito ng dalawang estudyante.",
+          "taglish": "Ini-report ng student na sinadyang kapain ng classmate ang intimate body area niya habang nagkakasalubong sila sa corridor. Non-consensual ang contact at nasaksihan ito ng two students."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-42-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Class photo area",
+        "texts": {
+          "en": "During a class photo, a student intentionally placed a hand on a classmate's chest without consent and held it there until the classmate moved away.",
+          "tl": "Habang kumukuha ng class photo, sadyang inilagay ng isang estudyante ang kamay sa dibdib ng kaklase nang walang pahintulot at hindi agad inalis hanggang lumayo ang kaklase.",
+          "taglish": "During a class photo, sinadyang ilagay ng student ang kamay niya sa chest ng classmate without consent at hindi inalis hanggang lumayo ang classmate."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-42-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "University shuttle",
+        "texts": {
+          "en": "On a university shuttle, a student repeatedly moved a hand up a seatmate's thigh after being told to stop. The seatmate and another passenger reported the unwanted sexual touching.",
+          "tl": "Sa university shuttle, paulit-ulit na itinaas ng isang estudyante ang kamay sa hita ng katabi kahit pinatitigil na. Iniulat ng katabi at isa pang pasahero ang hindi ginustong seksuwal na paghawak.",
+          "taglish": "Sa university shuttle, paulit-ulit na iginalaw ng student ang kamay niya pataas sa thigh ng seatmate kahit sinabihan nang tumigil. Ini-report ng seatmate at another passenger ang unwanted sexual touching."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-42-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "Quiet stair landing",
+        "texts": {
+          "en": "Security responded after a student cornered another student on a stair landing and deliberately touched an intimate area over clothing without consent. The responding guard separated them immediately.",
+          "tl": "Rumesponde ang security matapos harangin ng isang estudyante ang isa pa sa stair landing at sadyang hawakan ang maselang bahagi sa ibabaw ng damit nang walang pahintulot. Agad silang pinaghiwalay ng guwardiya.",
+          "taglish": "Nag-respond ang security matapos i-corner ng student ang isang kapwa student sa stair landing at sadyang hawakan ang intimate area nito over clothing without consent. Agad silang pinaghiwalay ng guard."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-42-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "Backstage area of a university event",
+        "texts": {
+          "en": "A faculty event supervisor witnessed a student embrace a participant from behind and then touch an intimate body area despite the participant pulling away. The report concerned completed non-consensual sexual contact, not a verbal proposal.",
+          "tl": "Nasaksihan ng faculty event supervisor na niyakap ng isang estudyante mula sa likod ang kalahok at saka hinawakan ang maselang bahagi kahit lumalayo ang kalahok. Ang ulat ay tungkol sa naganap na walang-pahintulot na sexual contact, hindi verbal proposal.",
+          "taglish": "Nasaksihan ng faculty event supervisor na niyakap ng student ang participant from behind at hinawakan ang intimate body area nito kahit lumalayo na ang participant. Completed non-consensual sexual contact ang report, hindi verbal proposal."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-43",
+    "offense_type": "major",
+    "offense_title": "Making sexual advances",
+    "handbook_section": "VI.E",
+    "handbook_item": 43,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-43-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Campus cafeteria",
+        "texts": {
+          "en": "A student reported that a classmate directly proposed a sexual encounter in the cafeteria and repeated the invitation after receiving a clear refusal. No physical contact occurred.",
+          "tl": "Iniulat ng isang estudyante na direktang nag-alok ang kaklase ng sexual encounter sa cafeteria at inulit ang paanyaya kahit malinaw nang tumanggi ang estudyante. Walang pisikal na paghawak na naganap.",
+          "taglish": "Ini-report ng student na direktang nag-propose ang classmate ng sexual encounter sa cafeteria at inulit pa ang invitation matapos ang malinaw na refusal. Walang physical contact na nangyari."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-43-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "University class platform private messages",
+        "texts": {
+          "en": "Verified private messages sent through the University class platform showed a student repeatedly inviting a classmate to meet off campus specifically for sexual activity. The classmate declined each invitation.",
+          "tl": "Makikita sa beripikadong private messages na ipinadala sa University class platform na paulit-ulit na inaanyayahan ng isang estudyante ang kaklase na magkita sa labas ng campus para mismo sa sexual activity. Tinanggihan ng kaklase ang bawat paanyaya.",
+          "taglish": "Makikita sa verified private messages sent through the University class platform na paulit-ulit ini-invite ng student ang classmate to meet off campus specifically for sexual activity. Tinanggihan ng classmate ang bawat invitation."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-43-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "Library study table",
+        "texts": {
+          "en": "A student left a note at a classmate's study table offering expensive gifts in exchange for sexual intimacy. The classmate submitted the note without responding to the offer.",
+          "tl": "Nag-iwan ang isang estudyante ng note sa study table ng kaklase na nag-aalok ng mamahaling regalo kapalit ng sexual intimacy. Isinumite ng kaklase ang note nang hindi sinasagot ang alok.",
+          "taglish": "Nag-iwan ang student ng note sa study table ng classmate na nag-o-offer ng expensive gifts kapalit ng sexual intimacy. Isinumite ng classmate ang note nang hindi sumagot."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-43-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Student organization office",
+        "texts": {
+          "en": "A faculty adviser overheard a student pressuring another member to meet privately for intimate activity and asking for a kiss after the member had already said no. The student did not make physical contact.",
+          "tl": "Narinig ng faculty adviser na pine-pressure ng isang estudyante ang kapwa miyembro na magkita nang pribado para sa intimate activity at humihingi ng halik kahit tumanggi na ang miyembro. Walang pisikal na paghawak na ginawa.",
+          "taglish": "Narinig ng faculty adviser na pine-pressure ng student ang another member na makipagkita privately for intimate activity at humihingi ng kiss kahit nagsabi nang no ang member. Walang physical contact na nangyari."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-43-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "University event messaging thread",
+        "texts": {
+          "en": "In an event coordination thread, a student redirected a work conversation into repeated explicit invitations for sexual intimacy with a university community member. The messages were propositions, with no pornographic files or physical touching involved.",
+          "tl": "Sa event coordination thread, iniliko ng isang estudyante ang usapang trabaho tungo sa paulit-ulit at tahasang paanyaya sa sexual intimacy sa isang miyembro ng university community. Mga proposal ang messages at walang pornographic files o pisikal na paghawak.",
+          "taglish": "Sa event coordination thread, iniliko ng student ang work conversation sa repeated explicit invitations for sexual intimacy sa isang university community member. Propositions ang messages, at walang pornographic files o physical touching."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-44",
+    "offense_type": "major",
+    "offense_title": "Public display of attention",
+    "handbook_section": "VI.E",
+    "handbook_item": 44,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-44-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "Academic building hallway",
+        "texts": {
+          "en": "A roving guard observed two students mutually engaging in prolonged kissing in a busy academic hallway during the class break.",
+          "tl": "Nakita ng roving guard ang dalawang estudyante na kapwa pumapayag sa matagal na paghahalikan sa mataong academic hallway habang class break.",
+          "taglish": "Nakita ng roving guard ang dalawang students na parehong willing at matagal na naghahalikan sa busy academic hallway during class break."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-44-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "Library reading area",
+        "texts": {
+          "en": "Library users reported a couple repeatedly embracing and kissing at a reading table. Staff confirmed that the affectionate behavior was mutual and continued in the public study area.",
+          "tl": "Iniulat ng mga gumagamit ng library ang magkasintahang paulit-ulit na nagyayakapan at naghahalikan sa reading table. Kinumpirma ng staff na kapwa kusang-loob ang kilos at nagpatuloy ito sa pampublikong study area.",
+          "taglish": "Ini-report ng library users na paulit-ulit na nagyakapan at naghalikan ang isang student couple sa reading table. Kinumpirma ng staff na mutual ang behavior at nagpatuloy ito sa public study area."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-44-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Cafeteria seating area",
+        "texts": {
+          "en": "Two students were documented sitting closely on one chair, with one on the other's lap, while exchanging repeated kisses in the open cafeteria seating area. Both described the conduct as consensual.",
+          "tl": "Naitala ang dalawang estudyante na magkalapit sa iisang upuan, ang isa ay nakaupo sa kandungan ng isa, habang paulit-ulit na naghahalikan sa bukas na cafeteria seating area. Pareho nilang sinabing kusang-loob ang kilos.",
+          "taglish": "Na-document ang student couple na magkasama sa iisang chair, habang nakaupo ang isa sa lap ng kasama at paulit-ulit silang naghahalikan sa open cafeteria. Pareho nilang sinabing consensual ang conduct."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-44-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Audience area of a university program",
+        "texts": {
+          "en": "During a university program, a faculty marshal observed a student couple in the audience maintaining an intimate embrace and repeatedly kissing while the event was underway.",
+          "tl": "Habang may university program, napansin ng faculty marshal ang magkasintahang estudyante sa audience na matagal na magkayakap at paulit-ulit na naghahalikan habang nagpapatuloy ang event.",
+          "taglish": "During a university program, na-observe ng faculty marshal ang student couple sa audience na matagal na magkayakap at paulit-ulit na naghahalikan habang ongoing ang event."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-44-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Visible stairwell landing",
+        "texts": {
+          "en": "CCTV and a guard's account showed two students mutually cuddling and kissing for an extended period on a stairwell landing visible to passing campus users. Neither student alleged unwanted contact.",
+          "tl": "Makikita sa CCTV at sa salaysay ng guwardiya ang dalawang estudyante na kusang magkayakap at naghahalikan nang matagal sa stairwell landing na nakikita ng mga dumaraan. Walang nagsabing hindi ginusto ang paghawak.",
+          "taglish": "Makikita sa CCTV at guard's account ang two students na mutually cuddling and kissing nang matagal sa stairwell landing na visible sa passing campus users. Wala sa kanila ang nag-report na unwanted ang contact."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-45",
+    "offense_type": "major",
+    "offense_title": "Violation of computer laboratory policies and guidelines",
+    "handbook_section": "VI.E",
+    "handbook_item": 45,
+    "handbook_page": "38",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-45-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Computer laboratory",
+        "texts": {
+          "en": "During an authorized laboratory class, a student installed an unapproved computer game on the assigned workstation and played it instead of using the unit for academic work.",
+          "tl": "Habang may awtorisadong laboratory class, nag-install ang isang estudyante ng hindi aprubadong computer game sa assigned workstation at nilaro ito sa halip na gamitin ang unit para sa academic work.",
+          "taglish": "During an authorized laboratory class, nag-install ang student ng unapproved computer game sa assigned workstation at nilaro iyon instead of using the unit for academic work."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-45-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Computer laboratory workstation",
+        "texts": {
+          "en": "A laboratory instructor saw a student disconnect the network cable from a computer unit to plug it into a personal laptop, contrary to the posted laboratory guideline.",
+          "tl": "Nakita ng laboratory instructor ang isang estudyante na nagtanggal ng network cable mula sa computer unit upang ikabit ito sa personal laptop, taliwas sa nakapaskil na laboratory guideline.",
+          "taglish": "Nakita ng laboratory instructor na tinanggal ng student ang network cable sa computer unit para ikabit sa personal laptop, contrary sa posted laboratory guideline."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-45-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Computer laboratory",
+        "texts": {
+          "en": "The lab custodian documented that a student changed the desktop wallpaper and local display settings of an assigned computer. The changes affected only that workstation and did not interrupt the network.",
+          "tl": "Itinala ng lab custodian na binago ng isang estudyante ang desktop wallpaper at local display settings ng assigned computer. Sa workstation lamang ang pagbabago at hindi nito naantala ang network.",
+          "taglish": "Na-document ng lab custodian na binago ng student ang desktop wallpaper at local display settings ng assigned computer. Sa workstation lang nagkaroon ng changes at hindi na-interrupt ang network."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-45-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "Open computer laboratory session",
+        "texts": {
+          "en": "A student used a laboratory computer during an authorized open session to complete paid design work for a private client. Records showed the university equipment was being used for personal commercial gain.",
+          "tl": "Ginamit ng isang estudyante ang laboratory computer sa awtorisadong open session upang gumawa ng bayad na design work para sa pribadong client. Ipinakita ng records na ginagamit ang university equipment para sa personal commercial gain.",
+          "taglish": "Ginamit ng student ang laboratory computer during an authorized open session para tapusin ang paid design work ng private client. Makikita sa records na ginamit ang university equipment for personal commercial gain."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-45-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "Computer laboratory",
+        "texts": {
+          "en": "When an assigned computer stopped responding, a student opened the system unit and began dismantling components instead of notifying IT staff. No component was damaged and no account or network resource was accessed.",
+          "tl": "Nang hindi tumugon ang assigned computer, binuksan ng isang estudyante ang system unit at nagsimulang magbaklas ng components sa halip na ipagbigay-alam sa IT staff. Walang nasirang component at walang account o network resource na in-access.",
+          "taglish": "Nang tumigil sa pag-respond ang assigned computer, binuksan ng student ang system unit at nagsimulang magbaklas ng components instead of notifying IT staff. Walang component na nasira at walang account o network resource na in-access."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-46",
+    "offense_type": "major",
+    "offense_title": "Accessing a University computer or computer network without authority or beyond authorized access",
+    "handbook_section": "VI.E",
+    "handbook_item": 46,
+    "handbook_page": "39",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-46-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "Faculty workstation in a classroom",
+        "texts": {
+          "en": "A student used a faculty workstation left signed in and opened a restricted university portal without permission. The student viewed the page but did not alter any information.",
+          "tl": "Ginamit ng isang estudyante ang faculty workstation na naiwan na naka-sign in at binuksan ang restricted university portal nang walang pahintulot. Tiningnan lamang niya ang page at walang binagong impormasyon.",
+          "taglish": "Ginamit ng student ang faculty workstation na naiwan na signed in at binuksan ang restricted university portal without permission. Tiningnan lang ang page at walang information na binago."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-46-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "Computer laboratory network port",
+        "texts": {
+          "en": "Network logs showed a student connecting a personal laptop to a staff-only wired network using credentials not issued to that student. The session involved unauthorized access but no configuration change or service disruption.",
+          "tl": "Makikita sa network logs na ikinonekta ng isang estudyante ang personal laptop sa staff-only wired network gamit ang credentials na hindi ibinigay sa kaniya. Unauthorized access ang nangyari ngunit walang configuration change o service disruption.",
+          "taglish": "Makikita sa network logs na ikinonekta ng student ang personal laptop sa staff-only wired network gamit ang credentials na hindi issued sa kaniya. May unauthorized access pero walang configuration change o disruption."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-46-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "student_complaint",
+        "location_context": "NU account services",
+        "texts": {
+          "en": "A student admitted using a classmate's NU account password to open and read the classmate's university mailbox. No message was sent, changed, or deleted.",
+          "tl": "Inamin ng isang estudyante na ginamit niya ang NU account password ng kaklase upang buksan at basahin ang university mailbox nito. Walang message na ipinadala, binago, o binura.",
+          "taglish": "Inamin ng student na ginamit niya ang NU account password ng classmate para buksan at basahin ang university mailbox nito. Walang message na sinend, binago, o dinelete."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-46-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "University cloud file service",
+        "texts": {
+          "en": "Audit logs established that a student used a copied access link to enter a restricted administrative folder beyond the student's permission level. The files were opened for viewing only and remained unchanged.",
+          "tl": "Napatunayan sa audit logs na gumamit ang isang estudyante ng kinopyang access link upang pumasok sa restricted administrative folder na lampas sa kaniyang permission level. Binuksan lamang para tingnan ang files at walang binago.",
+          "taglish": "Napatunayan sa audit logs na gumamit ang student ng copied access link para pumasok sa restricted administrative folder beyond the allowed permission level. Tiningnan lang ang files at nanatiling unchanged."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-46-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "University records application",
+        "texts": {
+          "en": "A student assistant had legitimate access to a basic records screen but deliberately opened an administrator-only panel outside the assigned role. Logs showed no edits, deletions, false entries, or interruption of service.",
+          "tl": "May lehitimong access ang isang student assistant sa basic records screen ngunit sadyang binuksan ang administrator-only panel na labas sa kaniyang assigned role. Walang edit, deletion, false entry, o service interruption sa logs.",
+          "taglish": "May legitimate access ang student assistant sa basic records screen pero sinadya niyang buksan ang administrator-only panel beyond the assigned role. Walang edits, deletions, false entries, o interruption sa logs."
+        }
+      }
+    ]
+  },
+  {
+    "offense_code": "MAJOR-47",
+    "offense_type": "major",
+    "offense_title": "Committing acts constituting a computer security breach",
+    "handbook_section": "VI.E",
+    "handbook_item": 47,
+    "handbook_page": "39",
+    "scenario_groups": [
+      {
+        "scenario_group_id": "MAJOR-47-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "student_complaint",
+        "location_context": "NU account services",
+        "texts": {
+          "en": "Account audit records showed that a student entered a classmate's NU account and changed the password, preventing the account owner from signing in.",
+          "tl": "Makikita sa account audit records na pumasok ang isang estudyante sa NU account ng kaklase at binago ang password kaya hindi na makapag-sign in ang may-ari.",
+          "taglish": "Makikita sa account audit records na pumasok ang student sa NU account ng classmate at pinalitan ang password, kaya hindi na makapag-sign in ang account owner."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-47-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "University shared network drive",
+        "texts": {
+          "en": "A faculty member reported that a student deliberately deleted classmates' project files from a shared university drive. Recovery logs identified the student's account as the source of the deletions.",
+          "tl": "Iniulat ng guro na sadyang binura ng isang estudyante ang project files ng mga kaklase mula sa shared university drive. Natukoy sa recovery logs ang account ng estudyante bilang pinagmulan ng deletions.",
+          "taglish": "Ini-report ng faculty member na sinadyang i-delete ng student ang project files ng classmates sa shared university drive. Na-identify sa recovery logs ang account ng student bilang source."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-47-G03",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "Computer laboratory",
+        "texts": {
+          "en": "System logs established that a student changed network settings on a laboratory computer, causing several workstations to lose connectivity until IT staff restored the configuration.",
+          "tl": "Napatunayan sa system logs na binago ng isang estudyante ang network settings ng laboratory computer kaya nawalan ng koneksiyon ang ilang workstation hanggang maibalik ng IT staff ang configuration.",
+          "taglish": "Napatunayan sa system logs na binago ng student ang network settings ng laboratory computer, kaya nawalan ng connectivity ang several workstations hanggang ma-restore ng IT staff ang configuration."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-47-G04",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "University email service",
+        "texts": {
+          "en": "Email audit logs showed that a student used a classmate's NU account to send a fabricated and offensive message under the classmate's name to a course mailing list. Sending false information under another identity, rather than merely viewing the account, was the reported breach; no files or settings were changed.",
+          "tl": "Makikita sa email audit logs na ginamit ng isang estudyante ang NU account ng kaklase upang magpadala sa course mailing list ng gawa-gawa at nakasasakit na mensahe sa pangalan ng kaklase. Ang pagpapadala ng maling impormasyon gamit ang identidad ng iba, hindi ang simpleng pagtingin sa account, ang iniulat na breach; walang file o setting na binago.",
+          "taglish": "Makikita sa email audit logs na ginamit ng student ang NU account ng classmate para mag-send sa course mailing list ng fabricated and offensive message under the classmate's name. Sending false information under another identity ang reported breach, hindi mere account viewing; walang files or settings na binago."
+        }
+      },
+      {
+        "scenario_group_id": "MAJOR-47-G05",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "Restricted university records system",
+        "texts": {
+          "en": "Forensic audit logs showed a student entering a restricted records system and altering data in several files beyond the student's authorized access. The changed values were preserved in the audit history and later restored.",
+          "tl": "Makikita sa forensic audit logs na pumasok ang isang estudyante sa restricted records system at binago ang data sa ilang files na lampas sa kaniyang authorized access. Naitala sa audit history ang changes at kalaunan ay naibalik.",
+          "taglish": "Makikita sa forensic audit logs na pumasok ang student sa restricted records system at nag-alter ng data sa several files beyond authorized access. Na-preserve sa audit history ang changed values at later na-restore."
+        }
+      }
+    ]
+  }
+]

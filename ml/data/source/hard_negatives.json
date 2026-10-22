@@ -1,0 +1,348 @@
+[
+  {
+    "offense_code": "NO_MATCH",
+    "offense_type": "none",
+    "offense_title": "No handbook offense or insufficient evidence",
+    "handbook_section": null,
+    "handbook_item": null,
+    "handbook_page": null,
+    "scenario_groups": [
+      {
+        "scenario_group_id": "NO_MATCH-G01",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "security_report",
+        "location_context": "main entrance",
+        "texts": {
+          "en": "The student entered through the designated gate in complete uniform and presented a valid University ID to security.",
+          "tl": "Pumasok ang estudyante sa tamang gate na kumpleto ang uniporme at ipinakita ang balidong University ID sa guwardiya.",
+          "taglish": "Dumaan ang student sa designated gate in complete uniform at maayos na nag-present ng valid University ID sa security."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G02",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "classroom",
+        "texts": {
+          "en": "A faculty member authorized the class officers to move the chairs before the scheduled student presentation.",
+          "tl": "Pinahintulutan ng guro ang mga opisyal ng klase na ilipat ang mga upuan bago ang nakatakdang presentasyon.",
+          "taglish": "May permission ng faculty ang class officers na i-rearrange ang chairs bago ang scheduled presentation."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G03",
+        "split": "train",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "student cafeteria",
+        "texts": {
+          "en": "The student ate lunch at the cafeteria and placed the food containers in the proper waste bins afterward.",
+          "tl": "Kumain ng tanghalian ang estudyante sa kantina at itinapon pagkatapos ang mga lalagyan sa wastong basurahan.",
+          "taglish": "Nag-lunch ang student sa cafeteria at pagkatapos ay nilagay ang food containers sa tamang waste bins."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G04",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "library circulation desk",
+        "texts": {
+          "en": "The student borrowed a general-circulation book through the library desk and returned it before the recorded due date.",
+          "tl": "Humiram ang estudyante ng aklat na maaaring iuwi sa library circulation desk at isinauli ito bago ang takdang petsa.",
+          "taglish": "Nag-borrow ang student ng general-circulation book sa library desk at ibinalik ito before the due date."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G05",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "faculty_report",
+        "location_context": "computer laboratory",
+        "texts": {
+          "en": "Before the laboratory exercise, the technician installed an approved application; the student only used it for the assigned activity.",
+          "tl": "Bago ang laboratory exercise, ang technician ang nag-install ng aprubadong application; ginamit lamang ito ng estudyante para sa nakatalagang gawain.",
+          "taglish": "Before the lab exercise, ang technician ang nag-install ng approved application; ginamit lang ito ng student for the assigned activity."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G06",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "student portal",
+        "texts": {
+          "en": "The student signed in to the University portal using the account issued to them and accessed only their own enrollment record.",
+          "tl": "Nag-sign in ang estudyante sa University portal gamit ang sariling account at sariling enrollment record lamang ang binuksan.",
+          "taglish": "Gamit ang assigned account, nag-login ang student sa University portal at sariling enrollment record lang ang in-access."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G07",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "online assignment",
+        "texts": {
+          "en": "The instructor permitted generative AI for brainstorming, and the student disclosed its use and completed the required analysis independently.",
+          "tl": "Pinayagan ng guro ang generative AI para sa brainstorming, at idineklara ng estudyante ang paggamit nito habang sariling gawa ang pagsusuri.",
+          "taglish": "Allowed ng instructor ang Gen AI for brainstorming; dineclare ito ng student at sariling analysis pa rin ang isinumite."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G08",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "campus lobby",
+        "texts": {
+          "en": "After finding an unattended wallet in the lobby, the student immediately surrendered it to the Student Discipline Office.",
+          "tl": "Matapos makakita ng pitakang walang nagbabantay sa lobby, agad itong isinuko ng estudyante sa Student Discipline Office.",
+          "taglish": "May nakitang unattended wallet ang student sa lobby at agad niya itong tinurn over sa Student Discipline Office."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G09",
+        "split": "train",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "approved campus booth",
+        "texts": {
+          "en": "A recognized student organization sold approved event merchandise at a booth covered by a written campus permit.",
+          "tl": "Nagbenta ang kinikilalang organisasyon ng aprubadong event merchandise sa booth na may nakasulat na pahintulot ng kampus.",
+          "taglish": "Nagbenta ang recognized student organization ng approved event merchandise sa booth na may written campus permit."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G10",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "health services office",
+        "texts": {
+          "en": "The student brought prescribed medicine in its labeled container and presented the current prescription to Health Services.",
+          "tl": "Nagdala ang estudyante ng niresetang gamot sa may label na lalagyan at ipinakita ang kasalukuyang reseta sa Health Services.",
+          "taglish": "May dalang prescribed medicine ang student in a labeled container at naipakita niya ang valid prescription sa Health Services."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G11",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "examination room",
+        "texts": {
+          "en": "After all answer sheets were collected, the proctor allowed the student to retrieve the phone stored at the front of the room.",
+          "tl": "Matapos makolekta ang lahat ng answer sheet, pinayagan ng proctor ang estudyante na kunin ang teleponong iniwan sa harap.",
+          "taglish": "After makolekta ang answer sheets, pinayagan ng proctor ang student na kunin ang phone na naka-store sa harap."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G12",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "unspecified campus area",
+        "texts": {
+          "en": "The report merely calls a student near a building suspicious but identifies no action, witness, or supporting detail.",
+          "tl": "Tinawag lamang sa ulat na kahina-hinala ang isang estudyante malapit sa gusali ngunit walang tinukoy na ginawa, saksi, o sumusuportang detalye.",
+          "taglish": "Tinawag lang sa report na suspicious ang student near a building pero walang identified action, witness, o supporting detail."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G21",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "main entrance",
+        "texts": {
+          "en": "When security requested identification during a routine check, the student immediately presented their own valid University ID and cooperated.",
+          "tl": "Nang hingin ng security ang pagkakakilanlan sa regular na inspeksiyon, agad ipinakita ng estudyante ang sariling balidong University ID at nakipagtulungan.",
+          "taglish": "During a routine check, agad ipinakita ng student sa security ang sariling valid University ID at fully siyang nag-cooperate."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G22",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "computer laboratory",
+        "texts": {
+          "en": "Under the laboratory technician's supervision, the student used an assigned computer to perform an authorized network-diagnostics exercise.",
+          "tl": "Sa ilalim ng pagbabantay ng laboratory technician, ginamit ng estudyante ang nakatalagang computer para sa awtorisadong network-diagnostics exercise.",
+          "taglish": "Under the lab technician's supervision, ginamit ng student ang assigned computer for an authorized network-diagnostics exercise."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G23",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "online class group",
+        "texts": {
+          "en": "Two students firmly disagreed about a project deadline, but neither used insults, threats, sexual remarks, repeated messages, or physical force.",
+          "tl": "Mahigpit na hindi nagkasundo ang dalawang estudyante tungkol sa deadline ng proyekto, ngunit walang insulto, pagbabanta, seksuwal na pahayag, paulit-ulit na mensahe, o puwersa.",
+          "taglish": "Firmly nag-disagree ang two students about the project deadline, pero walang insults, threats, sexual remarks, repeated messages, or physical force."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G24",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "approved student organization board",
+        "texts": {
+          "en": "A recognized organization posted a University-approved announcement for a voluntary religious-literacy forum without recruiting or pressuring students.",
+          "tl": "Nagpaskil ang kinikilalang organisasyon ng aprubadong anunsiyo para sa boluntaryong forum tungkol sa kaalamang panrelihiyon nang walang panghihikayat o pamimilit.",
+          "taglish": "Nag-post ang recognized organization ng University-approved announcement for a voluntary religious-literacy forum without recruiting or pressuring students."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G25",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "library reference desk",
+        "texts": {
+          "en": "At the student's request, the librarian placed a reference book on the official reserve shelf for the student's scheduled research appointment.",
+          "tl": "Sa kahilingan ng estudyante, inilagay ng librarian ang reference book sa opisyal na reserve shelf para sa nakatakdang research appointment.",
+          "taglish": "At the student's request, ang librarian ang naglagay ng reference book sa official reserve shelf for the scheduled research appointment."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G26",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "security_report",
+        "location_context": "hallway near Health Services",
+        "texts": {
+          "en": "The student held a dizzy classmate's arm only to prevent a fall and escorted the classmate directly to Health Services.",
+          "tl": "Hinawakan ng estudyante ang braso ng nahihilong kaklase upang hindi ito matumba at agad itong inihatid sa Health Services.",
+          "taglish": "Hinawakan ng student ang arm ng dizzy classmate only to prevent a fall at inescort siya directly to Health Services."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G27",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "unspecified campus area",
+        "texts": {
+          "en": "The complainant heard from an unidentified person that someone might have brought a vape, but named no student, witness, time, place, or observed item.",
+          "tl": "Narinig umano ng complainant mula sa hindi kilalang tao na baka may nagdala ng vape, ngunit walang tinukoy na estudyante, saksi, oras, lugar, o nakitang bagay.",
+          "taglish": "May narinig daw ang complainant from an unidentified person na baka may dalang vape, pero walang named student, witness, time, place, or observed item."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G28",
+        "split": "train",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "University theater rehearsal",
+        "texts": {
+          "en": "The student wore the costume assigned by the faculty director during an officially approved theater rehearsal and changed afterward.",
+          "tl": "Isinuot ng estudyante ang costume na itinalaga ng faculty director sa opisyal na aprubadong theater rehearsal at nagpalit pagkatapos.",
+          "taglish": "Wore ng student ang costume assigned by the faculty director during an officially approved theater rehearsal at nag-change afterward."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G13",
+        "split": "validation",
+        "difficulty": "easy",
+        "source_type": "faculty_report",
+        "location_context": "classroom corridor",
+        "texts": {
+          "en": "Students waited quietly in the corridor during the scheduled break while the next classroom was being prepared.",
+          "tl": "Tahimik na naghintay ang mga estudyante sa corridor sa oras ng break habang inihahanda ang susunod na silid-aralan.",
+          "taglish": "Tahimik na naghintay ang students sa corridor during the scheduled break habang pineprepare ang next classroom."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G14",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "science laboratory",
+        "texts": {
+          "en": "The laboratory class used University-issued microscopes and sensor probes under faculty supervision and returned every item after the activity.",
+          "tl": "Gumamit ang laboratory class ng mga microscope at sensor probe ng University sa ilalim ng pagbabantay ng guro at isinauli ang lahat pagkatapos.",
+          "taglish": "The lab class used University-issued microscopes and sensor probes under faculty supervision at ibinalik nang kumpleto ang equipment after the activity."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G15",
+        "split": "validation",
+        "difficulty": "medium",
+        "source_type": "direct_encoding",
+        "location_context": "interfaith dialogue",
+        "texts": {
+          "en": "During an approved interfaith dialogue, the student respectfully explained personal beliefs without criticizing anyone else's faith.",
+          "tl": "Sa aprubadong interfaith dialogue, magalang na ipinaliwanag ng estudyante ang sariling paniniwala nang hindi hinahamak ang pananampalataya ng iba.",
+          "taglish": "During the approved interfaith dialogue, respectfully nag-share ang student ng beliefs without attacking anyone else's faith."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G16",
+        "split": "validation",
+        "difficulty": "hard",
+        "source_type": "student_complaint",
+        "location_context": "group project chat",
+        "texts": {
+          "en": "Two group members disagreed about task assignments in the class chat but exchanged no insults, threats, or repeated harassment.",
+          "tl": "Hindi nagkasundo ang dalawang miyembro tungkol sa hatian ng gawain sa class chat ngunit walang insulto, pagbabanta, o paulit-ulit na pang-aapi.",
+          "taglish": "Nag-disagree ang two group members about task assignments sa class chat pero walang insult, threat, or repeated harassment."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G17",
+        "split": "test",
+        "difficulty": "easy",
+        "source_type": "direct_encoding",
+        "location_context": "library reading area",
+        "texts": {
+          "en": "The student quietly read a library book at a study table and placed it on the designated return cart afterward.",
+          "tl": "Tahimik na nagbasa ang estudyante ng aklat sa study table ng library at inilagay ito sa nakatalagang return cart pagkatapos.",
+          "taglish": "Tahimik na nagbasa ang student ng library book sa study table at inilagay ito sa designated return cart afterward."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G18",
+        "split": "test",
+        "difficulty": "medium",
+        "source_type": "security_report",
+        "location_context": "restricted laboratory entrance",
+        "texts": {
+          "en": "The student stopped at the restricted laboratory entrance, requested authorization, and entered only after the technician approved access.",
+          "tl": "Huminto ang estudyante sa pasukan ng restricted laboratory, humingi ng pahintulot, at pumasok lamang matapos aprubahan ng technician.",
+          "taglish": "Nag-stop ang student sa restricted lab entrance, humingi ng authorization, at pumasok lang after approval ng technician."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G19",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "faculty_report",
+        "location_context": "research paper submission",
+        "texts": {
+          "en": "The similarity report flagged properly quoted passages, and the instructor confirmed that every source was cited according to the required format.",
+          "tl": "Na-flag sa similarity report ang mga wastong sipi, at kinumpirma ng guro na kumpleto at tama ang pagkakabanggit sa lahat ng sanggunian.",
+          "taglish": "Na-flag ng similarity report ang properly quoted passages, pero kinumpirma ng instructor na complete at correct ang citations."
+        }
+      },
+      {
+        "scenario_group_id": "NO_MATCH-G20",
+        "split": "test",
+        "difficulty": "hard",
+        "source_type": "direct_encoding",
+        "location_context": "campus activity",
+        "texts": {
+          "en": "An anonymous note alleges inappropriate behavior during an event but gives no person, act, time, location, or evidence to evaluate.",
+          "tl": "May anonymous note na nagsasabing may hindi angkop na asal sa isang event ngunit walang tao, kilos, oras, lugar, o ebidensiyang matutukoy.",
+          "taglish": "May anonymous note na nag-aallege ng inappropriate behavior during an event, pero wala itong identified person, specific act, time, location, or evidence."
+        }
+      }
+    ]
+  }
+]
